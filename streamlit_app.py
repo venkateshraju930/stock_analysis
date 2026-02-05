@@ -96,7 +96,7 @@ def main():
         return
 
     st.subheader("Latest Generated Report")
-    components.v1.html(html_content, height=900, scrolling=True)
+    components.html(html_content, height=900, scrolling=True)
 
 
 if __name__ == "__main__":
