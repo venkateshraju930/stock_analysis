@@ -35,6 +35,7 @@ def main():
         page_title="Daily Stock Report",
         layout="wide",
         page_icon="📈",
+        initial_sidebar_state="collapsed",
     )
 
     st.title("📈 Stock Market Drop Reports")
