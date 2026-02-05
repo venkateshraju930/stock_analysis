@@ -5,6 +5,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from stock_generator_daily import run_daily_report
+from stock_generator_weekly import run_weekly_report
 
 
 def ensure_groq_key_warning():
@@ -36,46 +37,56 @@ def main():
         page_icon="📈",
     )
 
-    st.title("📈 Daily Stock Market Drop Report")
+    st.title("📈 Stock Market Drop Reports")
     st.write(
-        "This app generates a daily AI-powered report for large-cap stocks that "
-        "dropped more than **10%** in the last 24 hours and displays the "
-        "resulting `stock_report.html`."
+        "This app generates AI-powered reports for large-cap stocks that dropped "
+        "more than **10%** over different timeframes and displays the resulting "
+        "HTML reports."
     )
 
     ensure_groq_key_warning()
 
-    html_path = Path("stock_report.html")
+    daily_html_path = Path("stock_report.html")
+    weekly_html_path = Path("stock_report_weekly.html")
 
     # Sidebar controls
     with st.sidebar:
         st.header("Report Controls")
-        generate_clicked = st.button("🔄 Generate / Refresh Report", type="primary")
+        generate_clicked = st.button("🔄 Generate / Refresh Daily & Weekly Reports", type="primary")
         st.markdown("---")
         st.markdown(
-            "**Tip:** In GitHub Actions, the report can be generated on a schedule "
-            "and uploaded as an artifact. You can then view the latest committed "
-            "`stock_report.html` here."
+            "**Tip:** In GitHub Actions, the daily report can be generated on a "
+            "schedule and committed to the repo. You can then view the latest "
+            "committed `stock_report.html` and `stock_report_weekly.html` here."
         )
 
     # Generate / refresh report
     if generate_clicked:
         with st.spinner("Generating report with Groq and yfinance..."):
             try:
-                result = run_daily_report(
-                    html_filename=str(html_path),
+                # Daily report
+                daily_result = run_daily_report(
+                    html_filename=str(daily_html_path),
                     json_filename="stocks_data.json",
                 )
-                stocks_count = result.get("stocks_count", 0)
+                daily_count = daily_result.get("stocks_count", 0)
 
-                if stocks_count == 0:
+                # Weekly report
+                weekly_result = run_weekly_report(
+                    html_filename=str(weekly_html_path),
+                    json_filename="stocks_data_weekly.json",
+                )
+                weekly_count = weekly_result.get("stocks_count", 0)
+
+                if daily_count == 0 and weekly_count == 0:
                     st.warning(
-                        "No stocks matched the criteria today (drop > 10% and "
-                        "market cap > $1B)."
+                        "No stocks matched the criteria for either the daily or "
+                        "weekly reports."
                     )
                 else:
                     st.success(
-                        f"Report generated successfully for {stocks_count} stocks."
+                        f"Reports generated successfully "
+                        f"(daily: {daily_count} stocks, weekly: {weekly_count} stocks)."
                     )
             except Exception as e:
                 st.error(
@@ -85,18 +96,38 @@ def main():
                 )
                 st.exception(e)
 
-    # Display current report (if available)
-    html_content = load_report_html(html_path)
+    # Display current reports (if available)
+    daily_html_content = load_report_html(daily_html_path)
+    weekly_html_content = load_report_html(weekly_html_path)
 
-    if not html_content:
+    if not daily_html_content and not weekly_html_content:
         st.info(
-            "No `stock_report.html` found yet. Click **Generate / Refresh Report** "
-            "to create one, or run `python stock_generator_daily.py` separately."
+            "No reports found yet. Click **Generate / Refresh Daily & Weekly "
+            "Reports** to create them, or run the generator scripts separately."
         )
         return
 
-    st.subheader("Latest Generated Report")
-    components.html(html_content, height=900, scrolling=True)
+    tab_daily, tab_weekly = st.tabs(["📆 Daily Report", "📊 Weekly Report"])
+
+    with tab_daily:
+        if not daily_html_content:
+            st.info(
+                "No `stock_report.html` found yet. Generate reports to see the "
+                "daily view."
+            )
+        else:
+            st.subheader("Latest Daily Report")
+            components.html(daily_html_content, height=900, scrolling=True)
+
+    with tab_weekly:
+        if not weekly_html_content:
+            st.info(
+                "No `stock_report_weekly.html` found yet. Generate reports to see "
+                "the weekly view."
+            )
+        else:
+            st.subheader("Latest Weekly Report")
+            components.html(weekly_html_content, height=900, scrolling=True)
 
 
 if __name__ == "__main__":

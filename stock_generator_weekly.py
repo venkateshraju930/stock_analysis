@@ -1,51 +1,20 @@
 """
-Stock Report Generator using Groq API
+Weekly Stock Report Generator using Groq API
 
-This script fetches stocks that dropped more than 10% in the last 24 hours
-with a market cap greater than $1 billion, and generates an analysis report
-using the Groq API.
+This script fetches stocks that dropped more than 10% over the last
+5 trading days (weekly timeframe) with a market cap greater than
+$500M, and generates an analysis report using the Groq API.
 """
 
 import os
 import json
 import logging
-from typing import Optional
+from typing import Optional, Dict, Any
 from datetime import datetime
 from pathlib import Path
 import requests
 from groq import Groq
 
-
-# Load GROQ_API_KEY from groq.env file
-def load_groq_env():
-    """Load GROQ_API_KEY from groq.env file"""
-    env_file_paths = [
-        'groq.env',
-        '.env',
-        Path.cwd() / 'groq.env',
-        Path.home() / 'groq.env',
-    ]
-
-    for env_path in env_file_paths:
-        env_path_str = str(env_path) if isinstance(env_path, Path) else env_path
-        if os.path.exists(env_path_str):
-            try:
-                with open(env_path_str, 'r') as f:
-                    for line in f:
-                        line = line.strip()
-                        if line and not line.startswith('#') and '=' in line:
-                            key, value = line.split('=', 1)
-                            key = key.strip()
-                            value = value.strip().strip('"').strip("'")
-                            os.environ[key] = value
-                return True
-            except Exception as e:
-                pass
-    return False
-
-
-# Load env before using
-load_groq_env()
 
 # Configure logging
 logging.basicConfig(
@@ -63,16 +32,16 @@ class StockReportGenerator:
         Initialize the stock report generator.
 
         Args:
-            groq_api_key: Groq API key. If None, tries to load from:
-                1. groq.env file in same directory
-                2. GROQ_API_KEY environment variable
+            groq_api_key: Groq API key. If None, tries to load from
+                the GROQ_API_KEY environment variable.
         """
         self.groq_api_key = groq_api_key or self._load_groq_key()
         if not self.groq_api_key:
             raise ValueError(
-                "GROQ_API_KEY not provided. Please either:\n"
-                "1. Create a 'groq.env' file in the same directory with: GROQ_API_KEY=your_key_here\n"
-                "2. Set the GROQ_API_KEY environment variable"
+                "GROQ_API_KEY not provided.\n"
+                "Please set the GROQ_API_KEY environment variable locally, or\n"
+                "configure a GitHub Actions secret (e.g. 'groq_key') and map it\n"
+                "to the GROQ_API_KEY env var in your workflow."
             )
 
         self.client = Groq(api_key=self.groq_api_key)
@@ -80,28 +49,11 @@ class StockReportGenerator:
 
     def _load_groq_key(self) -> Optional[str]:
         """
-        Load Groq API key from groq.env file or environment variable.
+        Load Groq API key from environment variable.
 
         Returns:
             The API key if found, None otherwise.
         """
-        # Try loading from groq.env in current directory
-        groq_env_path = Path(__file__).parent / "groq.env"
-        if groq_env_path.exists():
-            try:
-                with open(groq_env_path, 'r') as f:
-                    for line in f:
-                        line = line.strip()
-                        if line and not line.startswith('#') and '=' in line:
-                            key, value = line.split('=', 1)
-                            if key.strip() == "GROQ_API_KEY":
-                                api_key = value.strip().strip('"').strip("'")
-                                logger.info("Loaded GROQ_API_KEY from groq.env")
-                                return api_key
-            except Exception as e:
-                logger.warning(f"Error reading groq.env: {e}")
-
-        # Fall back to environment variable
         api_key = os.getenv("GROQ_API_KEY")
         if api_key:
             logger.info("Loaded GROQ_API_KEY from environment variable")
@@ -1311,30 +1263,63 @@ Provide clear, detailed analysis for every stock."""
         return filename
 
 
+def run_weekly_report(
+    html_filename: str = "stock_report_weekly.html",
+    json_filename: str = "stocks_data_weekly.json",
+) -> Dict[str, Any]:
+    """
+    Run the full weekly report pipeline.
+
+    This is a reusable entry point for CLI, Streamlit, or GitHub Actions.
+
+    Args:
+        html_filename: Name of the HTML report file to generate.
+        json_filename: Name of the JSON data export file.
+
+    Returns:
+        Dict with keys: stocks_count, html_path, json_path.
+    """
+    generator = StockReportGenerator()
+
+    # Fetch stocks data
+    stocks = generator.fetch_stocks_data()
+    if not stocks:
+        logger.warning("No weekly stocks found matching criteria")
+
+    # Always generate HTML and JSON so downstream consumers have files
+    html_path = generator.save_html_report("", html_filename)
+    json_path = generator.export_json(json_filename)
+
+    return {
+        "stocks_count": len(stocks),
+        "html_path": html_path,
+        "json_path": json_path,
+    }
+
+
 def main():
-    """Main execution function."""
+    """Main execution function for CLI usage."""
     try:
-        # Initialize generator
-        generator = StockReportGenerator()
+        result = run_weekly_report(
+            html_filename="stock_report_weekly.html",
+            json_filename="stocks_data_weekly.json",
+        )
 
-        # Fetch stocks data
-        stocks = generator.fetch_stocks_data()
+        stocks_count = result["stocks_count"]
+        html_path = result["html_path"]
+        json_path = result["json_path"]
 
-        if not stocks:
-            logger.warning("No stocks found matching criteria")
-            return
-
-        # Generate HTML report with reasons (save as weekly version)
-        generator.save_html_report("", "stock_report_weekly.html")
-        generator.export_json("stocks_data.json")
-
-        # Print summary to console
         print("\n" + "=" * 80)
-        print("✅ STOCK REPORT GENERATED SUCCESSFULLY")
+        if stocks_count == 0:
+            print("⚠️  No weekly stocks found matching criteria")
+        else:
+            print("✅ WEEKLY STOCK REPORT GENERATED SUCCESSFULLY")
         print("=" * 80 + "\n")
-        print(f"📊 Found {len(stocks)} stocks matching criteria")
-        print(f"🌐 HTML report saved to: stock_report_weekly.html")
-        print(f"📁 Stock data exported to: stocks_data.json")
+        print(f"📊 Found {stocks_count} weekly stocks matching criteria")
+        if html_path:
+            print(f"🌐 Weekly HTML report saved to: {html_path}")
+        if json_path:
+            print(f"📁 Weekly stock data exported to: {json_path}")
         print("\n" + "=" * 80)
         print("Open 'stock_report_weekly.html' in your browser to view the report!")
         print("=" * 80 + "\n")
@@ -1342,7 +1327,7 @@ def main():
     except ValueError as e:
         logger.error(f"Configuration error: {str(e)}")
     except Exception as e:
-        logger.error(f"Error generating report: {str(e)}", exc_info=True)
+        logger.error(f"Error generating weekly report: {str(e)}", exc_info=True)
 
 
 if __name__ == "__main__":
