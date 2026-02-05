@@ -1159,16 +1159,11 @@ def run_daily_report(
 
     # Fetch stocks data
     stocks = generator.fetch_stocks_data()
-
     if not stocks:
         logger.warning("No stocks found matching criteria")
-        return {
-            "stocks_count": 0,
-            "html_path": None,
-            "json_path": None,
-        }
 
-    # Generate HTML report with reasons (no longer need separate text report)
+    # Generate HTML report and JSON export even when there are zero stocks,
+    # so CI/CD and artifact upload always have files to work with.
     html_path = generator.save_html_report("", html_filename)
     json_path = generator.export_json(json_filename)
 
