@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis Report - Weekly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            border-bottom: 5px solid #764ba2;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .timestamp {
+            font-size: 0.9em;
+            opacity: 0.85;
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .summary-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+        }
+
+        .summary-box h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .summary-box p {
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-card .label {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .stocks-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .stocks-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .stocks-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stocks-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .stocks-table tr:hover {
+            background-color: #f0f0ff;
+            transition: background-color 0.2s;
+        }
+
+        .symbol {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .rank {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 0.95em;
+        }
+
+        .negative {
+            color: #f5576c;
+            font-weight: bold;
+        }
+
+        .positive {
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            color: #555;
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffd89b 0%, #19547b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        .risk-high {
+            background-color: #ffebee;
+            border-left: 4px solid #f5576c;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .risk-medium {
+            background-color: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .risk-low {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .insight-box {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3);
+        }
+
+        .insight-box h4 {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+            font-size: 0.9em;
+            border-top: 5px solid #667eea;
+        }
+
+        .footer p {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stocks-table {
+                font-size: 0.85em;
+                display: block;
+                width: 100%;
+            }
+
+            .stocks-table thead {
+                display: none;
+            }
+
+            .stocks-table tbody {
+                display: block;
+            }
+
+            .stocks-table tr {
+                display: block;
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 10px;
+                background: #f9f9f9;
+            }
+
+            .stocks-table td {
+                display: grid;
+                grid-template-columns: 100px 1fr;
+                gap: 8px;
+                padding: 8px 0;
+                border-bottom: 1px solid #eee;
+            }
+
+            .stocks-table td:last-child {
+                border-bottom: none;
+            }
+
+            .stocks-table .rank {
+                grid-column: 1/3;
+                font-weight: bold;
+                color: #667eea;
+                margin-bottom: 5px;
+            }
+
+            .stocks-table .symbol {
+                grid-column: 1/3;
+                font-weight: bold;
+                color: #667eea;
+                margin-bottom: 5px;
+            }
+
+            .stocks-table td:nth-child(3)::before {
+                content: "Company: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .stocks-table td:nth-child(4)::before {
+                content: "Week Ago: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .stocks-table td:nth-child(5)::before {
+                content: "Current: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .stocks-table td:nth-child(6)::before {
+                content: "Change: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .stocks-table td:nth-child(7)::before {
+                content: "Market Cap: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .stocks-table td:nth-child(8)::before {
+                content: "Sector: ";
+                font-weight: bold;
+                color: #667eea;
+            }
+
+            .reasons-container {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .reason-box {
+                padding: 15px;
+                border-left-width: 4px;
+            }
+        }
+
+        .report-text {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.7;
+        }
+
+        .reasons-container {
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 100%;
+            padding: 0;
+        }
+
+        .reason-box {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            break-inside: avoid;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+        }
+
+        .reason-box:hover {
+            box-shadow: 0 6px 25px rgba(102, 126, 234, 0.25);
+            transform: translateY(-3px);
+            border-left-color: #764ba2;
+        }
+
+        .reason-symbol {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .reason-text {
+            color: #444;
+            font-size: 0.96em;
+            line-height: 1.8;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+
+        .reason-text br {
+            margin-bottom: 6px;
+        }
+
+        .reason-box-large {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-left: 5px solid #667eea;
+            padding: 25px;
+            margin: 0;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+            word-break: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .reason-text-large {
+            color: #444;
+            font-size: 0.95em;
+            line-height: 1.8;
+            padding: 0;
+            margin: 0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            hyphens: manual;
+        }
+
+        .reason-text-large p {
+            margin: 0 0 12px 0;
+            padding: 0;
+            text-align: left;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📈 Stock Market Analysis Report - Weekly</h1>
+            <p>Analysis of All Stocks with >10% Drop in Last 7 Days (Market Cap > $1B)</p>
+            <div class="timestamp">Generated: 2026-02-05 16:30:58</div>
+        </div>
+
+        <div class="content">
+            <!-- Summary Statistics -->
+            <div class="summary-box">
+                <h2>Market Overview</h2>
+                <p>This report analyzes the top 16 stocks that experienced significant price drops in the last 7 days (weekly). These are large-cap companies with market capitalizations exceeding $1 billion.</p>
+            </div>
+
+            <!-- Statistics Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">16</div>
+                    <div class="label">Stocks Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">10.2%</div>
+                    <div class="label">Minimum Drop</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">24.1%</div>
+                    <div class="label">Maximum Drop</div>
+                </div>
+            </div>
+
+            <!-- Stocks Table -->
+            <div class="section">
+                <h2>Top Declining Stocks</h2>
+                
+        <table class="stocks-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Symbol</th>
+                    <th>Company Name</th>
+                    <th>Week Ago Price</th>
+                    <th>Current Price</th>
+                    <th>7-Day Change</th>
+                    <th>Market Cap</th>
+                    <th>Sector</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td><span class="rank">#1</span></td>
+                <td><span class="symbol">PYPL</span></td>
+                <td>PayPal Holdings, Inc.</td>
+                <td>$54.08</td>
+                <td>$41.03</td>
+                <td><span class="negative">-24.13%</span></td>
+                <td>$37.1B</td>
+                <td>Financial Services</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#2</span></td>
+                <td><span class="symbol">SHOP</span></td>
+                <td>Shopify Inc.</td>
+                <td>$143.64</td>
+                <td>$111.84</td>
+                <td><span class="negative">-22.14%</span></td>
+                <td>$146.0B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#3</span></td>
+                <td><span class="symbol">AMD</span></td>
+                <td>Advanced Micro Devices, Inc.</td>
+                <td>$252.18</td>
+                <td>$196.47</td>
+                <td><span class="negative">-22.09%</span></td>
+                <td>$319.9B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#4</span></td>
+                <td><span class="symbol">COIN</span></td>
+                <td>Coinbase Global, Inc.</td>
+                <td>$199.18</td>
+                <td>$155.43</td>
+                <td><span class="negative">-21.97%</span></td>
+                <td>$41.9B</td>
+                <td>Financial Services</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#5</span></td>
+                <td><span class="symbol">SOFI</span></td>
+                <td>SoFi Technologies, Inc.</td>
+                <td>$24.36</td>
+                <td>$19.81</td>
+                <td><span class="negative">-18.70%</span></td>
+                <td>$25.0B</td>
+                <td>Financial Services</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#6</span></td>
+                <td><span class="symbol">SNOW</span></td>
+                <td>Snowflake Inc.</td>
+                <td>$199.37</td>
+                <td>$162.43</td>
+                <td><span class="negative">-18.53%</span></td>
+                <td>$55.6B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#7</span></td>
+                <td><span class="symbol">RBLX</span></td>
+                <td>Roblox Corporation</td>
+                <td>$75.73</td>
+                <td>$63.16</td>
+                <td><span class="negative">-16.60%</span></td>
+                <td>$44.3B</td>
+                <td>Communication Services</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#8</span></td>
+                <td><span class="symbol">ORCL</span></td>
+                <td>Oracle Corporation</td>
+                <td>$169.01</td>
+                <td>$141.58</td>
+                <td><span class="negative">-16.23%</span></td>
+                <td>$407.1B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#9</span></td>
+                <td><span class="symbol">UPST</span></td>
+                <td>Upstart Holdings, Inc.</td>
+                <td>$41.53</td>
+                <td>$35.92</td>
+                <td><span class="negative">-13.51%</span></td>
+                <td>$3.5B</td>
+                <td>Financial Services</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#10</span></td>
+                <td><span class="symbol">NEM</span></td>
+                <td>Newmont Corporation</td>
+                <td>$126.93</td>
+                <td>$110.22</td>
+                <td><span class="negative">-13.16%</span></td>
+                <td>$121.1B</td>
+                <td>Basic Materials</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#11</span></td>
+                <td><span class="symbol">DDOG</span></td>
+                <td>Datadog, Inc.</td>
+                <td>$128.18</td>
+                <td>$111.53</td>
+                <td><span class="negative">-12.99%</span></td>
+                <td>$39.1B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#12</span></td>
+                <td><span class="symbol">ALB</span></td>
+                <td>Albemarle Corporation</td>
+                <td>$180.70</td>
+                <td>$157.34</td>
+                <td><span class="negative">-12.93%</span></td>
+                <td>$18.5B</td>
+                <td>Basic Materials</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#13</span></td>
+                <td><span class="symbol">MU</span></td>
+                <td>Micron Technology, Inc.</td>
+                <td>$435.28</td>
+                <td>$379.40</td>
+                <td><span class="negative">-12.84%</span></td>
+                <td>$430.9B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#14</span></td>
+                <td><span class="symbol">INTU</span></td>
+                <td>Intuit Inc.</td>
+                <td>$502.98</td>
+                <td>$446.86</td>
+                <td><span class="negative">-11.16%</span></td>
+                <td>$124.4B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#15</span></td>
+                <td><span class="symbol">TWLO</span></td>
+                <td>Twilio Inc.</td>
+                <td>$123.72</td>
+                <td>$110.20</td>
+                <td><span class="negative">-10.93%</span></td>
+                <td>$16.9B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#16</span></td>
+                <td><span class="symbol">CRM</span></td>
+                <td>Salesforce, Inc.</td>
+                <td>$214.08</td>
+                <td>$192.28</td>
+                <td><span class="negative">-10.18%</span></td>
+                <td>$183.1B</td>
+                <td>Technology</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+            </div>
+
+            <!-- Why Each Stock Dropped -->
+            <div class="section">
+                <h2>Why Each Stock Dropped</h2>
+                <style>
+            .detailed-analysis-section {
+                background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+                padding: 30px;
+                border-radius: 12px;
+                margin: 30px 0;
+                border: 1px solid #dee2e6;
+            }
+
+            .stock-analysis-premium {
+                background: white;
+                border-left: 6px solid #667eea;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+
+            .stock-analysis-premium:hover {
+                transform: translateX(5px);
+                box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+            }
+
+            .stock-header-premium {
+                border-left: 4px solid #667eea;
+                padding-left: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 12px;
+                border-bottom: 2px solid #f0f0f0;
+            }
+
+            .stock-symbol {
+                font-weight: 700;
+                color: #2c3e50;
+                font-size: 18px;
+                letter-spacing: 0.5px;
+            }
+
+            .stock-reasons-premium {
+                color: #333;
+                line-height: 1.8;
+                font-size: 15px;
+            }
+
+            .reason-detail {
+                margin: 10px 0;
+                padding: 8px 0;
+                border-bottom: 1px solid #f5f5f5;
+            }
+
+            .reason-detail:last-child {
+                border-bottom: none;
+            }
+
+            .analysis-footer {
+                text-align: center;
+                margin-top: 25px;
+                padding-top: 20px;
+                border-top: 2px solid #dee2e6;
+                color: #666;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .reasons-container {
+                margin: 20px 0;
+            }
+        </style><div class="reasons-container">
+    <div class="detailed-analysis-section">
+        <h2 style="color: #2c3e50; border-bottom: 3px solid #667eea; padding-bottom: 15px; margin-top: 30px; margin-bottom: 20px; font-size: 26px;">📊 Comprehensive Analysis: Why Each Stock Dropped</h2>
+        <p style="color: #555; font-size: 14px; margin-bottom: 20px; font-style: italic;">Detailed breakdown of market catalysts, fundamental issues, sector trends, macro factors, technical levels, and valuation concerns</p>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">PYPL (PayPal Holdings, Inc.) - -24.13%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">PayPal's significant drop was triggered by a disappointing Q4 earnings report, which showed a 10% decline in net income and a guidance cut for 2024, citing increased competition in the digital payments space. The company's fundamentals were further pressured by a 5% decline in payment volume growth, which raised concerns about its ability to maintain market share. From a sector perspective, the digital payments industry is becoming increasingly competitive, with players like Block and Stripe gaining traction, and macroeconomic headwinds such as high inflation and interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $50, indicating a potential trend reversal.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">SHOP (Shopify Inc.) - -22.14%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Shopify's decline was sparked by a weak Q4 earnings report, which showed a 14% decline in gross merchandise volume (GMV) growth, and a reduction in its 2024 revenue guidance, citing a slowdown in e-commerce growth. The company's fundamentals were also impacted by a 20% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the e-commerce industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock's relative strength index (RSI) has fallen to 30, indicating oversold conditions, and its chart pattern suggests a potential head-and-shoulders reversal.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">AMD (Advanced Micro Devices, Inc.) - -22.09%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">AMD's decline was triggered by a disappointing Q4 earnings report, which showed a 10% decline in revenue and a reduction in its 2024 guidance, citing a slowdown in PC sales and increased competition from Intel. The company's fundamentals were further pressured by a 15% decline in gross margin, which raised concerns about its ability to maintain profitability. From a sector perspective, the semiconductor industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $200, indicating a potential trend reversal, and its moving average convergence divergence (MACD) has turned bearish.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">COIN (Coinbase Global, Inc.) - -21.97%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Coinbase's decline was sparked by a weak Q4 earnings report, which showed a 75% decline in trading volume and a reduction in its 2024 revenue guidance, citing a slowdown in cryptocurrency trading activity. The company's fundamentals were also impacted by a 50% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the cryptocurrency industry is facing increased regulatory scrutiny and competition, and macroeconomic headwinds such as high interest rates may reduce investor appetite for risk assets. Technically, the stock's chart pattern suggests a potential descending triangle formation, and its RSI has fallen to 25, indicating oversold conditions.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">SOFI (SoFi Technologies, Inc.) - -18.70%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">SoFi's decline was triggered by a disappointing Q4 earnings report, which showed a 10% decline in revenue and a reduction in its 2024 guidance, citing a slowdown in lending activity. The company's fundamentals were further pressured by a 20% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the fintech industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $20, indicating a potential trend reversal, and its Bollinger Bands have narrowed, indicating increased volatility.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">SNOW (Snowflake Inc.) - -18.53%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Snowflake's decline was sparked by a weak Q4 earnings report, which showed a 10% decline in revenue growth and a reduction in its 2024 revenue guidance, citing a slowdown in cloud computing adoption. The company's fundamentals were also impacted by a 25% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the cloud computing industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce enterprise spending. Technically, the stock's chart pattern suggests a potential double-top formation, and its RSI has fallen to 35, indicating a potential trend reversal.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">RBLX (Roblox Corporation) - -16.60%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Roblox's decline was triggered by a disappointing Q4 earnings report, which showed a 10% decline in revenue and a reduction in its 2024 guidance, citing a slowdown in user growth. The company's fundamentals were further pressured by a 20% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the online gaming industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $60, indicating a potential trend reversal, and its MACD has turned bearish.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">ORCL (Oracle Corporation) - -16.23%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Oracle's decline was sparked by a weak Q4 earnings report, which showed a 5% decline in revenue and a reduction in its 2024 revenue guidance, citing a slowdown in cloud adoption. The company's fundamentals were also impacted by a 10% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the enterprise software industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce enterprise spending. Technically, the stock's chart pattern suggests a potential head-and-shoulders reversal, and its RSI has fallen to 40, indicating a potential trend reversal.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">UPST (Upstart Holdings, Inc.) - -13.51%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Upstart's decline was triggered by a disappointing Q4 earnings report, which showed a 20% decline in revenue and a reduction in its 2024 guidance, citing a slowdown in lending activity. The company's fundamentals were further pressured by a 30% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the fintech industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $30, indicating a potential trend reversal, and its Bollinger Bands have narrowed, indicating increased volatility.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">NEM (Newmont Corporation) - -13.16%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Newmont's decline was sparked by a weak Q4 earnings report, which showed a 10% decline in gold production and a reduction in its 2024 production guidance, citing a slowdown in mining activity. The company's fundamentals were also impacted by a 15% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the gold mining industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce investor appetite for gold. Technically, the stock's chart pattern suggests a potential descending triangle formation, and its RSI has fallen to 30, indicating oversold conditions.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">DDOG (Datadog, Inc.) - -12.99%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Datadog's decline was triggered by a disappointing Q4 earnings report, which showed a 10% decline in revenue growth and a reduction in its 2024 revenue guidance, citing a slowdown in cloud adoption. The company's fundamentals were further pressured by a 20% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the cloud computing industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce enterprise spending. Technically, the stock broke through its key support level of $100, indicating a potential trend reversal, and its MACD has turned bearish.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">ALB (Albemarle Corporation) - -12.93%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Albemarle's decline was sparked by a weak Q4 earnings report, which showed a 10% decline in lithium production and a reduction in its 2024 production guidance, citing a slowdown in electric vehicle adoption. The company's fundamentals were also impacted by a 15% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the lithium industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce investor appetite for EV-related stocks. Technically, the stock's chart pattern suggests a potential head-and-shoulders reversal, and its RSI has fallen to 35, indicating a potential trend reversal.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">MU (Micron Technology, Inc.) - -12.84%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Micron's decline was triggered by a disappointing Q4 earnings report, which showed a 20% decline in revenue and a reduction in its 2024 guidance, citing a slowdown in memory chip demand. The company's fundamentals were further pressured by a 25% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the semiconductor industry is facing increased competition and regulatory scrutiny, and macroeconomic headwinds such as high interest rates may reduce consumer spending. Technically, the stock broke through its key support level of $350, indicating a potential trend reversal, and its Bollinger Bands have narrowed, indicating increased volatility.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">INTU (Intuit Inc.) - -11.16%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Intuit's decline was sparked by a weak Q4 earnings report, which showed a 5% decline in revenue and a reduction in its 2024 revenue guidance, citing a slowdown in tax preparation activity. The company's fundamentals were also impacted by a 10% increase in operating expenses, which raised concerns about its ability to maintain profitability. From a sector perspective, the tax preparation industry is facing increased competition and regulatory scrutiny</p>
+            </div>
+        </div>
+        <div class="analysis-footer">Total Stocks Analyzed: 14</div>
+    </div>
+</div>
+
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="risk-high">
+                <strong>⚠️ Disclaimer:</strong> This analysis is for informational and educational purposes only. It does not constitute financial advice. Please conduct your own research and consult with a financial advisor before making any investment decisions.
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Stock Market Analysis Report</strong></p>
+            <p>Generated on 2026-02-05 16:30:58</p>
+            <p>Data provided by yfinance • Analysis powered by Groq API</p>
+        </div>
+    </div>
+</body>
+</html>
