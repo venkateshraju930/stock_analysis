@@ -1,92 +1,32 @@
 [
   {
-    "symbol": "PYPL",
-    "price": 40.93000030517578,
-    "price_5days_ago": 52.33000183105469,
-    "change_percent": -21.78,
-    "market_cap": 38296236032,
-    "company_name": "PayPal Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
     "symbol": "AMZN",
-    "price": 210.52999877929688,
-    "price_5days_ago": 242.9600067138672,
-    "change_percent": -13.35,
-    "market_cap": 2259913539584,
+    "price": 209.70599365234375,
+    "price_5days_ago": 238.6199951171875,
+    "change_percent": -12.12,
+    "market_cap": 2251220320256,
     "company_name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail"
   },
   {
-    "symbol": "ACN",
-    "price": 233.86000061035156,
-    "price_5days_ago": 266.7900085449219,
-    "change_percent": -12.34,
-    "market_cap": 145025679360,
-    "company_name": "Accenture plc",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
     "symbol": "AMD",
-    "price": 216.33999633789062,
-    "price_5days_ago": 246.27000427246094,
-    "change_percent": -12.15,
-    "market_cap": 352723075072,
+    "price": 215.97259521484375,
+    "price_5days_ago": 242.11000061035156,
+    "change_percent": -10.8,
+    "market_cap": 352124076032,
     "company_name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "DDOG",
-    "price": 113.4000015258789,
-    "price_5days_ago": 129.0500030517578,
-    "change_percent": -12.13,
-    "market_cap": 39766065152,
-    "company_name": "Datadog, Inc.",
+    "symbol": "MU",
+    "price": 375.3399963378906,
+    "price_5days_ago": 419.44000244140625,
+    "change_percent": -10.51,
+    "market_cap": 422448627712,
+    "company_name": "Micron Technology, Inc.",
     "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "COIN",
-    "price": 165.55999755859375,
-    "price_5days_ago": 187.86000061035156,
-    "change_percent": -11.87,
-    "market_cap": 44644511744,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
-  },
-  {
-    "symbol": "DASH",
-    "price": 184.02999877929688,
-    "price_5days_ago": 207.6699981689453,
-    "change_percent": -11.38,
-    "market_cap": 79316656128,
-    "company_name": "DoorDash, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Internet Retail"
-  },
-  {
-    "symbol": "SHOP",
-    "price": 117.30999755859375,
-    "price_5days_ago": 132.1999969482422,
-    "change_percent": -11.26,
-    "market_cap": 153099354112,
-    "company_name": "Shopify Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "INTU",
-    "price": 438.30499267578125,
-    "price_5days_ago": 487.1199951171875,
-    "change_percent": -10.02,
-    "market_cap": 122024108032,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Semiconductors"
   }
 ]
