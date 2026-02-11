@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "symbol": "UPST",
+    "price": 33.55500030517578,
+    "prev_close": 38.959999084472656,
+    "change_percent": -13.87,
+    "market_cap": 3264447744,
+    "company_name": "Upstart Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "SHOP",
+    "price": 110.12000274658203,
+    "prev_close": 127.23999786376953,
+    "change_percent": -13.45,
+    "market_cap": 143715811328,
+    "company_name": "Shopify Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  }
+]

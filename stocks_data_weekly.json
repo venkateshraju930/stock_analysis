@@ -1,32 +1,52 @@
 [
   {
     "symbol": "AMZN",
-    "price": 209.70599365234375,
-    "price_5days_ago": 238.6199951171875,
-    "change_percent": -12.12,
-    "market_cap": 2251220320256,
+    "price": 203.00999450683594,
+    "price_5days_ago": 232.99000549316406,
+    "change_percent": -12.87,
+    "market_cap": 2179296133120,
     "company_name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail"
   },
   {
-    "symbol": "AMD",
-    "price": 215.97259521484375,
-    "price_5days_ago": 242.11000061035156,
-    "change_percent": -10.8,
-    "market_cap": 352124076032,
-    "company_name": "Advanced Micro Devices, Inc.",
+    "symbol": "INTU",
+    "price": 394.8900146484375,
+    "price_5days_ago": 445.6400146484375,
+    "change_percent": -11.39,
+    "market_cap": 109937377280,
+    "company_name": "Intuit Inc.",
     "sector": "Technology",
-    "industry": "Semiconductors"
+    "industry": "Software - Application"
   },
   {
-    "symbol": "MU",
-    "price": 375.3399963378906,
-    "price_5days_ago": 419.44000244140625,
-    "change_percent": -10.51,
-    "market_cap": 422448627712,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "COIN",
+    "price": 150.24099731445312,
+    "price_5days_ago": 168.6199951171875,
+    "change_percent": -10.9,
+    "market_cap": 40513626112,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "UPST",
+    "price": 33.84000015258789,
+    "price_5days_ago": 37.91999816894531,
+    "change_percent": -10.76,
+    "market_cap": 3292174592,
+    "company_name": "Upstart Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "DASH",
+    "price": 175.27000427246094,
+    "price_5days_ago": 195.8300018310547,
+    "change_percent": -10.5,
+    "market_cap": 75541110784,
+    "company_name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
   }
 ]
