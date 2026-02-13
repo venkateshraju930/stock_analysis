@@ -1,20 +1,40 @@
 [
   {
     "symbol": "UPST",
-    "price": 30.57990074157715,
-    "price_5days_ago": 34.619998931884766,
-    "change_percent": -11.67,
-    "market_cap": 2998704128,
+    "price": 31.27400016784668,
+    "price_5days_ago": 38.2400016784668,
+    "change_percent": -18.22,
+    "market_cap": 3066768384,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
+    "symbol": "DASH",
+    "price": 160.64720153808594,
+    "price_5days_ago": 182.47000122070312,
+    "change_percent": -11.96,
+    "market_cap": 69238710272,
+    "company_name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
+  },
+  {
+    "symbol": "IBM",
+    "price": 262.239990234375,
+    "price_5days_ago": 297.23529052734375,
+    "change_percent": -11.77,
+    "market_cap": 245124956160,
+    "company_name": "International Business Machines Corporation",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
     "symbol": "AMZN",
-    "price": 198.639892578125,
+    "price": 199.60000610351562,
     "price_5days_ago": 222.69000244140625,
-    "change_percent": -10.8,
-    "market_cap": 2132383498240,
+    "change_percent": -10.37,
+    "market_cap": 2151170703360,
     "company_name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail"
