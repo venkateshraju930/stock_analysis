@@ -1,62 +1,22 @@
 [
   {
     "symbol": "UPST",
-    "price": 31.985000610351562,
-    "price_5days_ago": 38.849998474121094,
-    "change_percent": -17.67,
-    "market_cap": 3136489984,
+    "price": 32.209999084472656,
+    "price_5days_ago": 38.959999084472656,
+    "change_percent": -17.33,
+    "market_cap": 3158553856,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
-    "symbol": "INTU",
-    "price": 379.30999755859375,
-    "price_5days_ago": 437.5,
-    "change_percent": -13.3,
-    "market_cap": 105599901696,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "DASH",
-    "price": 161.98500061035156,
-    "price_5days_ago": 186.24000549316406,
-    "change_percent": -13.02,
-    "market_cap": 69815296000,
-    "company_name": "DoorDash, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Internet Retail"
-  },
-  {
-    "symbol": "RBLX",
-    "price": 64.05000305175781,
-    "price_5days_ago": 73.44999694824219,
-    "change_percent": -12.8,
-    "market_cap": 45392625664,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
     "symbol": "IBM",
-    "price": 259.2200012207031,
-    "price_5days_ago": 294.6600036621094,
-    "change_percent": -12.03,
-    "market_cap": 242302074880,
+    "price": 259.6300964355469,
+    "price_5days_ago": 291.760009765625,
+    "change_percent": -11.01,
+    "market_cap": 242685394944,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "CSCO",
-    "price": 77.125,
-    "price_5days_ago": 86.77999877929688,
-    "change_percent": -11.13,
-    "market_cap": 304728178688,
-    "company_name": "Cisco Systems, Inc.",
-    "sector": "Technology",
-    "industry": "Communication Equipment"
   }
 ]
