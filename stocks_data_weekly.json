@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "OKTA",
+    "price": 74.29000091552734,
+    "price_5days_ago": 84.91000366210938,
+    "change_percent": -12.51,
+    "market_cap": 13166433280,
+    "company_name": "Okta, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  }
+]
