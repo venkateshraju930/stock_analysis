@@ -1,102 +1,72 @@
 [
   {
-    "symbol": "OKTA",
-    "price": 71.18000030517578,
-    "price_5days_ago": 87.26000213623047,
-    "change_percent": -18.43,
-    "market_cap": 12615247872,
-    "company_name": "Okta, Inc.",
+    "symbol": "IBM",
+    "price": 223.35000610351562,
+    "price_5days_ago": 262.3800048828125,
+    "change_percent": -14.88,
+    "market_cap": 216251006976,
+    "company_name": "International Business Machines Corporation",
     "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "CRWD",
-    "price": 354.04998779296875,
-    "price_5days_ago": 429.6400146484375,
-    "change_percent": -17.59,
-    "market_cap": 89255444480,
-    "company_name": "CrowdStrike Holdings, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "NET",
-    "price": 164.01499938964844,
-    "price_5days_ago": 195.85000610351562,
-    "change_percent": -16.25,
-    "market_cap": 57714749440,
-    "company_name": "Cloudflare, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
+    "industry": "Information Technology Services"
   },
   {
     "symbol": "DDOG",
-    "price": 105.77999877929688,
-    "price_5days_ago": 125.19999694824219,
-    "change_percent": -15.51,
-    "market_cap": 37090443264,
+    "price": 104.33999633789062,
+    "price_5days_ago": 122.55999755859375,
+    "change_percent": -14.87,
+    "market_cap": 36588986368,
     "company_name": "Datadog, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "SNOW",
-    "price": 157.67999267578125,
-    "price_5days_ago": 182.2899932861328,
-    "change_percent": -13.5,
-    "market_cap": 53958094848,
-    "company_name": "Snowflake Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "ORCL",
-    "price": 139.1699981689453,
-    "price_5days_ago": 160.13999938964844,
-    "change_percent": -13.09,
-    "market_cap": 399987245056,
-    "company_name": "Oracle Corporation",
+    "symbol": "CRWD",
+    "price": 352.9599914550781,
+    "price_5days_ago": 414.2850036621094,
+    "change_percent": -14.8,
+    "market_cap": 88980660224,
+    "company_name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "INTU",
-    "price": 350.010009765625,
-    "price_5days_ago": 399.3999938964844,
-    "change_percent": -12.37,
-    "market_cap": 97442783232,
-    "company_name": "Intuit Inc.",
+    "symbol": "OKTA",
+    "price": 71.08499908447266,
+    "price_5days_ago": 82.45999908447266,
+    "change_percent": -13.79,
+    "market_cap": 12598410240,
+    "company_name": "Okta, Inc.",
     "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "NET",
+    "price": 167.17999267578125,
+    "price_5days_ago": 193.67999267578125,
+    "change_percent": -13.68,
+    "market_cap": 58828468224,
+    "company_name": "Cloudflare, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   },
   {
     "symbol": "UPST",
-    "price": 27.348800659179688,
-    "price_5days_ago": 30.68000030517578,
-    "change_percent": -10.86,
-    "market_cap": 2681858304,
+    "price": 27.684999465942383,
+    "price_5days_ago": 31.969999313354492,
+    "change_percent": -13.4,
+    "market_cap": 2714826496,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
-    "symbol": "PKG",
-    "price": 220.25999450683594,
-    "price_5days_ago": 246.30999755859375,
-    "change_percent": -10.58,
-    "market_cap": 19818727424,
-    "company_name": "Packaging Corporation of America",
-    "sector": "Consumer Cyclical",
-    "industry": "Packaging & Containers"
-  },
-  {
-    "symbol": "ZM",
-    "price": 83.2699966430664,
-    "price_5days_ago": 92.5999984741211,
-    "change_percent": -10.08,
-    "market_cap": 24921825280,
-    "company_name": "Zoom Communications, Inc.",
+    "symbol": "ORCL",
+    "price": 141.30999755859375,
+    "price_5days_ago": 160.13999938964844,
+    "change_percent": -11.76,
+    "market_cap": 417073725440,
+    "company_name": "Oracle Corporation",
     "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Software - Infrastructure"
   }
 ]
