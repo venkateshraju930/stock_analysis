@@ -1,72 +1,62 @@
 [
   {
-    "symbol": "IBM",
-    "price": 223.35000610351562,
-    "price_5days_ago": 262.3800048828125,
-    "change_percent": -14.88,
-    "market_cap": 216251006976,
-    "company_name": "International Business Machines Corporation",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "DDOG",
-    "price": 104.33999633789062,
-    "price_5days_ago": 122.55999755859375,
-    "change_percent": -14.87,
-    "market_cap": 36588986368,
-    "company_name": "Datadog, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
     "symbol": "CRWD",
-    "price": 352.9599914550781,
-    "price_5days_ago": 414.2850036621094,
-    "change_percent": -14.8,
-    "market_cap": 88980660224,
+    "price": 358.989990234375,
+    "price_5days_ago": 415.760009765625,
+    "change_percent": -13.65,
+    "market_cap": 90500816896,
     "company_name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
+    "symbol": "ACN",
+    "price": 193.11000061035156,
+    "price_5days_ago": 223.61000061035156,
+    "change_percent": -13.64,
+    "market_cap": 119699210240,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
     "symbol": "OKTA",
-    "price": 71.08499908447266,
-    "price_5days_ago": 82.45999908447266,
-    "change_percent": -13.79,
-    "market_cap": 12598410240,
+    "price": 72.0,
+    "price_5days_ago": 82.93000030517578,
+    "change_percent": -13.18,
+    "market_cap": 12760576000,
     "company_name": "Okta, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "NET",
-    "price": 167.17999267578125,
-    "price_5days_ago": 193.67999267578125,
-    "change_percent": -13.68,
-    "market_cap": 58828468224,
+    "price": 167.31500244140625,
+    "price_5days_ago": 191.44000244140625,
+    "change_percent": -12.6,
+    "market_cap": 58875973632,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "UPST",
-    "price": 27.684999465942383,
+    "price": 28.139999389648438,
     "price_5days_ago": 31.969999313354492,
-    "change_percent": -13.4,
-    "market_cap": 2714826496,
+    "change_percent": -11.98,
+    "market_cap": 2780037376,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
-    "symbol": "ORCL",
-    "price": 141.30999755859375,
-    "price_5days_ago": 160.13999938964844,
-    "change_percent": -11.76,
-    "market_cap": 417073725440,
-    "company_name": "Oracle Corporation",
+    "symbol": "DDOG",
+    "price": 108.64749908447266,
+    "price_5days_ago": 121.77999877929688,
+    "change_percent": -10.78,
+    "market_cap": 38099501056,
+    "company_name": "Datadog, Inc.",
     "sector": "Technology",
-    "industry": "Software - Infrastructure"
+    "industry": "Software - Application"
   }
 ]
