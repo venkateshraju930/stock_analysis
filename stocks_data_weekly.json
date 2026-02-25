@@ -1,60 +1,50 @@
 [
   {
-    "symbol": "CRWD",
-    "price": 358.989990234375,
-    "price_5days_ago": 415.760009765625,
-    "change_percent": -13.65,
-    "market_cap": 90500816896,
-    "company_name": "CrowdStrike Holdings, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
     "symbol": "ACN",
-    "price": 193.11000061035156,
+    "price": 191.8699951171875,
     "price_5days_ago": 223.61000061035156,
-    "change_percent": -13.64,
-    "market_cap": 119699210240,
+    "change_percent": -14.19,
+    "market_cap": 118986047488,
     "company_name": "Accenture plc",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "OKTA",
-    "price": 72.0,
+    "price": 71.43000030517578,
     "price_5days_ago": 82.93000030517578,
-    "change_percent": -13.18,
-    "market_cap": 12760576000,
+    "change_percent": -13.87,
+    "market_cap": 12659555328,
     "company_name": "Okta, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
+    "symbol": "CRWD",
+    "price": 358.8949890136719,
+    "price_5days_ago": 415.760009765625,
+    "change_percent": -13.68,
+    "market_cap": 90476863488,
+    "company_name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
     "symbol": "NET",
-    "price": 167.31500244140625,
+    "price": 169.1300048828125,
     "price_5days_ago": 191.44000244140625,
-    "change_percent": -12.6,
-    "market_cap": 58875973632,
+    "change_percent": -11.65,
+    "market_cap": 59514650624,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "UPST",
-    "price": 28.139999389648438,
-    "price_5days_ago": 31.969999313354492,
-    "change_percent": -11.98,
-    "market_cap": 2780037376,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
     "symbol": "DDOG",
-    "price": 108.64749908447266,
+    "price": 108.71499633789062,
     "price_5days_ago": 121.77999877929688,
-    "change_percent": -10.78,
-    "market_cap": 38099501056,
+    "change_percent": -10.73,
+    "market_cap": 38123167744,
     "company_name": "Datadog, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
