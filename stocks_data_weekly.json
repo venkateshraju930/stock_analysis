@@ -1,52 +1,32 @@
 [
   {
-    "symbol": "ACN",
-    "price": 191.8699951171875,
-    "price_5days_ago": 223.61000061035156,
-    "change_percent": -14.19,
-    "market_cap": 118986047488,
-    "company_name": "Accenture plc",
+    "symbol": "ZM",
+    "price": 74.9573974609375,
+    "price_5days_ago": 90.95999908447266,
+    "change_percent": -17.59,
+    "market_cap": 22433951744,
+    "company_name": "Zoom Communications, Inc.",
     "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "OKTA",
-    "price": 71.43000030517578,
-    "price_5days_ago": 82.93000030517578,
-    "change_percent": -13.87,
-    "market_cap": 12659555328,
-    "company_name": "Okta, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "CRWD",
-    "price": 358.8949890136719,
-    "price_5days_ago": 415.760009765625,
-    "change_percent": -13.68,
-    "market_cap": 90476863488,
-    "company_name": "CrowdStrike Holdings, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
+    "industry": "Software - Application"
   },
   {
     "symbol": "NET",
-    "price": 169.1300048828125,
-    "price_5days_ago": 191.44000244140625,
-    "change_percent": -11.65,
-    "market_cap": 59514650624,
+    "price": 171.77999877929688,
+    "price_5days_ago": 192.63999938964844,
+    "change_percent": -10.83,
+    "market_cap": 60447150080,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "DDOG",
-    "price": 108.71499633789062,
-    "price_5days_ago": 121.77999877929688,
-    "change_percent": -10.73,
-    "market_cap": 38123167744,
-    "company_name": "Datadog, Inc.",
+    "symbol": "CRWD",
+    "price": 377.2799987792969,
+    "price_5days_ago": 422.1400146484375,
+    "change_percent": -10.63,
+    "market_cap": 95111692288,
+    "company_name": "CrowdStrike Holdings, Inc.",
     "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Software - Infrastructure"
   }
 ]

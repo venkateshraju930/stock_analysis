@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "ZM",
+    "price": 74.7699966430664,
+    "prev_close": 85.43000030517578,
+    "change_percent": -12.48,
+    "market_cap": 22377865216,
+    "company_name": "Zoom Communications, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  }
+]
