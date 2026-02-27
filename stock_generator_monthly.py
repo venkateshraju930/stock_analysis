@@ -148,6 +148,73 @@ class MonthlyStockReportGenerator(WeeklyStockReportGenerator):
             logger.error("yfinance not installed. Install with: pip install yfinance")
             raise
 
+    def _generate_stocks_table_html(self) -> str:
+        """
+        Generate the HTML table for monthly stocks.
+
+        This overrides the weekly version so we can show a
+        month-ago price instead of "Week Ago Price".
+        """
+        if not self.stocks_data:
+            return """
+            <tr>
+                <td colspan="8" style="text-align: center; padding: 20px;">
+                    No stocks matched the monthly criteria.
+                </td>
+            </tr>
+            """
+
+        # Show all stocks found, but cap at 50 for reasonable page size
+        stocks_to_display = (
+            self.stocks_data[:50]
+            if len(self.stocks_data) > 50
+            else self.stocks_data
+        )
+
+        table_rows = ""
+        for idx, stock in enumerate(stocks_to_display, 1):
+            market_cap_billions = stock["market_cap"] / 1_000_000_000
+            # Prefer monthly price key, but fall back gracefully
+            price_month_ago = stock.get(
+                "price_1mo_ago", stock.get("price_5days_ago", 0)
+            )
+            current_price = stock["price"]
+
+            table_rows += f"""
+            <tr>
+                <td><span class="rank">#{idx}</span></td>
+                <td><span class="symbol">{stock['symbol']}</span></td>
+                <td>{stock['company_name']}</td>
+                <td>${price_month_ago:.2f}</td>
+                <td>${current_price:.2f}</td>
+                <td><span class="negative">{stock['change_percent']:.2f}%</span></td>
+                <td>${market_cap_billions:.1f}B</td>
+                <td>{stock['sector']}</td>
+            </tr>
+            """
+
+        return """
+        <table class="stocks-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Symbol</th>
+                    <th>Company Name</th>
+                    <th>Month Ago Price</th>
+                    <th>Current Price</th>
+                    <th>Monthly Change</th>
+                    <th>Market Cap</th>
+                    <th>Sector</th>
+                </tr>
+            </thead>
+            <tbody>
+                {rows}
+            </tbody>
+        </table>
+        """.format(
+            rows=table_rows
+        )
+
 
 def run_monthly_report(
     html_filename: str = "stock_report_monthly.html",
