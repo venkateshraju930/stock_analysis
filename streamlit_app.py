@@ -6,6 +6,7 @@ import streamlit.components.v1 as components
 
 from stock_generator_daily import run_daily_report
 from stock_generator_weekly import run_weekly_report
+from stock_generator_monthly import run_monthly_report
 
 
 def ensure_groq_key_warning():
@@ -49,11 +50,12 @@ def main():
 
     daily_html_path = Path("stock_report.html")
     weekly_html_path = Path("stock_report_weekly.html")
+    monthly_html_path = Path("stock_report_monthly.html")
 
     # Sidebar controls
     with st.sidebar:
         st.header("Report Controls")
-        generate_clicked = st.button("🔄 Generate / Refresh Daily & Weekly Reports", type="primary")
+        generate_clicked = st.button("🔄 Generate / Refresh Daily, Weekly & Monthly Reports", type="primary")
         st.markdown("---")
         st.markdown(
             "**Tip:** In GitHub Actions, the daily report can be generated on a "
@@ -79,15 +81,24 @@ def main():
                 )
                 weekly_count = weekly_result.get("stocks_count", 0)
 
-                if daily_count == 0 and weekly_count == 0:
+                # Monthly report
+                monthly_result = run_monthly_report(
+                    html_filename=str(monthly_html_path),
+                    json_filename="stocks_data_monthly.json",
+                )
+                monthly_count = monthly_result.get("stocks_count", 0)
+
+                if daily_count == 0 and weekly_count == 0 and monthly_count == 0:
                     st.warning(
-                        "No stocks matched the criteria for either the daily or "
-                        "weekly reports."
+                        "No stocks matched the criteria for the daily, weekly, or "
+                        "monthly reports."
                     )
                 else:
                     st.success(
                         f"Reports generated successfully "
-                        f"(daily: {daily_count} stocks, weekly: {weekly_count} stocks)."
+                        f"(daily: {daily_count} stocks, "
+                        f"weekly: {weekly_count} stocks, "
+                        f"monthly: {monthly_count} stocks)."
                     )
             except Exception as e:
                 st.error(
@@ -100,15 +111,19 @@ def main():
     # Display current reports (if available)
     daily_html_content = load_report_html(daily_html_path)
     weekly_html_content = load_report_html(weekly_html_path)
+    monthly_html_content = load_report_html(monthly_html_path)
 
-    if not daily_html_content and not weekly_html_content:
+    if not daily_html_content and not weekly_html_content and not monthly_html_content:
         st.info(
-            "No reports found yet. Click **Generate / Refresh Daily & Weekly "
-            "Reports** to create them, or run the generator scripts separately."
+            "No reports found yet. Click **Generate / Refresh Daily, Weekly & "
+            "Monthly Reports** to create them, or run the generator scripts "
+            "separately."
         )
         return
 
-    tab_daily, tab_weekly = st.tabs(["📆 Daily Report", "📊 Weekly Report"])
+    tab_daily, tab_weekly, tab_monthly = st.tabs(
+        ["📆 Daily Report", "📊 Weekly Report", "📅 Monthly Report"]
+    )
 
     with tab_daily:
         if not daily_html_content:
@@ -129,6 +144,16 @@ def main():
         else:
             st.subheader("Latest Weekly Report")
             components.html(weekly_html_content, height=900, scrolling=True)
+
+    with tab_monthly:
+        if not monthly_html_content:
+            st.info(
+                "No `stock_report_monthly.html` found yet. Generate reports to see "
+                "the monthly view."
+            )
+        else:
+            st.subheader("Latest Monthly Report")
+            components.html(monthly_html_content, height=900, scrolling=True)
 
 
 if __name__ == "__main__":
