@@ -1,22 +1,12 @@
 [
   {
     "symbol": "ZM",
-    "price": 73.94000244140625,
-    "price_5days_ago": 90.29000091552734,
-    "change_percent": -18.11,
-    "market_cap": 22129457152,
+    "price": 73.06999969482422,
+    "price_5days_ago": 86.05999755859375,
+    "change_percent": -15.09,
+    "market_cap": 21869074432,
     "company_name": "Zoom Communications, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
-  },
-  {
-    "symbol": "AXP",
-    "price": 308.8999938964844,
-    "price_5days_ago": 346.17999267578125,
-    "change_percent": -10.77,
-    "market_cap": 212786266112,
-    "company_name": "American Express Company",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
   }
 ]
