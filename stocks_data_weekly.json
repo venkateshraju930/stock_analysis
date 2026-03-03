@@ -1,12 +1,32 @@
 [
   {
     "symbol": "ZM",
-    "price": 73.51499938964844,
-    "price_5days_ago": 86.05999755859375,
-    "change_percent": -14.58,
-    "market_cap": 22002257920,
+    "price": 72.66999816894531,
+    "price_5days_ago": 87.51000213623047,
+    "change_percent": -16.96,
+    "market_cap": 21749358592,
     "company_name": "Zoom Communications, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
+  },
+  {
+    "symbol": "ALB",
+    "price": 161.52499389648438,
+    "price_5days_ago": 186.8300018310547,
+    "change_percent": -13.54,
+    "market_cap": 19035271168,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "DAL",
+    "price": 61.95000076293945,
+    "price_5days_ago": 69.04241180419922,
+    "change_percent": -10.27,
+    "market_cap": 40461447168,
+    "company_name": "Delta Air Lines, Inc.",
+    "sector": "Industrials",
+    "industry": "Airlines"
   }
 ]
