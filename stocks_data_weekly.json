@@ -1,32 +1,12 @@
 [
   {
-    "symbol": "ZM",
-    "price": 73.9000015258789,
-    "price_5days_ago": 87.51000213623047,
-    "change_percent": -15.55,
-    "market_cap": 22117484544,
-    "company_name": "Zoom Communications, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
     "symbol": "ALB",
-    "price": 163.5012969970703,
-    "price_5days_ago": 186.8300018310547,
-    "change_percent": -12.49,
-    "market_cap": 19268171776,
+    "price": 169.3300018310547,
+    "price_5days_ago": 195.8699951171875,
+    "change_percent": -13.55,
+    "market_cap": 19955068928,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
-  },
-  {
-    "symbol": "AMD",
-    "price": 190.99000549316406,
-    "price_5days_ago": 213.83999633789062,
-    "change_percent": -10.69,
-    "market_cap": 311392174080,
-    "company_name": "Advanced Micro Devices, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
   }
 ]
