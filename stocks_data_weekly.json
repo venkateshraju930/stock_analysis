@@ -1,10 +1,30 @@
 [
   {
+    "symbol": "DAL",
+    "price": 59.95500183105469,
+    "price_5days_ago": 70.51000213623047,
+    "change_percent": -14.97,
+    "market_cap": 39158452224,
+    "company_name": "Delta Air Lines, Inc.",
+    "sector": "Industrials",
+    "industry": "Airlines"
+  },
+  {
+    "symbol": "LUV",
+    "price": 44.43000030517578,
+    "price_5days_ago": 50.93000030517578,
+    "change_percent": -12.76,
+    "market_cap": 22977200128,
+    "company_name": "Southwest Airlines Co.",
+    "sector": "Industrials",
+    "industry": "Airlines"
+  },
+  {
     "symbol": "ALB",
-    "price": 169.3300018310547,
-    "price_5days_ago": 195.8699951171875,
-    "change_percent": -13.55,
-    "market_cap": 19955068928,
+    "price": 162.4949951171875,
+    "price_5days_ago": 184.92999267578125,
+    "change_percent": -12.13,
+    "market_cap": 19149582336,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
