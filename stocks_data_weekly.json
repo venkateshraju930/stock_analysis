@@ -1,32 +1,52 @@
 [
   {
-    "symbol": "DAL",
-    "price": 59.95500183105469,
-    "price_5days_ago": 70.51000213623047,
-    "change_percent": -14.97,
-    "market_cap": 39158452224,
-    "company_name": "Delta Air Lines, Inc.",
-    "sector": "Industrials",
-    "industry": "Airlines"
-  },
-  {
     "symbol": "LUV",
-    "price": 44.43000030517578,
-    "price_5days_ago": 50.93000030517578,
-    "change_percent": -12.76,
-    "market_cap": 22977200128,
+    "price": 40.91999816894531,
+    "price_5days_ago": 49.2599983215332,
+    "change_percent": -16.93,
+    "market_cap": 21161984000,
     "company_name": "Southwest Airlines Co.",
     "sector": "Industrials",
     "industry": "Airlines"
   },
   {
-    "symbol": "ALB",
-    "price": 162.4949951171875,
-    "price_5days_ago": 184.92999267578125,
-    "change_percent": -12.13,
-    "market_cap": 19149582336,
-    "company_name": "Albemarle Corporation",
+    "symbol": "UPS",
+    "price": 100.58580017089844,
+    "price_5days_ago": 115.95999908447266,
+    "change_percent": -13.26,
+    "market_cap": 85407571968,
+    "company_name": "United Parcel Service, Inc.",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
+  },
+  {
+    "symbol": "FCX",
+    "price": 60.209999084472656,
+    "price_5days_ago": 68.08000183105469,
+    "change_percent": -11.56,
+    "market_cap": 86562652160,
+    "company_name": "Freeport-McMoRan Inc.",
     "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
+    "industry": "Copper"
+  },
+  {
+    "symbol": "DAL",
+    "price": 58.79999923706055,
+    "price_5days_ago": 65.69999694824219,
+    "change_percent": -10.5,
+    "market_cap": 38404083712,
+    "company_name": "Delta Air Lines, Inc.",
+    "sector": "Industrials",
+    "industry": "Airlines"
+  },
+  {
+    "symbol": "NEM",
+    "price": 116.44000244140625,
+    "price_5days_ago": 129.73744201660156,
+    "change_percent": -10.25,
+    "market_cap": 127066660864,
+    "company_name": "Newmont Corporation",
+    "sector": "Basic Materials",
+    "industry": "Gold"
   }
 ]
