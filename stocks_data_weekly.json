@@ -1,52 +1,62 @@
 [
   {
     "symbol": "LUV",
-    "price": 40.91999816894531,
+    "price": 41.560001373291016,
     "price_5days_ago": 49.2599983215332,
-    "change_percent": -16.93,
-    "market_cap": 21161984000,
+    "change_percent": -15.63,
+    "market_cap": 21492965376,
     "company_name": "Southwest Airlines Co.",
     "sector": "Industrials",
     "industry": "Airlines"
   },
   {
-    "symbol": "UPS",
-    "price": 100.58580017089844,
-    "price_5days_ago": 115.95999908447266,
-    "change_percent": -13.26,
-    "market_cap": 85407571968,
-    "company_name": "United Parcel Service, Inc.",
-    "sector": "Industrials",
-    "industry": "Integrated Freight & Logistics"
-  },
-  {
     "symbol": "FCX",
-    "price": 60.209999084472656,
+    "price": 59.36000061035156,
     "price_5days_ago": 68.08000183105469,
-    "change_percent": -11.56,
-    "market_cap": 86562652160,
+    "change_percent": -12.81,
+    "market_cap": 85312290816,
     "company_name": "Freeport-McMoRan Inc.",
     "sector": "Basic Materials",
     "industry": "Copper"
   },
   {
-    "symbol": "DAL",
-    "price": 58.79999923706055,
-    "price_5days_ago": 65.69999694824219,
-    "change_percent": -10.5,
-    "market_cap": 38404083712,
-    "company_name": "Delta Air Lines, Inc.",
+    "symbol": "UPS",
+    "price": 102.36000061035156,
+    "price_5days_ago": 115.95999908447266,
+    "change_percent": -11.73,
+    "market_cap": 86914048000,
+    "company_name": "United Parcel Service, Inc.",
     "sector": "Industrials",
-    "industry": "Airlines"
+    "industry": "Integrated Freight & Logistics"
   },
   {
     "symbol": "NEM",
-    "price": 116.44000244140625,
+    "price": 116.29000091552734,
     "price_5days_ago": 129.73744201660156,
-    "change_percent": -10.25,
-    "market_cap": 127066660864,
+    "change_percent": -10.37,
+    "market_cap": 126902976512,
     "company_name": "Newmont Corporation",
     "sector": "Basic Materials",
     "industry": "Gold"
+  },
+  {
+    "symbol": "MU",
+    "price": 370.29998779296875,
+    "price_5days_ago": 412.3699951171875,
+    "change_percent": -10.2,
+    "market_cap": 416776060928,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "DAL",
+    "price": 59.0099983215332,
+    "price_5days_ago": 65.69999694824219,
+    "change_percent": -10.18,
+    "market_cap": 38541242368,
+    "company_name": "Delta Air Lines, Inc.",
+    "sector": "Industrials",
+    "industry": "Airlines"
   }
 ]
