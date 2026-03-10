@@ -1,52 +1,22 @@
 [
   {
-    "symbol": "LUV",
-    "price": 40.9900016784668,
-    "price_5days_ago": 48.27000045776367,
-    "change_percent": -15.08,
-    "market_cap": 21198186496,
-    "company_name": "Southwest Airlines Co.",
-    "sector": "Industrials",
-    "industry": "Airlines"
-  },
-  {
-    "symbol": "FCX",
-    "price": 58.18000030517578,
-    "price_5days_ago": 68.29000091552734,
-    "change_percent": -14.8,
-    "market_cap": 83616391168,
-    "company_name": "Freeport-McMoRan Inc.",
-    "sector": "Basic Materials",
-    "industry": "Copper"
-  },
-  {
     "symbol": "UPS",
-    "price": 98.0,
-    "price_5days_ago": 114.41999816894531,
-    "change_percent": -14.35,
-    "market_cap": 83211968512,
+    "price": 101.51000213623047,
+    "price_5days_ago": 113.2300033569336,
+    "change_percent": -10.35,
+    "market_cap": 86192316416,
     "company_name": "United Parcel Service, Inc.",
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics"
   },
   {
-    "symbol": "NEM",
-    "price": 113.66500091552734,
-    "price_5days_ago": 128.47000122070312,
-    "change_percent": -11.52,
-    "market_cap": 124038406144,
-    "company_name": "Newmont Corporation",
-    "sector": "Basic Materials",
-    "industry": "Gold"
-  },
-  {
-    "symbol": "BLK",
-    "price": 947.989990234375,
-    "price_5days_ago": 1062.3956298828125,
-    "change_percent": -10.77,
-    "market_cap": 147451822080,
-    "company_name": "BlackRock, Inc.",
-    "sector": "Financial Services",
-    "industry": "Asset Management"
+    "symbol": "RBLX",
+    "price": 60.16999816894531,
+    "price_5days_ago": 66.97000122070312,
+    "change_percent": -10.15,
+    "market_cap": 42642841600,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
   }
 ]
