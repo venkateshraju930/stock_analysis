@@ -1,22 +1,22 @@
 [
   {
-    "symbol": "UPS",
-    "price": 101.51000213623047,
-    "price_5days_ago": 113.2300033569336,
-    "change_percent": -10.35,
-    "market_cap": 86192316416,
-    "company_name": "United Parcel Service, Inc.",
-    "sector": "Industrials",
-    "industry": "Integrated Freight & Logistics"
-  },
-  {
     "symbol": "RBLX",
-    "price": 60.16999816894531,
+    "price": 60.04010009765625,
     "price_5days_ago": 66.97000122070312,
-    "change_percent": -10.15,
-    "market_cap": 42642841600,
+    "change_percent": -10.35,
+    "market_cap": 42550784000,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
+  },
+  {
+    "symbol": "UPS",
+    "price": 101.55000305175781,
+    "price_5days_ago": 113.2300033569336,
+    "change_percent": -10.32,
+    "market_cap": 86226280448,
+    "company_name": "United Parcel Service, Inc.",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
   }
 ]
