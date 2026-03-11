@@ -1,22 +1,22 @@
 [
   {
     "symbol": "RBLX",
-    "price": 60.04010009765625,
-    "price_5days_ago": 66.97000122070312,
-    "change_percent": -10.35,
-    "market_cap": 42550784000,
+    "price": 59.40999984741211,
+    "price_5days_ago": 67.4000015258789,
+    "change_percent": -11.85,
+    "market_cap": 42104225792,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "UPS",
-    "price": 101.55000305175781,
-    "price_5days_ago": 113.2300033569336,
-    "change_percent": -10.32,
-    "market_cap": 86226280448,
-    "company_name": "United Parcel Service, Inc.",
+    "symbol": "LUV",
+    "price": 42.025001525878906,
+    "price_5days_ago": 47.150001525878906,
+    "change_percent": -10.87,
+    "market_cap": 21733443584,
+    "company_name": "Southwest Airlines Co.",
     "sector": "Industrials",
-    "industry": "Integrated Freight & Logistics"
+    "industry": "Airlines"
   }
 ]
