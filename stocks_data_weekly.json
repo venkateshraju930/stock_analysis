@@ -1,22 +1,32 @@
 [
   {
     "symbol": "RBLX",
-    "price": 59.40999984741211,
-    "price_5days_ago": 67.4000015258789,
-    "change_percent": -11.85,
-    "market_cap": 42104225792,
+    "price": 57.55780029296875,
+    "price_5days_ago": 66.08000183105469,
+    "change_percent": -12.9,
+    "market_cap": 40791560192,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "LUV",
-    "price": 42.025001525878906,
-    "price_5days_ago": 47.150001525878906,
-    "change_percent": -10.87,
-    "market_cap": 21733443584,
-    "company_name": "Southwest Airlines Co.",
-    "sector": "Industrials",
-    "industry": "Airlines"
+    "symbol": "DASH",
+    "price": 164.14500427246094,
+    "price_5days_ago": 183.47999572753906,
+    "change_percent": -10.54,
+    "market_cap": 71308918784,
+    "company_name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
+  },
+  {
+    "symbol": "BLK",
+    "price": 926.1699829101562,
+    "price_5days_ago": 1029.27001953125,
+    "change_percent": -10.02,
+    "market_cap": 144057909248,
+    "company_name": "BlackRock, Inc.",
+    "sector": "Financial Services",
+    "industry": "Asset Management"
   }
 ]
