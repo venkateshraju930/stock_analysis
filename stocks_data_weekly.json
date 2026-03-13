@@ -1,32 +1,42 @@
 [
   {
     "symbol": "RBLX",
-    "price": 57.55780029296875,
-    "price_5days_ago": 66.08000183105469,
-    "change_percent": -12.9,
-    "market_cap": 40791560192,
+    "price": 56.505001068115234,
+    "price_5days_ago": 63.529998779296875,
+    "change_percent": -11.06,
+    "market_cap": 40063152128,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
+    "symbol": "ADBE",
+    "price": 253.36500549316406,
+    "price_5days_ago": 283.6199951171875,
+    "change_percent": -10.67,
+    "market_cap": 104006336512,
+    "company_name": "Adobe Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "INTU",
+    "price": 431.69500732421875,
+    "price_5days_ago": 481.1700134277344,
+    "change_percent": -10.28,
+    "market_cap": 120129527808,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
     "symbol": "DASH",
-    "price": 164.14500427246094,
-    "price_5days_ago": 183.47999572753906,
-    "change_percent": -10.54,
-    "market_cap": 71308918784,
+    "price": 160.77999877929688,
+    "price_5days_ago": 179.1699981689453,
+    "change_percent": -10.26,
+    "market_cap": 69847072768,
     "company_name": "DoorDash, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail"
-  },
-  {
-    "symbol": "BLK",
-    "price": 926.1699829101562,
-    "price_5days_ago": 1029.27001953125,
-    "change_percent": -10.02,
-    "market_cap": 144057909248,
-    "company_name": "BlackRock, Inc.",
-    "sector": "Financial Services",
-    "industry": "Asset Management"
   }
 ]
