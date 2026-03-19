@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "symbol": "NEM",
+    "price": 99.19000244140625,
+    "price_5days_ago": 114.4800033569336,
+    "change_percent": -13.36,
+    "market_cap": 108242378752,
+    "company_name": "Newmont Corporation",
+    "sector": "Basic Materials",
+    "industry": "Gold"
+  },
+  {
+    "symbol": "FCX",
+    "price": 52.584999084472656,
+    "price_5days_ago": 59.209999084472656,
+    "change_percent": -11.19,
+    "market_cap": 75575246848,
+    "company_name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials",
+    "industry": "Copper"
+  }
+]
