@@ -1,12 +1,22 @@
 [
   {
-    "symbol": "NEM",
-    "price": 97.76000213623047,
-    "price_5days_ago": 110.19000244140625,
-    "change_percent": -11.28,
-    "market_cap": 106681868288,
-    "company_name": "Newmont Corporation",
-    "sector": "Basic Materials",
-    "industry": "Gold"
+    "symbol": "MU",
+    "price": 392.1700134277344,
+    "price_5days_ago": 461.69000244140625,
+    "change_percent": -15.06,
+    "market_cap": 442263470080,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "COIN",
+    "price": 180.47000122070312,
+    "price_5days_ago": 210.22999572753906,
+    "change_percent": -14.16,
+    "market_cap": 48665108480,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
   }
 ]
