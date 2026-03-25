@@ -1,22 +1,22 @@
 [
   {
     "symbol": "MU",
-    "price": 392.1700134277344,
-    "price_5days_ago": 461.69000244140625,
-    "change_percent": -15.06,
-    "market_cap": 442263470080,
+    "price": 377.17999267578125,
+    "price_5days_ago": 461.7300109863281,
+    "change_percent": -18.31,
+    "market_cap": 425291055104,
     "company_name": "Micron Technology, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "COIN",
-    "price": 180.47000122070312,
-    "price_5days_ago": 210.22999572753906,
-    "change_percent": -14.16,
-    "market_cap": 48665108480,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
+    "symbol": "CRWD",
+    "price": 389.20001220703125,
+    "price_5days_ago": 435.80999755859375,
+    "change_percent": -10.7,
+    "market_cap": 98706612224,
+    "company_name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   }
 ]
