@@ -1,30 +1,30 @@
 [
   {
     "symbol": "COIN",
-    "price": 161.5,
+    "price": 161.13999938964844,
     "price_5days_ago": 197.5,
-    "change_percent": -18.23,
-    "market_cap": 43549704192,
+    "change_percent": -18.41,
+    "market_cap": 43452624896,
     "company_name": "Coinbase Global, Inc.",
     "sector": "Financial Services",
     "industry": "Financial Data & Stock Exchanges"
   },
   {
     "symbol": "MU",
-    "price": 364.6300048828125,
+    "price": 357.2200012207031,
     "price_5days_ago": 422.8999938964844,
-    "change_percent": -13.78,
-    "market_cap": 411205664768,
+    "change_percent": -15.53,
+    "market_cap": 402849136640,
     "company_name": "Micron Technology, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
     "symbol": "META",
-    "price": 527.8250122070312,
+    "price": 525.719970703125,
     "price_5days_ago": 593.6599731445312,
-    "change_percent": -11.09,
-    "market_cap": 1335301767168,
+    "change_percent": -11.44,
+    "market_cap": 1329837768704,
     "company_name": "Meta Platforms, Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information"
