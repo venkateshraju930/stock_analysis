@@ -1,72 +1,12 @@
 [
   {
-    "symbol": "COIN",
-    "price": 161.30999755859375,
-    "price_5days_ago": 200.6199951171875,
-    "change_percent": -19.59,
-    "market_cap": 43497115648,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
-  },
-  {
     "symbol": "MU",
-    "price": 328.9599914550781,
-    "price_5days_ago": 404.3500061035156,
-    "change_percent": -18.64,
-    "market_cap": 370979373056,
+    "price": 330.8351135253906,
+    "price_5days_ago": 395.3639221191406,
+    "change_percent": -16.32,
+    "market_cap": 373206646784,
     "company_name": "Micron Technology, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
-  },
-  {
-    "symbol": "UPST",
-    "price": 24.520000457763672,
-    "price_5days_ago": 27.90999984741211,
-    "change_percent": -12.15,
-    "market_cap": 2404462592,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
-    "symbol": "SOFI",
-    "price": 15.204999923706055,
-    "price_5days_ago": 17.149999618530273,
-    "change_percent": -11.34,
-    "market_cap": 19390386176,
-    "company_name": "SoFi Technologies, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
-    "symbol": "META",
-    "price": 537.4400024414062,
-    "price_5days_ago": 604.0599975585938,
-    "change_percent": -11.03,
-    "market_cap": 1359357804544,
-    "company_name": "Meta Platforms, Inc.",
-    "sector": "Communication Services",
-    "industry": "Internet Content & Information"
-  },
-  {
-    "symbol": "SNOW",
-    "price": 156.5399932861328,
-    "price_5days_ago": 174.1999969482422,
-    "change_percent": -10.14,
-    "market_cap": 54115876864,
-    "company_name": "Snowflake Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "ORCL",
-    "price": 138.76649475097656,
-    "price_5days_ago": 154.33999633789062,
-    "change_percent": -10.09,
-    "market_cap": 399098839040,
-    "company_name": "Oracle Corporation",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
   }
 ]
