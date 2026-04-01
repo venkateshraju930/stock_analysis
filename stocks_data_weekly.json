@@ -1,12 +1,12 @@
 [
   {
-    "symbol": "MU",
-    "price": 330.8351135253906,
-    "price_5days_ago": 395.3639221191406,
-    "change_percent": -16.32,
-    "market_cap": 373206646784,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "NKE",
+    "price": 45.404998779296875,
+    "price_5days_ago": 52.97999954223633,
+    "change_percent": -14.3,
+    "market_cap": 67216805888,
+    "company_name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
   }
 ]

@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "NKE",
+    "price": 45.40999984741211,
+    "prev_close": 52.81999969482422,
+    "change_percent": -14.03,
+    "market_cap": 67216805888,
+    "company_name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  }
+]
