@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "symbol": "NET",
+    "price": 185.22000122070312,
+    "prev_close": 211.25,
+    "change_percent": -12.32,
+    "market_cap": 65193787392,
+    "company_name": "Cloudflare, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 134.6699981689453,
+    "prev_close": 149.99000549316406,
+    "change_percent": -10.21,
+    "market_cap": 46555418624,
+    "company_name": "Snowflake Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  }
+]

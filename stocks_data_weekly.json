@@ -1,12 +1,32 @@
 [
   {
-    "symbol": "NKE",
-    "price": 43.01499938964844,
-    "price_5days_ago": 52.81999969482422,
-    "change_percent": -18.56,
-    "market_cap": 63700357120,
-    "company_name": "NIKE, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Footwear & Accessories"
+    "symbol": "INTU",
+    "price": 362.8399963378906,
+    "price_5days_ago": 425.8699951171875,
+    "change_percent": -14.8,
+    "market_cap": 100968964096,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "OKTA",
+    "price": 69.16999816894531,
+    "price_5days_ago": 79.1449966430664,
+    "change_percent": -12.6,
+    "market_cap": 12259014656,
+    "company_name": "Okta, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 134.8000030517578,
+    "price_5days_ago": 153.1199951171875,
+    "change_percent": -11.96,
+    "market_cap": 46600359936,
+    "company_name": "Snowflake Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
   }
 ]
