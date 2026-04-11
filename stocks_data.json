@@ -1,20 +1,20 @@
 [
   {
     "symbol": "FICO",
-    "price": 927.7899780273438,
+    "price": 922.3699951171875,
     "prev_close": 1072.3499755859375,
-    "change_percent": -13.48,
-    "market_cap": 22030745600,
+    "change_percent": -13.99,
+    "market_cap": 21880584192,
     "company_name": "Fair Isaac Corporation",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "NET",
-    "price": 168.67999267578125,
+    "price": 166.99000549316406,
     "prev_close": 193.0500030517578,
-    "change_percent": -12.62,
-    "market_cap": 59372032000,
+    "change_percent": -13.5,
+    "market_cap": 58777190400,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
