@@ -1,82 +1,42 @@
 [
   {
     "symbol": "OKTA",
-    "price": 62.93000030517578,
-    "price_5days_ago": 80.19000244140625,
-    "change_percent": -21.52,
-    "market_cap": 11153097728,
+    "price": 65.0,
+    "price_5days_ago": 80.55999755859375,
+    "change_percent": -19.31,
+    "market_cap": 11519964160,
     "company_name": "Okta, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "NET",
-    "price": 166.99000549316406,
-    "price_5days_ago": 211.69000244140625,
-    "change_percent": -21.12,
-    "market_cap": 58777190400,
+    "price": 182.02999877929688,
+    "price_5days_ago": 211.77999877929688,
+    "change_percent": -14.05,
+    "market_cap": 64070971392,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "SNOW",
-    "price": 121.11000061035156,
-    "price_5days_ago": 151.85000610351562,
-    "change_percent": -20.24,
-    "market_cap": 41867726848,
+    "price": 131.80499267578125,
+    "price_5days_ago": 149.3800048828125,
+    "change_percent": -11.77,
+    "market_cap": 45564985344,
     "company_name": "Snowflake Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "INTU",
-    "price": 350.94000244140625,
-    "price_5days_ago": 421.1784362792969,
-    "change_percent": -16.68,
-    "market_cap": 97657503744,
+    "price": 368.1000061035156,
+    "price_5days_ago": 416.0741882324219,
+    "change_percent": -11.53,
+    "market_cap": 102432694272,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
-  },
-  {
-    "symbol": "DDOG",
-    "price": 105.37000274658203,
-    "price_5days_ago": 120.36000061035156,
-    "change_percent": -12.45,
-    "market_cap": 37285314560,
-    "company_name": "Datadog, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "CRM",
-    "price": 164.9600067138672,
-    "price_5days_ago": 186.71302795410156,
-    "change_percent": -11.65,
-    "market_cap": 154567524352,
-    "company_name": "Salesforce, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "TWLO",
-    "price": 117.6500015258789,
-    "price_5days_ago": 130.9499969482422,
-    "change_percent": -10.16,
-    "market_cap": 17837248512,
-    "company_name": "Twilio Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "ACN",
-    "price": 179.52999877929688,
-    "price_5days_ago": 199.6370086669922,
-    "change_percent": -10.07,
-    "market_cap": 110489067520,
-    "company_name": "Accenture plc",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
   }
 ]
