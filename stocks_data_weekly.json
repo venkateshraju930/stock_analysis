@@ -1,32 +1,22 @@
 [
   {
     "symbol": "OKTA",
-    "price": 64.9000015258789,
-    "price_5days_ago": 79.33999633789062,
-    "change_percent": -18.2,
-    "market_cap": 11502241792,
+    "price": 66.69999694824219,
+    "price_5days_ago": 76.04000091552734,
+    "change_percent": -12.28,
+    "market_cap": 11821255680,
     "company_name": "Okta, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "NET",
-    "price": 180.6199951171875,
-    "price_5days_ago": 216.2899932861328,
-    "change_percent": -16.49,
-    "market_cap": 63574679552,
+    "price": 188.00999450683594,
+    "price_5days_ago": 211.25,
+    "change_percent": -11.0,
+    "market_cap": 66175811584,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "OXY",
-    "price": 55.345001220703125,
-    "price_5days_ago": 62.939998626708984,
-    "change_percent": -12.07,
-    "market_cap": 54885371904,
-    "company_name": "Occidental Petroleum Corporation",
-    "sector": "Energy",
-    "industry": "Oil & Gas E&P"
   }
 ]
