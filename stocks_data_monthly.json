@@ -1,50 +1,50 @@
 [
   {
     "symbol": "SNOW",
-    "price": 144.60000610351562,
+    "price": 143.97999572753906,
     "price_1mo_ago": 173.25,
-    "change_percent": -16.54,
-    "market_cap": 49988222976,
+    "change_percent": -16.89,
+    "market_cap": 49773883392,
     "company_name": "Snowflake Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "NKE",
-    "price": 46.19499969482422,
+    "price": 46.029998779296875,
     "price_1mo_ago": 53.470001220703125,
-    "change_percent": -13.61,
-    "market_cap": 68409577472,
+    "change_percent": -13.91,
+    "market_cap": 68165230592,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
-    "symbol": "NET",
-    "price": 197.39999389648438,
-    "price_1mo_ago": 225.47999572753906,
-    "change_percent": -12.45,
-    "market_cap": 69479153664,
-    "company_name": "Cloudflare, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
     "symbol": "INTU",
-    "price": 392.33441162109375,
+    "price": 393.25,
     "price_1mo_ago": 445.4135437011719,
-    "change_percent": -11.92,
-    "market_cap": 109176496128,
+    "change_percent": -11.71,
+    "market_cap": 109431283712,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
+    "symbol": "NET",
+    "price": 200.99000549316406,
+    "price_1mo_ago": 225.47999572753906,
+    "change_percent": -10.86,
+    "market_cap": 70744522752,
+    "company_name": "Cloudflare, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
     "symbol": "ABT",
-    "price": 96.91999816894531,
+    "price": 96.80999755859375,
     "price_1mo_ago": 107.81361389160156,
-    "change_percent": -10.1,
-    "market_cap": 168416231424,
+    "change_percent": -10.21,
+    "market_cap": 168225079296,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
