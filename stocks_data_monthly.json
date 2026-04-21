@@ -1,42 +1,32 @@
 [
   {
-    "symbol": "SNOW",
-    "price": 150.3800048828125,
-    "price_1mo_ago": 175.39999389648438,
-    "change_percent": -14.26,
-    "market_cap": 51986366464,
-    "company_name": "Snowflake Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "symbol": "TSCO",
+    "price": 40.14500045776367,
+    "price_1mo_ago": 45.77000045776367,
+    "change_percent": -12.29,
+    "market_cap": 21119846400,
+    "company_name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
   },
   {
     "symbol": "NKE",
-    "price": 46.19929885864258,
-    "price_1mo_ago": 53.439998626708984,
-    "change_percent": -13.55,
-    "market_cap": 68415942656,
+    "price": 46.45500183105469,
+    "price_1mo_ago": 52.369998931884766,
+    "change_percent": -11.29,
+    "market_cap": 68794613760,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
-    "symbol": "PSX",
-    "price": 156.02000427246094,
-    "price_1mo_ago": 178.33999633789062,
-    "change_percent": -12.52,
-    "market_cap": 62561304576,
-    "company_name": "Phillips 66",
-    "sector": "Energy",
-    "industry": "Oil & Gas Refining & Marketing"
-  },
-  {
-    "symbol": "INTU",
-    "price": 400.3699951171875,
-    "price_1mo_ago": 453.8374938964844,
-    "change_percent": -11.78,
-    "market_cap": 111412592640,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "symbol": "ABT",
+    "price": 93.13500213623047,
+    "price_1mo_ago": 104.80250549316406,
+    "change_percent": -11.13,
+    "market_cap": 161839104000,
+    "company_name": "Abbott Laboratories",
+    "sector": "Healthcare",
+    "industry": "Medical Devices"
   }
 ]

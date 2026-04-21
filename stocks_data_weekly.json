@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "symbol": "NFLX",
+    "price": 92.87000274658203,
+    "price_5days_ago": 106.27999877929688,
+    "change_percent": -12.62,
+    "market_cap": 392069971968,
+    "company_name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  {
+    "symbol": "TSCO",
+    "price": 40.08000183105469,
+    "price_5days_ago": 45.02000045776367,
+    "change_percent": -10.97,
+    "market_cap": 21093529600,
+    "company_name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
+  },
+  {
+    "symbol": "GE",
+    "price": 284.9849853515625,
+    "price_5days_ago": 318.0,
+    "change_percent": -10.38,
+    "market_cap": 300606128128,
+    "company_name": "GE Aerospace",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  }
+]
