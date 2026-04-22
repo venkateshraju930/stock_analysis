@@ -1,32 +1,62 @@
 [
   {
     "symbol": "TSCO",
-    "price": 40.14500045776367,
-    "price_1mo_ago": 45.77000045776367,
-    "change_percent": -12.29,
-    "market_cap": 21119846400,
+    "price": 38.935001373291016,
+    "price_1mo_ago": 45.66999816894531,
+    "change_percent": -14.75,
+    "market_cap": 20493488128,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
     "symbol": "NKE",
-    "price": 46.45500183105469,
-    "price_1mo_ago": 52.369998931884766,
-    "change_percent": -11.29,
-    "market_cap": 68794613760,
+    "price": 45.88999938964844,
+    "price_1mo_ago": 52.709999084472656,
+    "change_percent": -12.94,
+    "market_cap": 67957903360,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
     "symbol": "ABT",
-    "price": 93.13500213623047,
-    "price_1mo_ago": 104.80250549316406,
-    "change_percent": -11.13,
-    "market_cap": 161839104000,
+    "price": 92.1500015258789,
+    "price_1mo_ago": 104.1963119506836,
+    "change_percent": -11.56,
+    "market_cap": 160127483904,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 154.21690368652344,
+    "price_1mo_ago": 174.1999969482422,
+    "change_percent": -11.47,
+    "market_cap": 53312782336,
+    "company_name": "Snowflake Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "INTU",
+    "price": 406.29998779296875,
+    "price_1mo_ago": 455.61199951171875,
+    "change_percent": -10.82,
+    "market_cap": 113062756352,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "LMT",
+    "price": 551.8499755859375,
+    "price_1mo_ago": 616.25,
+    "change_percent": -10.45,
+    "market_cap": 127180513280,
+    "company_name": "Lockheed Martin Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
   }
 ]
