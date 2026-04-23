@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "TMO",
+    "price": 457.95001220703125,
+    "prev_close": 513.97998046875,
+    "change_percent": -10.9,
+    "market_cap": 170184015872,
+    "company_name": "Thermo Fisher Scientific Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
+  }
+]

@@ -1,32 +1,52 @@
 [
   {
     "symbol": "NFLX",
-    "price": 93.08499908447266,
-    "price_5days_ago": 107.70999908447266,
-    "change_percent": -13.58,
-    "market_cap": 393019949056,
+    "price": 92.19999694824219,
+    "price_5days_ago": 107.79000091552734,
+    "change_percent": -14.46,
+    "market_cap": 388214587392,
     "company_name": "Netflix, Inc.",
     "sector": "Communication Services",
     "industry": "Entertainment"
   },
   {
     "symbol": "TSCO",
-    "price": 38.814998626708984,
-    "price_5days_ago": 44.75,
-    "change_percent": -13.26,
-    "market_cap": 20430325760,
+    "price": 38.29999923706055,
+    "price_5days_ago": 44.630001068115234,
+    "change_percent": -14.18,
+    "market_cap": 20159254528,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
-    "symbol": "GE",
-    "price": 272.9743957519531,
-    "price_5days_ago": 313.92999267578125,
-    "change_percent": -13.05,
-    "market_cap": 285311500288,
-    "company_name": "GE Aerospace",
+    "symbol": "LMT",
+    "price": 525.2449951171875,
+    "price_5days_ago": 607.489990234375,
+    "change_percent": -13.54,
+    "market_cap": 121049071616,
+    "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
+  },
+  {
+    "symbol": "ALB",
+    "price": 188.1300048828125,
+    "price_5days_ago": 215.6199951171875,
+    "change_percent": -12.75,
+    "market_cap": 22178060288,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "TMO",
+    "price": 458.3450012207031,
+    "price_5days_ago": 516.0,
+    "change_percent": -11.17,
+    "market_cap": 170330800128,
+    "company_name": "Thermo Fisher Scientific Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research"
   }
 ]

@@ -1,62 +1,72 @@
 [
   {
-    "symbol": "TSCO",
-    "price": 38.935001373291016,
-    "price_1mo_ago": 45.66999816894531,
-    "change_percent": -14.75,
-    "market_cap": 20493488128,
-    "company_name": "Tractor Supply Company",
-    "sector": "Consumer Cyclical",
-    "industry": "Specialty Retail"
-  },
-  {
     "symbol": "NKE",
-    "price": 45.88999938964844,
-    "price_1mo_ago": 52.709999084472656,
-    "change_percent": -12.94,
-    "market_cap": 67957903360,
+    "price": 44.505001068115234,
+    "price_1mo_ago": 53.4900016784668,
+    "change_percent": -16.8,
+    "market_cap": 65906880512,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
+    "symbol": "TSCO",
+    "price": 38.26499938964844,
+    "price_1mo_ago": 45.4900016784668,
+    "change_percent": -15.88,
+    "market_cap": 20140832768,
+    "company_name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
+  },
+  {
+    "symbol": "LMT",
+    "price": 525.2899780273438,
+    "price_1mo_ago": 610.1699829101562,
+    "change_percent": -13.91,
+    "market_cap": 121059434496,
+    "company_name": "Lockheed Martin Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  {
+    "symbol": "PSX",
+    "price": 159.52999877929688,
+    "price_1mo_ago": 184.1199951171875,
+    "change_percent": -13.36,
+    "market_cap": 63968751616,
+    "company_name": "Phillips 66",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing"
+  },
+  {
+    "symbol": "INTU",
+    "price": 376.67010498046875,
+    "price_1mo_ago": 431.11773681640625,
+    "change_percent": -12.63,
+    "market_cap": 104817524736,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
     "symbol": "ABT",
-    "price": 92.1500015258789,
-    "price_1mo_ago": 104.1963119506836,
-    "change_percent": -11.56,
-    "market_cap": 160127483904,
+    "price": 91.08499908447266,
+    "price_1mo_ago": 103.4112319946289,
+    "change_percent": -11.92,
+    "market_cap": 158276845568,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
   },
   {
     "symbol": "SNOW",
-    "price": 154.21690368652344,
-    "price_1mo_ago": 174.1999969482422,
-    "change_percent": -11.47,
-    "market_cap": 53312782336,
+    "price": 142.60000610351562,
+    "price_1mo_ago": 161.33999633789062,
+    "change_percent": -11.62,
+    "market_cap": 49296822272,
     "company_name": "Snowflake Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
-  },
-  {
-    "symbol": "INTU",
-    "price": 406.29998779296875,
-    "price_1mo_ago": 455.61199951171875,
-    "change_percent": -10.82,
-    "market_cap": 113062756352,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "LMT",
-    "price": 551.8499755859375,
-    "price_1mo_ago": 616.25,
-    "change_percent": -10.45,
-    "market_cap": 127180513280,
-    "company_name": "Lockheed Martin Corporation",
-    "sector": "Industrials",
-    "industry": "Aerospace & Defense"
   }
 ]
