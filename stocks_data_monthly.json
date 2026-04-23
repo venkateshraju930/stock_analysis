@@ -1,72 +1,62 @@
 [
   {
     "symbol": "NKE",
-    "price": 44.505001068115234,
+    "price": 44.69499969482422,
     "price_1mo_ago": 53.4900016784668,
-    "change_percent": -16.8,
-    "market_cap": 65906880512,
+    "change_percent": -16.44,
+    "market_cap": 66188247040,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
     "symbol": "TSCO",
-    "price": 38.26499938964844,
+    "price": 38.345001220703125,
     "price_1mo_ago": 45.4900016784668,
-    "change_percent": -15.88,
-    "market_cap": 20140832768,
+    "change_percent": -15.71,
+    "market_cap": 20182941696,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
     "symbol": "LMT",
-    "price": 525.2899780273438,
+    "price": 528.5549926757812,
     "price_1mo_ago": 610.1699829101562,
-    "change_percent": -13.91,
-    "market_cap": 121059434496,
+    "change_percent": -13.38,
+    "market_cap": 121811902464,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
     "symbol": "PSX",
-    "price": 159.52999877929688,
+    "price": 160.50999450683594,
     "price_1mo_ago": 184.1199951171875,
-    "change_percent": -13.36,
-    "market_cap": 63968751616,
+    "change_percent": -12.82,
+    "market_cap": 64361713664,
     "company_name": "Phillips 66",
     "sector": "Energy",
     "industry": "Oil & Gas Refining & Marketing"
   },
   {
     "symbol": "INTU",
-    "price": 376.67010498046875,
+    "price": 379.94000244140625,
     "price_1mo_ago": 431.11773681640625,
-    "change_percent": -12.63,
-    "market_cap": 104817524736,
+    "change_percent": -11.87,
+    "market_cap": 105727451136,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "ABT",
-    "price": 91.08499908447266,
+    "price": 91.58509826660156,
     "price_1mo_ago": 103.4112319946289,
-    "change_percent": -11.92,
-    "market_cap": 158276845568,
+    "change_percent": -11.44,
+    "market_cap": 159145869312,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
-  },
-  {
-    "symbol": "SNOW",
-    "price": 142.60000610351562,
-    "price_1mo_ago": 161.33999633789062,
-    "change_percent": -11.62,
-    "market_cap": 49296822272,
-    "company_name": "Snowflake Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
   }
 ]

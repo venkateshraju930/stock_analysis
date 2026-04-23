@@ -1,50 +1,50 @@
 [
   {
-    "symbol": "NFLX",
-    "price": 92.19999694824219,
-    "price_5days_ago": 107.79000091552734,
-    "change_percent": -14.46,
-    "market_cap": 388214587392,
-    "company_name": "Netflix, Inc.",
-    "sector": "Communication Services",
-    "industry": "Entertainment"
-  },
-  {
     "symbol": "TSCO",
-    "price": 38.29999923706055,
+    "price": 38.3650016784668,
     "price_5days_ago": 44.630001068115234,
-    "change_percent": -14.18,
-    "market_cap": 20159254528,
+    "change_percent": -14.04,
+    "market_cap": 20193468416,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
+    "symbol": "NFLX",
+    "price": 93.05500030517578,
+    "price_5days_ago": 107.79000091552734,
+    "change_percent": -13.67,
+    "market_cap": 391835877376,
+    "company_name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  {
     "symbol": "LMT",
-    "price": 525.2449951171875,
+    "price": 528.9600219726562,
     "price_5days_ago": 607.489990234375,
-    "change_percent": -13.54,
-    "market_cap": 121049071616,
+    "change_percent": -12.93,
+    "market_cap": 121905242112,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
     "symbol": "ALB",
-    "price": 188.1300048828125,
+    "price": 192.05999755859375,
     "price_5days_ago": 215.6199951171875,
-    "change_percent": -12.75,
-    "market_cap": 22178060288,
+    "change_percent": -10.93,
+    "market_cap": 22641354752,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
   },
   {
     "symbol": "TMO",
-    "price": 458.3450012207031,
+    "price": 461.1499938964844,
     "price_5days_ago": 516.0,
-    "change_percent": -11.17,
-    "market_cap": 170330800128,
+    "change_percent": -10.63,
+    "market_cap": 171373199360,
     "company_name": "Thermo Fisher Scientific Inc.",
     "sector": "Healthcare",
     "industry": "Diagnostics & Research"
