@@ -1,12 +1,22 @@
 [
   {
-    "symbol": "TMO",
-    "price": 461.1400146484375,
-    "prev_close": 513.97998046875,
-    "change_percent": -10.28,
-    "market_cap": 171369480192,
-    "company_name": "Thermo Fisher Scientific Inc.",
-    "sector": "Healthcare",
-    "industry": "Diagnostics & Research"
+    "symbol": "CHTR",
+    "price": 185.74000549316406,
+    "prev_close": 241.77999877929688,
+    "change_percent": -23.18,
+    "market_cap": 23520544768,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "CMCSA",
+    "price": 28.364999771118164,
+    "prev_close": 31.639999389648438,
+    "change_percent": -10.35,
+    "market_cap": 103359070208,
+    "company_name": "Comcast Corporation",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
   }
 ]

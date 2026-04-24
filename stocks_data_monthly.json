@@ -1,62 +1,102 @@
 [
   {
-    "symbol": "NKE",
-    "price": 44.69499969482422,
-    "price_1mo_ago": 53.4900016784668,
-    "change_percent": -16.44,
-    "market_cap": 66188247040,
-    "company_name": "NIKE, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Footwear & Accessories"
-  },
-  {
     "symbol": "TSCO",
-    "price": 38.345001220703125,
-    "price_1mo_ago": 45.4900016784668,
-    "change_percent": -15.71,
-    "market_cap": 20182941696,
+    "price": 37.04499816894531,
+    "price_1mo_ago": 45.959999084472656,
+    "change_percent": -19.4,
+    "market_cap": 19498682368,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
     "symbol": "LMT",
-    "price": 528.5549926757812,
-    "price_1mo_ago": 610.1699829101562,
-    "change_percent": -13.38,
-    "market_cap": 121811902464,
+    "price": 507.260009765625,
+    "price_1mo_ago": 624.2000122070312,
+    "change_percent": -18.73,
+    "market_cap": 116904214528,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
-    "symbol": "PSX",
-    "price": 160.50999450683594,
-    "price_1mo_ago": 184.1199951171875,
-    "change_percent": -12.82,
-    "market_cap": 64361713664,
-    "company_name": "Phillips 66",
-    "sector": "Energy",
-    "industry": "Oil & Gas Refining & Marketing"
+    "symbol": "CHTR",
+    "price": 185.3300018310547,
+    "price_1mo_ago": 218.91000366210938,
+    "change_percent": -15.34,
+    "market_cap": 23468625920,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
   },
   {
-    "symbol": "INTU",
-    "price": 379.94000244140625,
-    "price_1mo_ago": 431.11773681640625,
-    "change_percent": -11.87,
-    "market_cap": 105727451136,
-    "company_name": "Intuit Inc.",
+    "symbol": "NKE",
+    "price": 44.94139862060547,
+    "price_1mo_ago": 52.97999954223633,
+    "change_percent": -15.17,
+    "market_cap": 66553135104,
+    "company_name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 138.9232940673828,
+    "price_1mo_ago": 160.61000061035156,
+    "change_percent": -13.5,
+    "market_cap": 48025784320,
+    "company_name": "Snowflake Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "ABT",
-    "price": 91.58509826660156,
-    "price_1mo_ago": 103.4112319946289,
-    "change_percent": -11.44,
-    "market_cap": 159145869312,
+    "price": 91.32980346679688,
+    "price_1mo_ago": 104.17643737792969,
+    "change_percent": -12.33,
+    "market_cap": 158685200384,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
+  },
+  {
+    "symbol": "PSX",
+    "price": 160.4499969482422,
+    "price_1mo_ago": 181.2899932861328,
+    "change_percent": -11.5,
+    "market_cap": 64337653760,
+    "company_name": "Phillips 66",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing"
+  },
+  {
+    "symbol": "RTX",
+    "price": 172.839599609375,
+    "price_1mo_ago": 195.0,
+    "change_percent": -11.36,
+    "market_cap": 232760213504,
+    "company_name": "RTX Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  {
+    "symbol": "TMUS",
+    "price": 189.05999755859375,
+    "price_1mo_ago": 211.36000061035156,
+    "change_percent": -10.55,
+    "market_cap": 208263086080,
+    "company_name": "T-Mobile US, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "CVX",
+    "price": 183.72500610351562,
+    "price_1mo_ago": 205.14999389648438,
+    "change_percent": -10.44,
+    "market_cap": 365961609216,
+    "company_name": "Chevron Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
   }
 ]
