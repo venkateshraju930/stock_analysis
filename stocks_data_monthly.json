@@ -1,92 +1,122 @@
 [
   {
     "symbol": "TSCO",
-    "price": 36.7400016784668,
-    "price_1mo_ago": 45.959999084472656,
-    "change_percent": -20.06,
-    "market_cap": 19338147840,
+    "price": 35.8650016784668,
+    "price_1mo_ago": 45.88999938964844,
+    "change_percent": -21.85,
+    "market_cap": 18877589504,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
-    "symbol": "LMT",
-    "price": 513.4500122070312,
-    "price_1mo_ago": 624.2000122070312,
-    "change_percent": -17.74,
-    "market_cap": 118382895104,
-    "company_name": "Lockheed Martin Corporation",
-    "sector": "Industrials",
-    "industry": "Aerospace & Defense"
-  },
-  {
     "symbol": "CHTR",
-    "price": 180.1300048828125,
-    "price_1mo_ago": 218.91000366210938,
-    "change_percent": -17.72,
-    "market_cap": 25430460416,
+    "price": 174.25,
+    "price_1mo_ago": 218.50999450683594,
+    "change_percent": -20.26,
+    "market_cap": 24600330240,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
+    "symbol": "LMT",
+    "price": 515.6099853515625,
+    "price_1mo_ago": 627.3300170898438,
+    "change_percent": -17.81,
+    "market_cap": 118880903168,
+    "company_name": "Lockheed Martin Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  {
     "symbol": "NKE",
-    "price": 44.689998626708984,
-    "price_1mo_ago": 52.97999954223633,
-    "change_percent": -15.65,
-    "market_cap": 66180841472,
+    "price": 45.09000015258789,
+    "price_1mo_ago": 52.06999969482422,
+    "change_percent": -13.41,
+    "market_cap": 66758389760,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
   },
   {
-    "symbol": "SNOW",
-    "price": 140.32000732421875,
-    "price_1mo_ago": 160.61000061035156,
-    "change_percent": -12.63,
-    "market_cap": 48508624896,
-    "company_name": "Snowflake Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "ABT",
-    "price": 91.12999725341797,
-    "price_1mo_ago": 104.17643737792969,
-    "change_percent": -12.52,
-    "market_cap": 158355046400,
-    "company_name": "Abbott Laboratories",
-    "sector": "Healthcare",
-    "industry": "Medical Devices"
-  },
-  {
-    "symbol": "RTX",
-    "price": 174.25999450683594,
-    "price_1mo_ago": 195.0,
-    "change_percent": -10.64,
-    "market_cap": 234673045504,
-    "company_name": "RTX Corporation",
-    "sector": "Industrials",
-    "industry": "Aerospace & Defense"
-  },
-  {
     "symbol": "TMUS",
-    "price": 189.8000030517578,
-    "price_1mo_ago": 211.36000061035156,
-    "change_percent": -10.2,
-    "market_cap": 209133551616,
+    "price": 185.88499450683594,
+    "price_1mo_ago": 211.58999633789062,
+    "change_percent": -12.15,
+    "market_cap": 204819759104,
     "company_name": "T-Mobile US, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
+    "symbol": "CVX",
+    "price": 184.10000610351562,
+    "price_1mo_ago": 207.7899932861328,
+    "change_percent": -11.4,
+    "market_cap": 366708588544,
+    "company_name": "Chevron Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  {
+    "symbol": "OXY",
+    "price": 57.224998474121094,
+    "price_1mo_ago": 64.36000061035156,
+    "change_percent": -11.09,
+    "market_cap": 56749756416,
+    "company_name": "Occidental Petroleum Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "ABT",
+    "price": 92.63500213623047,
+    "price_1mo_ago": 103.91805267333984,
+    "change_percent": -10.86,
+    "market_cap": 160970260480,
+    "company_name": "Abbott Laboratories",
+    "sector": "Healthcare",
+    "industry": "Medical Devices"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 144.7100067138672,
+    "price_1mo_ago": 162.3300018310547,
+    "change_percent": -10.85,
+    "market_cap": 50026250240,
+    "company_name": "Snowflake Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
     "symbol": "PSX",
-    "price": 162.85000610351562,
-    "price_1mo_ago": 181.2899932861328,
-    "change_percent": -10.17,
-    "market_cap": 65300017152,
+    "price": 164.76499938964844,
+    "price_1mo_ago": 184.00999450683594,
+    "change_percent": -10.46,
+    "market_cap": 66067898368,
     "company_name": "Phillips 66",
     "sector": "Energy",
     "industry": "Oil & Gas Refining & Marketing"
+  },
+  {
+    "symbol": "XOM",
+    "price": 148.3699951171875,
+    "price_1mo_ago": 165.42999267578125,
+    "change_percent": -10.31,
+    "market_cap": 616708702208,
+    "company_name": "Exxon Mobil Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  {
+    "symbol": "RTX",
+    "price": 173.00169372558594,
+    "price_1mo_ago": 192.85000610351562,
+    "change_percent": -10.29,
+    "market_cap": 232978513920,
+    "company_name": "RTX Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
   }
 ]
