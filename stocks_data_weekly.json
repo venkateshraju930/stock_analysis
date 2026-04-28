@@ -1,62 +1,52 @@
 [
   {
     "symbol": "CHTR",
-    "price": 174.58999633789062,
-    "price_5days_ago": 244.69000244140625,
-    "change_percent": -28.65,
-    "market_cap": 24648331264,
+    "price": 172.86000061035156,
+    "price_5days_ago": 241.9499969482422,
+    "change_percent": -28.56,
+    "market_cap": 24404092928,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
-    "symbol": "TSCO",
-    "price": 35.875,
-    "price_5days_ago": 44.810001373291016,
-    "change_percent": -19.94,
-    "market_cap": 18882852864,
-    "company_name": "Tractor Supply Company",
-    "sector": "Consumer Cyclical",
-    "industry": "Specialty Retail"
-  },
-  {
     "symbol": "FCX",
-    "price": 60.64500045776367,
-    "price_5days_ago": 70.18000030517578,
-    "change_percent": -13.59,
-    "market_cap": 87055990784,
+    "price": 58.54499816894531,
+    "price_5days_ago": 67.56999969482422,
+    "change_percent": -13.36,
+    "market_cap": 84041433088,
     "company_name": "Freeport-McMoRan Inc.",
     "sector": "Basic Materials",
     "industry": "Copper"
   },
   {
-    "symbol": "RTX",
-    "price": 173.10000610351562,
-    "price_5days_ago": 195.7899932861328,
-    "change_percent": -11.59,
-    "market_cap": 233110896640,
-    "company_name": "RTX Corporation",
-    "sector": "Industrials",
-    "industry": "Aerospace & Defense"
-  },
-  {
     "symbol": "LMT",
-    "price": 515.7000122070312,
-    "price_5days_ago": 581.280029296875,
-    "change_percent": -11.28,
-    "market_cap": 118901661696,
+    "price": 509.8900146484375,
+    "price_5days_ago": 571.9500122070312,
+    "change_percent": -10.85,
+    "market_cap": 117562089472,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
     "symbol": "TMO",
-    "price": 468.2799987792969,
-    "price_5days_ago": 526.02001953125,
-    "change_percent": -10.98,
-    "market_cap": 174022852608,
+    "price": 471.6000061035156,
+    "price_5days_ago": 524.5700073242188,
+    "change_percent": -10.1,
+    "market_cap": 175256649728,
     "company_name": "Thermo Fisher Scientific Inc.",
     "sector": "Healthcare",
     "industry": "Diagnostics & Research"
+  },
+  {
+    "symbol": "TSCO",
+    "price": 35.57339859008789,
+    "price_5days_ago": 39.56999969482422,
+    "change_percent": -10.1,
+    "market_cap": 18724104192,
+    "company_name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail"
   }
 ]
