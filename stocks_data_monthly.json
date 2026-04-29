@@ -1,92 +1,42 @@
 [
   {
     "symbol": "CHTR",
-    "price": 172.80499267578125,
-    "price_1mo_ago": 219.13999938964844,
-    "change_percent": -21.14,
-    "market_cap": 24396326912,
+    "price": 162.9600067138672,
+    "price_1mo_ago": 220.94000244140625,
+    "change_percent": -26.24,
+    "market_cap": 23012073472,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
     "symbol": "TSCO",
-    "price": 35.564998626708984,
-    "price_1mo_ago": 44.869998931884766,
-    "change_percent": -20.74,
-    "market_cap": 18719682560,
+    "price": 34.685001373291016,
+    "price_1mo_ago": 45.40999984741211,
+    "change_percent": -23.62,
+    "market_cap": 18256494592,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
     "symbol": "LMT",
-    "price": 510.0150146484375,
-    "price_1mo_ago": 615.8400268554688,
-    "change_percent": -17.18,
-    "market_cap": 117590908928,
+    "price": 511.4849853515625,
+    "price_1mo_ago": 598.5700073242188,
+    "change_percent": -14.55,
+    "market_cap": 117929828352,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
-    "symbol": "PSX",
-    "price": 164.74000549316406,
-    "price_1mo_ago": 188.27999877929688,
-    "change_percent": -12.5,
-    "market_cap": 66057875456,
-    "company_name": "Phillips 66",
-    "sector": "Energy",
-    "industry": "Oil & Gas Refining & Marketing"
-  },
-  {
     "symbol": "NKE",
-    "price": 44.97999954223633,
-    "price_1mo_ago": 51.369998931884766,
-    "change_percent": -12.44,
-    "market_cap": 66617704448,
+    "price": 44.55500030517578,
+    "price_1mo_ago": 51.2400016784668,
+    "change_percent": -13.05,
+    "market_cap": 65980923904,
     "company_name": "NIKE, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories"
-  },
-  {
-    "symbol": "TMUS",
-    "price": 185.20010375976562,
-    "price_1mo_ago": 210.82000732421875,
-    "change_percent": -12.15,
-    "market_cap": 204065095680,
-    "company_name": "T-Mobile US, Inc.",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
-    "symbol": "XOM",
-    "price": 151.0800018310547,
-    "price_1mo_ago": 170.99000549316406,
-    "change_percent": -11.64,
-    "market_cap": 627972964352,
-    "company_name": "Exxon Mobil Corporation",
-    "sector": "Energy",
-    "industry": "Oil & Gas Integrated"
-  },
-  {
-    "symbol": "CVX",
-    "price": 188.50999450683594,
-    "price_1mo_ago": 211.14999389648438,
-    "change_percent": -10.72,
-    "market_cap": 375492837376,
-    "company_name": "Chevron Corporation",
-    "sector": "Energy",
-    "industry": "Oil & Gas Integrated"
-  },
-  {
-    "symbol": "OXY",
-    "price": 58.494998931884766,
-    "price_1mo_ago": 65.31999969482422,
-    "change_percent": -10.45,
-    "market_cap": 58009206784,
-    "company_name": "Occidental Petroleum Corporation",
-    "sector": "Energy",
-    "industry": "Oil & Gas E&P"
   }
 ]
