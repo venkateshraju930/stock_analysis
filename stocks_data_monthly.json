@@ -1,42 +1,62 @@
 [
   {
     "symbol": "CHTR",
-    "price": 162.9600067138672,
-    "price_1mo_ago": 220.94000244140625,
-    "change_percent": -26.24,
-    "market_cap": 23012073472,
+    "price": 161.0399932861328,
+    "price_1mo_ago": 215.8800048828125,
+    "change_percent": -25.4,
+    "market_cap": 22735364096,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
     "symbol": "TSCO",
-    "price": 34.685001373291016,
-    "price_1mo_ago": 45.40999984741211,
-    "change_percent": -23.62,
-    "market_cap": 18256494592,
+    "price": 34.619998931884766,
+    "price_1mo_ago": 45.29999923706055,
+    "change_percent": -23.58,
+    "market_cap": 18222280704,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
+    "symbol": "NKE",
+    "price": 44.02000045776367,
+    "price_1mo_ago": 52.81999969482422,
+    "change_percent": -16.66,
+    "market_cap": 65188646912,
+    "company_name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories"
+  },
+  {
     "symbol": "LMT",
-    "price": 511.4849853515625,
-    "price_1mo_ago": 598.5700073242188,
-    "change_percent": -14.55,
-    "market_cap": 117929828352,
+    "price": 511.1449890136719,
+    "price_1mo_ago": 604.3900146484375,
+    "change_percent": -15.43,
+    "market_cap": 117851439104,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
-    "symbol": "NKE",
-    "price": 44.55500030517578,
-    "price_1mo_ago": 51.2400016784668,
-    "change_percent": -13.05,
-    "market_cap": 65980923904,
-    "company_name": "NIKE, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Footwear & Accessories"
+    "symbol": "ABT",
+    "price": 90.44000244140625,
+    "price_1mo_ago": 102.02989959716797,
+    "change_percent": -11.36,
+    "market_cap": 157156048896,
+    "company_name": "Abbott Laboratories",
+    "sector": "Healthcare",
+    "industry": "Medical Devices"
+  },
+  {
+    "symbol": "INTU",
+    "price": 384.1099853515625,
+    "price_1mo_ago": 431.0479431152344,
+    "change_percent": -10.89,
+    "market_cap": 106887856128,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
   }
 ]
