@@ -1,32 +1,12 @@
 [
   {
-    "symbol": "CHTR",
-    "price": 160.48500061035156,
-    "price_5days_ago": 241.77999877929688,
-    "change_percent": -33.62,
-    "market_cap": 22657009664,
-    "company_name": "Charter Communications, Inc.",
+    "symbol": "RBLX",
+    "price": 45.939998626708984,
+    "price_5days_ago": 56.09000015258789,
+    "change_percent": -18.1,
+    "market_cap": 32883628032,
+    "company_name": "Roblox Corporation",
     "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
-    "symbol": "CMCSA",
-    "price": 26.795000076293945,
-    "price_5days_ago": 31.639999389648438,
-    "change_percent": -15.31,
-    "market_cap": 95717867520,
-    "company_name": "Comcast Corporation",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
-    "symbol": "SOFI",
-    "price": 16.18000030517578,
-    "price_5days_ago": 18.31999969482422,
-    "change_percent": -11.68,
-    "market_cap": 20733206528,
-    "company_name": "SoFi Technologies, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
+    "industry": "Electronic Gaming & Multimedia"
   }
 ]

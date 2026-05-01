@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "RBLX",
+    "price": 45.900001525878906,
+    "prev_close": 55.2599983215332,
+    "change_percent": -16.94,
+    "market_cap": 32854996992,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
+  }
+]

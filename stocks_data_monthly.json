@@ -1,62 +1,62 @@
 [
   {
-    "symbol": "CHTR",
-    "price": 161.0399932861328,
-    "price_1mo_ago": 215.8800048828125,
-    "change_percent": -25.4,
-    "market_cap": 22735364096,
-    "company_name": "Charter Communications, Inc.",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
     "symbol": "TSCO",
-    "price": 34.619998931884766,
-    "price_1mo_ago": 45.29999923706055,
-    "change_percent": -23.58,
-    "market_cap": 18222280704,
+    "price": 33.9900016784668,
+    "price_1mo_ago": 44.529998779296875,
+    "change_percent": -23.67,
+    "market_cap": 17890680832,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
-    "symbol": "NKE",
-    "price": 44.02000045776367,
-    "price_1mo_ago": 52.81999969482422,
-    "change_percent": -16.66,
-    "market_cap": 65188646912,
-    "company_name": "NIKE, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Footwear & Accessories"
+    "symbol": "RBLX",
+    "price": 45.959999084472656,
+    "price_1mo_ago": 57.630001068115234,
+    "change_percent": -20.25,
+    "market_cap": 32897943552,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
+  },
+  {
+    "symbol": "CHTR",
+    "price": 173.0800018310547,
+    "price_1mo_ago": 216.27000427246094,
+    "change_percent": -19.97,
+    "market_cap": 24435152896,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
   },
   {
     "symbol": "LMT",
-    "price": 511.1449890136719,
-    "price_1mo_ago": 604.3900146484375,
-    "change_percent": -15.43,
-    "market_cap": 117851439104,
+    "price": 513.3900146484375,
+    "price_1mo_ago": 617.6400146484375,
+    "change_percent": -16.88,
+    "market_cap": 118369058816,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
     "symbol": "ABT",
-    "price": 90.44000244140625,
-    "price_1mo_ago": 102.02989959716797,
-    "change_percent": -11.36,
-    "market_cap": 157156048896,
+    "price": 89.88999938964844,
+    "price_1mo_ago": 101.74170684814453,
+    "change_percent": -11.65,
+    "market_cap": 156571582464,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
   },
   {
-    "symbol": "INTU",
-    "price": 384.1099853515625,
-    "price_1mo_ago": 431.0479431152344,
-    "change_percent": -10.89,
-    "market_cap": 106887856128,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "symbol": "RTX",
+    "price": 174.41000366210938,
+    "price_1mo_ago": 194.72000122070312,
+    "change_percent": -10.43,
+    "market_cap": 234875060224,
+    "company_name": "RTX Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
   }
 ]
