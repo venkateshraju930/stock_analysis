@@ -1,32 +1,22 @@
 [
   {
     "symbol": "RBLX",
-    "price": 45.130001068115234,
-    "price_5days_ago": 56.09000015258789,
-    "change_percent": -19.54,
-    "market_cap": 32303835136,
+    "price": 48.18989944458008,
+    "price_5days_ago": 57.52000045776367,
+    "change_percent": -16.22,
+    "market_cap": 34494095360,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "SOFI",
-    "price": 16.43000030517578,
-    "price_5days_ago": 18.440000534057617,
-    "change_percent": -10.9,
-    "market_cap": 21053558784,
+    "price": 16.385000228881836,
+    "price_5days_ago": 18.760000228881836,
+    "change_percent": -12.66,
+    "market_cap": 20995895296,
     "company_name": "SoFi Technologies, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
-  },
-  {
-    "symbol": "NEM",
-    "price": 108.62000274658203,
-    "price_5days_ago": 120.69999694824219,
-    "change_percent": -10.01,
-    "market_cap": 115957587968,
-    "company_name": "Newmont Corporation",
-    "sector": "Basic Materials",
-    "industry": "Gold"
   }
 ]

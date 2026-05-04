@@ -1,62 +1,72 @@
 [
   {
     "symbol": "TSCO",
-    "price": 33.83000183105469,
-    "price_1mo_ago": 44.529998779296875,
-    "change_percent": -24.03,
-    "market_cap": 17806465024,
+    "price": 32.685001373291016,
+    "price_1mo_ago": 43.81999969482422,
+    "change_percent": -25.41,
+    "market_cap": 17203791872,
     "company_name": "Tractor Supply Company",
     "sector": "Consumer Cyclical",
     "industry": "Specialty Retail"
   },
   {
-    "symbol": "RBLX",
-    "price": 45.130001068115234,
-    "price_1mo_ago": 57.630001068115234,
-    "change_percent": -21.69,
-    "market_cap": 32303835136,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
     "symbol": "CHTR",
-    "price": 171.74000549316406,
-    "price_1mo_ago": 216.27000427246094,
-    "change_percent": -20.59,
-    "market_cap": 24245972992,
+    "price": 169.6699981689453,
+    "price_1mo_ago": 219.7899932861328,
+    "change_percent": -22.8,
+    "market_cap": 23944556544,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
+    "symbol": "RBLX",
+    "price": 48.185001373291016,
+    "price_1mo_ago": 60.11000061035156,
+    "change_percent": -19.84,
+    "market_cap": 34490589184,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
+  },
+  {
     "symbol": "LMT",
-    "price": 512.77001953125,
-    "price_1mo_ago": 617.6400146484375,
-    "change_percent": -16.98,
-    "market_cap": 118226108416,
+    "price": 520.9450073242188,
+    "price_1mo_ago": 622.7899780273438,
+    "change_percent": -16.35,
+    "market_cap": 120110964736,
     "company_name": "Lockheed Martin Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
   },
   {
     "symbol": "ABT",
-    "price": 89.45999908447266,
-    "price_1mo_ago": 101.74170684814453,
-    "change_percent": -12.07,
-    "market_cap": 155822604288,
+    "price": 88.06999969482422,
+    "price_1mo_ago": 102.2286605834961,
+    "change_percent": -13.85,
+    "market_cap": 153401475072,
     "company_name": "Abbott Laboratories",
     "sector": "Healthcare",
     "industry": "Medical Devices"
   },
   {
     "symbol": "RTX",
-    "price": 173.99000549316406,
-    "price_1mo_ago": 194.72000122070312,
-    "change_percent": -10.65,
-    "market_cap": 234309451776,
+    "price": 173.52499389648438,
+    "price_1mo_ago": 196.2100067138672,
+    "change_percent": -11.56,
+    "market_cap": 233683222528,
     "company_name": "RTX Corporation",
     "sector": "Industrials",
     "industry": "Aerospace & Defense"
+  },
+  {
+    "symbol": "ACN",
+    "price": 178.60000610351562,
+    "price_1mo_ago": 199.6370086669922,
+    "change_percent": -10.54,
+    "market_cap": 109916717056,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
   }
 ]
