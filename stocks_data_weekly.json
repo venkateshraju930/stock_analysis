@@ -1,32 +1,22 @@
 [
   {
-    "symbol": "RBLX",
-    "price": 44.834999084472656,
-    "price_5days_ago": 55.2599983215332,
-    "change_percent": -18.87,
-    "market_cap": 32100907008,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
     "symbol": "SHOP",
-    "price": 108.56999969482422,
-    "price_5days_ago": 121.12999725341797,
-    "change_percent": -10.37,
-    "market_cap": 140886360064,
+    "price": 108.68990325927734,
+    "price_5days_ago": 127.66999816894531,
+    "change_percent": -14.87,
+    "market_cap": 141041958912,
     "company_name": "Shopify Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "OXY",
-    "price": 54.34000015258789,
-    "price_5days_ago": 60.58000183105469,
-    "change_percent": -10.3,
-    "market_cap": 54018613248,
-    "company_name": "Occidental Petroleum Corporation",
-    "sector": "Energy",
-    "industry": "Oil & Gas E&P"
+    "symbol": "UPST",
+    "price": 28.920000076293945,
+    "price_5days_ago": 32.7400016784668,
+    "change_percent": -11.67,
+    "market_cap": 2767978496,
+    "company_name": "Upstart Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
   }
 ]
