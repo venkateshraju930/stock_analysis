@@ -1,21 +1,31 @@
 [
   {
     "symbol": "SHOP",
-    "price": 108.68990325927734,
+    "price": 110.41000366210938,
     "price_5days_ago": 127.66999816894531,
-    "change_percent": -14.87,
-    "market_cap": 141041958912,
+    "change_percent": -13.52,
+    "market_cap": 143274049536,
     "company_name": "Shopify Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "UPST",
-    "price": 28.920000076293945,
+    "price": 28.959999084472656,
     "price_5days_ago": 32.7400016784668,
-    "change_percent": -11.67,
-    "market_cap": 2767978496,
+    "change_percent": -11.55,
+    "market_cap": 2771806976,
     "company_name": "Upstart Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "PYPL",
+    "price": 45.369998931884766,
+    "price_5days_ago": 50.439998626708984,
+    "change_percent": -10.05,
+    "market_cap": 40021123072,
+    "company_name": "PayPal Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   }
