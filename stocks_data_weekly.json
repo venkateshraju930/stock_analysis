@@ -1,62 +1,22 @@
 [
   {
-    "symbol": "SHOP",
-    "price": 103.54989624023438,
-    "price_5days_ago": 127.55000305175781,
-    "change_percent": -18.82,
-    "market_cap": 134372007936,
-    "company_name": "Shopify Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
     "symbol": "NET",
-    "price": 195.02000427246094,
-    "price_5days_ago": 224.1699981689453,
-    "change_percent": -13.0,
-    "market_cap": 68915011584,
+    "price": 190.38999938964844,
+    "price_5days_ago": 244.42999267578125,
+    "change_percent": -22.11,
+    "market_cap": 67296436224,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "RBLX",
-    "price": 41.970001220703125,
-    "price_5days_ago": 47.56999969482422,
-    "change_percent": -11.77,
-    "market_cap": 30049628160,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "FIS",
-    "price": 42.349998474121094,
-    "price_5days_ago": 47.279998779296875,
-    "change_percent": -10.43,
-    "market_cap": 21889409024,
-    "company_name": "Fidelity National Information Services, Inc.",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "PYPL",
-    "price": 45.18000030517578,
-    "price_5days_ago": 50.38999938964844,
-    "change_percent": -10.34,
-    "market_cap": 39853527040,
-    "company_name": "PayPal Holdings, Inc.",
+    "symbol": "UPST",
+    "price": 27.790000915527344,
+    "price_5days_ago": 31.170000076293945,
+    "change_percent": -10.84,
+    "market_cap": 2659824640,
+    "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
-  },
-  {
-    "symbol": "CHTR",
-    "price": 148.38999938964844,
-    "price_5days_ago": 165.33999633789062,
-    "change_percent": -10.25,
-    "market_cap": 20949458944,
-    "company_name": "Charter Communications, Inc.",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
   }
 ]
