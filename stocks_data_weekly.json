@@ -1,20 +1,20 @@
 [
   {
     "symbol": "NET",
-    "price": 190.38999938964844,
+    "price": 188.52499389648438,
     "price_5days_ago": 244.42999267578125,
-    "change_percent": -22.11,
-    "market_cap": 67296436224,
+    "change_percent": -22.87,
+    "market_cap": 66637221888,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "UPST",
-    "price": 27.790000915527344,
+    "price": 27.889999389648438,
     "price_5days_ago": 31.170000076293945,
-    "change_percent": -10.84,
-    "market_cap": 2659824640,
+    "change_percent": -10.52,
+    "market_cap": 2669395456,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
