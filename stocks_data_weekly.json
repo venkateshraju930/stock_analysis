@@ -1,22 +1,32 @@
 [
   {
     "symbol": "NET",
-    "price": 188.52499389648438,
-    "price_5days_ago": 244.42999267578125,
-    "change_percent": -22.87,
-    "market_cap": 66637221888,
+    "price": 192.55999755859375,
+    "price_5days_ago": 248.58999633789062,
+    "change_percent": -22.54,
+    "market_cap": 68063457280,
     "company_name": "Cloudflare, Inc.",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "UPST",
-    "price": 27.889999389648438,
-    "price_5days_ago": 31.170000076293945,
-    "change_percent": -10.52,
-    "market_cap": 2669395456,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
+    "symbol": "ACN",
+    "price": 155.8699951171875,
+    "price_5days_ago": 174.57000732421875,
+    "change_percent": -10.71,
+    "market_cap": 95927869440,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "DASH",
+    "price": 150.43499755859375,
+    "price_5days_ago": 167.97000122070312,
+    "change_percent": -10.44,
+    "market_cap": 65547345920,
+    "company_name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
   }
 ]
