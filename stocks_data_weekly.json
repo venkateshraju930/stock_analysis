@@ -1,52 +1,32 @@
 [
   {
-    "symbol": "NET",
-    "price": 198.47000122070312,
-    "price_5days_ago": 256.7900085449219,
-    "change_percent": -22.71,
-    "market_cap": 70152445952,
-    "company_name": "Cloudflare, Inc.",
+    "symbol": "INTC",
+    "price": 109.72000122070312,
+    "price_5days_ago": 124.91999816894531,
+    "change_percent": -12.17,
+    "market_cap": 551452737536,
+    "company_name": "Intel Corporation",
     "sector": "Technology",
-    "industry": "Software - Infrastructure"
+    "industry": "Semiconductors"
   },
   {
-    "symbol": "SHOP",
-    "price": 95.93499755859375,
-    "price_5days_ago": 111.73999786376953,
-    "change_percent": -14.14,
-    "market_cap": 124484009984,
-    "company_name": "Shopify Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "symbol": "CHTR",
+    "price": 136.77999877929688,
+    "price_5days_ago": 154.86000061035156,
+    "change_percent": -11.68,
+    "market_cap": 19310376960,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
   },
   {
-    "symbol": "FIS",
-    "price": 42.16999816894531,
-    "price_5days_ago": 47.25,
-    "change_percent": -10.75,
-    "market_cap": 21796792320,
-    "company_name": "Fidelity National Information Services, Inc.",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "CRM",
-    "price": 167.0399932861328,
-    "price_5days_ago": 186.33999633789062,
-    "change_percent": -10.36,
-    "market_cap": 136647696384,
-    "company_name": "Salesforce, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "DASH",
-    "price": 153.9550018310547,
-    "price_5days_ago": 171.35000610351562,
-    "change_percent": -10.15,
-    "market_cap": 67081076736,
-    "company_name": "DoorDash, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Internet Retail"
+    "symbol": "ALB",
+    "price": 182.05499267578125,
+    "price_5days_ago": 203.52000427246094,
+    "change_percent": -10.55,
+    "market_cap": 21470590976,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
   }
 ]
