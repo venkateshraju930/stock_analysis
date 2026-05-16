@@ -1,30 +1,20 @@
 [
   {
     "symbol": "INTC",
-    "price": 109.72000122070312,
+    "price": 108.7699966430664,
     "price_5days_ago": 124.91999816894531,
-    "change_percent": -12.17,
-    "market_cap": 551452737536,
+    "change_percent": -12.93,
+    "market_cap": 546677981184,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "CHTR",
-    "price": 136.77999877929688,
-    "price_5days_ago": 154.86000061035156,
-    "change_percent": -11.68,
-    "market_cap": 19310376960,
-    "company_name": "Charter Communications, Inc.",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
     "symbol": "ALB",
-    "price": 182.05499267578125,
+    "price": 180.3800048828125,
     "price_5days_ago": 203.52000427246094,
-    "change_percent": -10.55,
-    "market_cap": 21470590976,
+    "change_percent": -11.37,
+    "market_cap": 21273053184,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
