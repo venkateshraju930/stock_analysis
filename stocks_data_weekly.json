@@ -1,22 +1,62 @@
 [
   {
     "symbol": "INTC",
-    "price": 108.7699966430664,
-    "price_5days_ago": 124.91999816894531,
-    "change_percent": -12.93,
-    "market_cap": 546677981184,
+    "price": 106.2699966430664,
+    "price_5days_ago": 129.44000244140625,
+    "change_percent": -17.9,
+    "market_cap": 534112993280,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
     "symbol": "ALB",
-    "price": 180.3800048828125,
-    "price_5days_ago": 203.52000427246094,
-    "change_percent": -11.37,
-    "market_cap": 21273053184,
+    "price": 175.80999755859375,
+    "price_5days_ago": 209.99000549316406,
+    "change_percent": -16.28,
+    "market_cap": 20734089216,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "MU",
+    "price": 675.9459838867188,
+    "price_5days_ago": 795.3300170898438,
+    "change_percent": -15.01,
+    "market_cap": 762415742976,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "QCOM",
+    "price": 201.90989685058594,
+    "price_5days_ago": 237.52999877929688,
+    "change_percent": -15.0,
+    "market_cap": 212813037568,
+    "company_name": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "COIN",
+    "price": 185.66000366210938,
+    "price_5days_ago": 216.60000610351562,
+    "change_percent": -14.28,
+    "market_cap": 48914128896,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "REGN",
+    "price": 629.5800170898438,
+    "price_5days_ago": 712.77001953125,
+    "change_percent": -11.67,
+    "market_cap": 66004557824,
+    "company_name": "Regeneron Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
   }
 ]
