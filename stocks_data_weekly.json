@@ -1,32 +1,22 @@
 [
   {
     "symbol": "ALB",
-    "price": 170.36000061035156,
-    "price_5days_ago": 205.52000427246094,
-    "change_percent": -17.11,
-    "market_cap": 20091346944,
+    "price": 169.32000732421875,
+    "price_5days_ago": 200.94000244140625,
+    "change_percent": -15.74,
+    "market_cap": 19968696320,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
   },
   {
     "symbol": "REGN",
-    "price": 633.3099975585938,
-    "price_5days_ago": 723.4099731445312,
-    "change_percent": -12.45,
-    "market_cap": 66395607040,
+    "price": 645.405029296875,
+    "price_5days_ago": 719.8800048828125,
+    "change_percent": -10.35,
+    "market_cap": 67663638528,
     "company_name": "Regeneron Pharmaceuticals, Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology"
-  },
-  {
-    "symbol": "NEM",
-    "price": 105.22000122070312,
-    "price_5days_ago": 119.69000244140625,
-    "change_percent": -12.09,
-    "market_cap": 112327901184,
-    "company_name": "Newmont Corporation",
-    "sector": "Basic Materials",
-    "industry": "Gold"
   }
 ]
