@@ -1,22 +1,22 @@
 [
   {
+    "symbol": "INTU",
+    "price": 308.0,
+    "price_5days_ago": 378.2900085449219,
+    "change_percent": -18.58,
+    "market_cap": 85708414976,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
     "symbol": "ALB",
-    "price": 169.32000732421875,
-    "price_5days_ago": 200.94000244140625,
-    "change_percent": -15.74,
-    "market_cap": 19968696320,
+    "price": 170.41000366210938,
+    "price_5days_ago": 191.10000610351562,
+    "change_percent": -10.83,
+    "market_cap": 20097243136,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
-  },
-  {
-    "symbol": "REGN",
-    "price": 645.405029296875,
-    "price_5days_ago": 719.8800048828125,
-    "change_percent": -10.35,
-    "market_cap": 67663638528,
-    "company_name": "Regeneron Pharmaceuticals, Inc.",
-    "sector": "Healthcare",
-    "industry": "Biotechnology"
   }
 ]
