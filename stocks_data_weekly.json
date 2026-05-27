@@ -1,20 +1,20 @@
 [
   {
     "symbol": "INTU",
-    "price": 305.3900146484375,
-    "price_5days_ago": 403.1600036621094,
-    "change_percent": -24.25,
-    "market_cap": 83535462400,
+    "price": 306.6650085449219,
+    "price_5days_ago": 399.7099914550781,
+    "change_percent": -23.28,
+    "market_cap": 83884220416,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "WMT",
-    "price": 118.30999755859375,
-    "price_5days_ago": 133.33999633789062,
-    "change_percent": -11.27,
-    "market_cap": 943047901184,
+    "price": 118.68000030517578,
+    "price_5days_ago": 134.1999969482422,
+    "change_percent": -11.56,
+    "market_cap": 945997152256,
     "company_name": "Walmart Inc.",
     "sector": "Consumer Defensive",
     "industry": "Discount Stores"
