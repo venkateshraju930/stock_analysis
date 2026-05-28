@@ -1,22 +1,22 @@
 [
   {
     "symbol": "INTU",
-    "price": 306.6650085449219,
-    "price_5days_ago": 399.7099914550781,
-    "change_percent": -23.28,
-    "market_cap": 83884220416,
+    "price": 315.67999267578125,
+    "price_5days_ago": 383.92999267578125,
+    "change_percent": -17.78,
+    "market_cap": 86350151680,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "WMT",
-    "price": 118.68000030517578,
-    "price_5days_ago": 134.1999969482422,
-    "change_percent": -11.56,
-    "market_cap": 945997152256,
-    "company_name": "Walmart Inc.",
-    "sector": "Consumer Defensive",
-    "industry": "Discount Stores"
+    "symbol": "AZO",
+    "price": 2974.969970703125,
+    "price_5days_ago": 3419.360107421875,
+    "change_percent": -13.0,
+    "market_cap": 48697282560,
+    "company_name": "AutoZone, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
   }
 ]
