@@ -1,20 +1,10 @@
 [
   {
-    "symbol": "INTU",
-    "price": 315.67999267578125,
-    "price_5days_ago": 383.92999267578125,
-    "change_percent": -17.78,
-    "market_cap": 86350151680,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
     "symbol": "AZO",
-    "price": 2974.969970703125,
-    "price_5days_ago": 3419.360107421875,
-    "change_percent": -13.0,
-    "market_cap": 48697282560,
+    "price": 2957.64501953125,
+    "price_5days_ago": 3438.179931640625,
+    "change_percent": -13.98,
+    "market_cap": 48413691904,
     "company_name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts"

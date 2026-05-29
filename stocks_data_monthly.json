@@ -1,72 +1,72 @@
 [
   {
     "symbol": "INTU",
-    "price": 315.2099914550781,
-    "price_1mo_ago": 400.3800048828125,
-    "change_percent": -21.27,
-    "market_cap": 86221594624,
+    "price": 330.2149963378906,
+    "price_1mo_ago": 395.0799865722656,
+    "change_percent": -16.42,
+    "market_cap": 90326016000,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "AZO",
-    "price": 2974.969970703125,
-    "price_1mo_ago": 3563.090087890625,
-    "change_percent": -16.51,
-    "market_cap": 48697282560,
-    "company_name": "AutoZone, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Parts"
-  },
-  {
     "symbol": "RBLX",
-    "price": 46.88999938964844,
-    "price_1mo_ago": 56.11000061035156,
-    "change_percent": -16.43,
-    "market_cap": 33572243456,
+    "price": 47.22999954223633,
+    "price_1mo_ago": 56.279998779296875,
+    "change_percent": -16.08,
+    "market_cap": 33808517120,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "CHTR",
-    "price": 146.39999389648438,
-    "price_1mo_ago": 173.11000061035156,
-    "change_percent": -15.43,
-    "market_cap": 20668512256,
-    "company_name": "Charter Communications, Inc.",
-    "sector": "Communication Services",
-    "industry": "Telecom Services"
+    "symbol": "AZO",
+    "price": 2957.9599609375,
+    "price_1mo_ago": 3523.56005859375,
+    "change_percent": -16.05,
+    "market_cap": 48418844672,
+    "company_name": "AutoZone, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  {
+    "symbol": "DOW",
+    "price": 33.560001373291016,
+    "price_1mo_ago": 39.54999923706055,
+    "change_percent": -15.15,
+    "market_cap": 24191684608,
+    "company_name": "Dow Inc.",
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  {
+    "symbol": "PYPL",
+    "price": 44.72999954223633,
+    "price_1mo_ago": 50.939998626708984,
+    "change_percent": -12.19,
+    "market_cap": 39456575488,
+    "company_name": "PayPal Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
   },
   {
     "symbol": "REGN",
-    "price": 622.8599853515625,
-    "price_1mo_ago": 730.6787109375,
-    "change_percent": -14.76,
-    "market_cap": 65300037632,
+    "price": 611.2249755859375,
+    "price_1mo_ago": 685.3363647460938,
+    "change_percent": -10.81,
+    "market_cap": 64080236544,
     "company_name": "Regeneron Pharmaceuticals, Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology"
   },
   {
-    "symbol": "TSCO",
-    "price": 31.225000381469727,
-    "price_1mo_ago": 35.303367614746094,
-    "change_percent": -11.55,
-    "market_cap": 16375939072,
-    "company_name": "Tractor Supply Company",
-    "sector": "Consumer Cyclical",
-    "industry": "Specialty Retail"
-  },
-  {
-    "symbol": "PYPL",
-    "price": 44.48500061035156,
-    "price_1mo_ago": 49.63999938964844,
-    "change_percent": -10.38,
-    "market_cap": 39240462336,
-    "company_name": "PayPal Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
+    "symbol": "COP",
+    "price": 113.77999877929688,
+    "price_1mo_ago": 127.30391693115234,
+    "change_percent": -10.62,
+    "market_cap": 138617487360,
+    "company_name": "ConocoPhillips",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
   }
 ]
