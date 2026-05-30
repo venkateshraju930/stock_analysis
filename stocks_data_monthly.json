@@ -1,72 +1,72 @@
 [
   {
-    "symbol": "INTU",
-    "price": 330.2149963378906,
-    "price_1mo_ago": 395.0799865722656,
-    "change_percent": -16.42,
-    "market_cap": 90326016000,
-    "company_name": "Intuit Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "RBLX",
-    "price": 47.22999954223633,
-    "price_1mo_ago": 56.279998779296875,
-    "change_percent": -16.08,
-    "market_cap": 33808517120,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
     "symbol": "AZO",
-    "price": 2957.9599609375,
+    "price": 2935.18994140625,
     "price_1mo_ago": 3523.56005859375,
-    "change_percent": -16.05,
-    "market_cap": 48418844672,
+    "change_percent": -16.7,
+    "market_cap": 48046125056,
     "company_name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts"
   },
   {
+    "symbol": "RBLX",
+    "price": 47.150001525878906,
+    "price_1mo_ago": 56.279998779296875,
+    "change_percent": -16.22,
+    "market_cap": 33758398464,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
+  },
+  {
+    "symbol": "INTU",
+    "price": 331.5299987792969,
+    "price_1mo_ago": 395.0799865722656,
+    "change_percent": -16.09,
+    "market_cap": 90685718528,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
     "symbol": "DOW",
-    "price": 33.560001373291016,
-    "price_1mo_ago": 39.54999923706055,
-    "change_percent": -15.15,
-    "market_cap": 24191684608,
+    "price": 33.75,
+    "price_1mo_ago": 39.15188217163086,
+    "change_percent": -13.8,
+    "market_cap": 24325023744,
     "company_name": "Dow Inc.",
     "sector": "Basic Materials",
     "industry": "Chemicals"
   },
   {
     "symbol": "PYPL",
-    "price": 44.72999954223633,
+    "price": 44.75,
     "price_1mo_ago": 50.939998626708984,
-    "change_percent": -12.19,
-    "market_cap": 39456575488,
+    "change_percent": -12.15,
+    "market_cap": 39474221056,
     "company_name": "PayPal Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
-    "symbol": "REGN",
-    "price": 611.2249755859375,
-    "price_1mo_ago": 685.3363647460938,
-    "change_percent": -10.81,
-    "market_cap": 64080236544,
-    "company_name": "Regeneron Pharmaceuticals, Inc.",
-    "sector": "Healthcare",
-    "industry": "Biotechnology"
-  },
-  {
     "symbol": "COP",
-    "price": 113.77999877929688,
+    "price": 113.9800033569336,
     "price_1mo_ago": 127.30391693115234,
-    "change_percent": -10.62,
-    "market_cap": 138617487360,
+    "change_percent": -10.47,
+    "market_cap": 138861150208,
     "company_name": "ConocoPhillips",
     "sector": "Energy",
     "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "REGN",
+    "price": 614.780029296875,
+    "price_1mo_ago": 685.3363647460938,
+    "change_percent": -10.3,
+    "market_cap": 64452943872,
+    "company_name": "Regeneron Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
   }
 ]
