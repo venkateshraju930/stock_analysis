@@ -1,12 +1,12 @@
 [
   {
-    "symbol": "AZO",
-    "price": 3020.949951171875,
-    "price_5days_ago": 3406.5,
-    "change_percent": -11.32,
-    "market_cap": 49449930752,
-    "company_name": "AutoZone, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Parts"
+    "symbol": "INTC",
+    "price": 107.08999633789062,
+    "price_5days_ago": 123.5199966430664,
+    "change_percent": -13.3,
+    "market_cap": 538234322944,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
   }
 ]

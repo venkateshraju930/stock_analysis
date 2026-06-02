@@ -1,102 +1,122 @@
 [
   {
-    "symbol": "AZO",
-    "price": 3020.949951171875,
-    "price_1mo_ago": 3704.030029296875,
-    "change_percent": -18.44,
-    "market_cap": 49449930752,
-    "company_name": "AutoZone, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Parts"
-  },
-  {
-    "symbol": "RBLX",
-    "price": 47.0,
-    "price_1mo_ago": 55.2599983215332,
-    "change_percent": -14.95,
-    "market_cap": 33651001344,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "REGN",
-    "price": 600.6599731445312,
-    "price_1mo_ago": 706.0054931640625,
-    "change_percent": -14.92,
-    "market_cap": 62972608512,
-    "company_name": "Regeneron Pharmaceuticals, Inc.",
-    "sector": "Healthcare",
-    "industry": "Biotechnology"
-  },
-  {
-    "symbol": "NEE",
-    "price": 83.66000366210938,
-    "price_1mo_ago": 97.87999725341797,
-    "change_percent": -14.53,
-    "market_cap": 174481752064,
-    "company_name": "NextEra Energy, Inc.",
-    "sector": "Utilities",
-    "industry": "Utilities - Regulated Electric"
+    "symbol": "INTU",
+    "price": 323.5299987792969,
+    "price_1mo_ago": 399.0400085449219,
+    "change_percent": -18.92,
+    "market_cap": 88497422336,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
   },
   {
     "symbol": "CHTR",
-    "price": 142.60000610351562,
-    "price_1mo_ago": 165.1699981689453,
-    "change_percent": -13.66,
-    "market_cap": 20132036608,
+    "price": 140.85000610351562,
+    "price_1mo_ago": 171.74000549316406,
+    "change_percent": -17.99,
+    "market_cap": 19884974080,
     "company_name": "Charter Communications, Inc.",
     "sector": "Communication Services",
     "industry": "Telecom Services"
   },
   {
-    "symbol": "DOW",
-    "price": 34.689998626708984,
-    "price_1mo_ago": 40.08242416381836,
-    "change_percent": -13.45,
-    "market_cap": 25002520576,
-    "company_name": "Dow Inc.",
-    "sector": "Basic Materials",
-    "industry": "Chemicals"
-  },
-  {
-    "symbol": "LOW",
-    "price": 207.6999969482422,
-    "price_1mo_ago": 238.7899932861328,
-    "change_percent": -13.02,
-    "market_cap": 116458856448,
-    "company_name": "Lowe's Companies, Inc.",
+    "symbol": "AZO",
+    "price": 3040.02001953125,
+    "price_1mo_ago": 3594.080078125,
+    "change_percent": -15.42,
+    "market_cap": 49762086912,
+    "company_name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
-    "industry": "Home Improvement Retail"
-  },
-  {
-    "symbol": "ALB",
-    "price": 171.1300048828125,
-    "price_1mo_ago": 196.6999969482422,
-    "change_percent": -13.0,
-    "market_cap": 20182157312,
-    "company_name": "Albemarle Corporation",
-    "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
+    "industry": "Auto Parts"
   },
   {
     "symbol": "WMT",
-    "price": 114.5999984741211,
-    "price_1mo_ago": 131.67869567871094,
-    "change_percent": -12.97,
-    "market_cap": 913475502080,
+    "price": 113.1050033569336,
+    "price_1mo_ago": 131.34933471679688,
+    "change_percent": -13.89,
+    "market_cap": 900098555904,
     "company_name": "Walmart Inc.",
     "sector": "Consumer Defensive",
     "industry": "Discount Stores"
   },
   {
-    "symbol": "PEP",
-    "price": 141.52000427246094,
-    "price_1mo_ago": 158.49000549316406,
-    "change_percent": -10.71,
-    "market_cap": 193449492480,
-    "company_name": "PepsiCo, Inc.",
-    "sector": "Consumer Defensive",
-    "industry": "Beverages - Non-Alcoholic"
+    "symbol": "REGN",
+    "price": 604.1699829101562,
+    "price_1mo_ago": 700.3739013671875,
+    "change_percent": -13.74,
+    "market_cap": 63340597248,
+    "company_name": "Regeneron Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  {
+    "symbol": "DOW",
+    "price": 34.685001373291016,
+    "price_1mo_ago": 39.884437561035156,
+    "change_percent": -13.04,
+    "market_cap": 24998918144,
+    "company_name": "Dow Inc.",
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  {
+    "symbol": "ISRG",
+    "price": 401.55999755859375,
+    "price_1mo_ago": 457.7799987792969,
+    "change_percent": -12.28,
+    "market_cap": 142217625600,
+    "company_name": "Intuitive Surgical, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
+  },
+  {
+    "symbol": "NEE",
+    "price": 85.51499938964844,
+    "price_1mo_ago": 96.94999694824219,
+    "change_percent": -11.79,
+    "market_cap": 178350538752,
+    "company_name": "NextEra Energy, Inc.",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  {
+    "symbol": "LOW",
+    "price": 206.39999389648438,
+    "price_1mo_ago": 233.3300018310547,
+    "change_percent": -11.54,
+    "market_cap": 115790397440,
+    "company_name": "Lowe's Companies, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Home Improvement Retail"
+  },
+  {
+    "symbol": "PYPL",
+    "price": 44.724998474121094,
+    "price_1mo_ago": 50.439998626708984,
+    "change_percent": -11.33,
+    "market_cap": 39452164096,
+    "company_name": "PayPal Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "ALB",
+    "price": 172.01699829101562,
+    "price_1mo_ago": 193.8800048828125,
+    "change_percent": -11.28,
+    "market_cap": 20286765056,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "DASH",
+    "price": 156.0399932861328,
+    "price_1mo_ago": 175.83999633789062,
+    "change_percent": -11.26,
+    "market_cap": 67989544960,
+    "company_name": "DoorDash, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail"
   }
 ]
