@@ -1,12 +1,12 @@
 [
   {
-    "symbol": "INTC",
-    "price": 107.08999633789062,
-    "price_5days_ago": 123.5199966430664,
-    "change_percent": -13.3,
-    "market_cap": 538234322944,
-    "company_name": "Intel Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "CHTR",
+    "price": 129.0800018310547,
+    "price_5days_ago": 147.17999267578125,
+    "change_percent": -12.3,
+    "market_cap": 18223304704,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
   }
 ]
