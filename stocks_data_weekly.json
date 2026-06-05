@@ -1,12 +1,92 @@
 [
   {
-    "symbol": "CHTR",
-    "price": 126.86499786376953,
-    "price_5days_ago": 147.25999450683594,
-    "change_percent": -13.85,
-    "market_cap": 19877001216,
-    "company_name": "Charter Communications, Inc.",
+    "symbol": "COIN",
+    "price": 149.25,
+    "price_5days_ago": 189.02999877929688,
+    "change_percent": -21.04,
+    "market_cap": 39321518080,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "SOFI",
+    "price": 15.954999923706055,
+    "price_5days_ago": 18.219999313354492,
+    "change_percent": -12.43,
+    "market_cap": 20466137088,
+    "company_name": "SoFi Technologies, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "UPST",
+    "price": 29.639999389648438,
+    "price_5days_ago": 33.790000915527344,
+    "change_percent": -12.28,
+    "market_cap": 2836890880,
+    "company_name": "Upstart Holdings, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "RBLX",
+    "price": 41.459999084472656,
+    "price_5days_ago": 47.150001525878906,
+    "change_percent": -12.07,
+    "market_cap": 29684477952,
+    "company_name": "Roblox Corporation",
     "sector": "Communication Services",
-    "industry": "Telecom Services"
+    "industry": "Electronic Gaming & Multimedia"
+  },
+  {
+    "symbol": "QCOM",
+    "price": 220.25999450683594,
+    "price_5days_ago": 250.09628295898438,
+    "change_percent": -11.93,
+    "market_cap": 232154038272,
+    "company_name": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "AVGO",
+    "price": 394.635009765625,
+    "price_5days_ago": 446.7699890136719,
+    "change_percent": -11.67,
+    "market_cap": 1868465831936,
+    "company_name": "Broadcom Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "ALB",
+    "price": 156.97999572753906,
+    "price_5days_ago": 176.4199981689453,
+    "change_percent": -11.02,
+    "market_cap": 18513381376,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "INTU",
+    "price": 296.5899963378906,
+    "price_5days_ago": 331.5299987792969,
+    "change_percent": -10.54,
+    "market_cap": 81128333312,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "INTC",
+    "price": 102.7750015258789,
+    "price_5days_ago": 114.68000030517578,
+    "change_percent": -10.38,
+    "market_cap": 516547149824,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
   }
 ]
