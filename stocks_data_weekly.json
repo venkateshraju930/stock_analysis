@@ -1,92 +1,122 @@
 [
   {
     "symbol": "COIN",
-    "price": 149.25,
+    "price": 152.39999389648438,
     "price_5days_ago": 189.02999877929688,
-    "change_percent": -21.04,
-    "market_cap": 39321518080,
+    "change_percent": -19.38,
+    "market_cap": 40151420928,
     "company_name": "Coinbase Global, Inc.",
     "sector": "Financial Services",
     "industry": "Financial Data & Stock Exchanges"
   },
   {
+    "symbol": "AVGO",
+    "price": 385.7300109863281,
+    "price_5days_ago": 446.7699890136719,
+    "change_percent": -13.66,
+    "market_cap": 1826303639552,
+    "company_name": "Broadcom Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "QCOM",
+    "price": 215.94000244140625,
+    "price_5days_ago": 250.09628295898438,
+    "change_percent": -13.66,
+    "market_cap": 227600760832,
+    "company_name": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "INTC",
+    "price": 99.16999816894531,
+    "price_5days_ago": 114.68000030517578,
+    "change_percent": -13.52,
+    "market_cap": 498428411904,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
     "symbol": "SOFI",
-    "price": 15.954999923706055,
+    "price": 16.030000686645508,
     "price_5days_ago": 18.219999313354492,
-    "change_percent": -12.43,
-    "market_cap": 20466137088,
+    "change_percent": -12.02,
+    "market_cap": 20562343936,
     "company_name": "SoFi Technologies, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
     "symbol": "UPST",
-    "price": 29.639999389648438,
+    "price": 29.739999771118164,
     "price_5days_ago": 33.790000915527344,
-    "change_percent": -12.28,
-    "market_cap": 2836890880,
+    "change_percent": -11.99,
+    "market_cap": 2846461952,
     "company_name": "Upstart Holdings, Inc.",
     "sector": "Financial Services",
     "industry": "Credit Services"
   },
   {
-    "symbol": "RBLX",
-    "price": 41.459999084472656,
-    "price_5days_ago": 47.150001525878906,
-    "change_percent": -12.07,
-    "market_cap": 29684477952,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "QCOM",
-    "price": 220.25999450683594,
-    "price_5days_ago": 250.09628295898438,
-    "change_percent": -11.93,
-    "market_cap": 232154038272,
-    "company_name": "QUALCOMM Incorporated",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "AVGO",
-    "price": 394.635009765625,
-    "price_5days_ago": 446.7699890136719,
-    "change_percent": -11.67,
-    "market_cap": 1868465831936,
-    "company_name": "Broadcom Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
     "symbol": "ALB",
-    "price": 156.97999572753906,
+    "price": 155.44000244140625,
     "price_5days_ago": 176.4199981689453,
-    "change_percent": -11.02,
-    "market_cap": 18513381376,
+    "change_percent": -11.89,
+    "market_cap": 18331762688,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
   },
   {
+    "symbol": "RBLX",
+    "price": 41.81999969482422,
+    "price_5days_ago": 47.150001525878906,
+    "change_percent": -11.3,
+    "market_cap": 29942231040,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
+  },
+  {
+    "symbol": "MU",
+    "price": 864.010009765625,
+    "price_5days_ago": 971.0,
+    "change_percent": -11.02,
+    "market_cap": 974373453824,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
     "symbol": "INTU",
-    "price": 296.5899963378906,
+    "price": 296.760009765625,
     "price_5days_ago": 331.5299987792969,
-    "change_percent": -10.54,
-    "market_cap": 81128333312,
+    "change_percent": -10.49,
+    "market_cap": 81174839296,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "INTC",
-    "price": 102.7750015258789,
-    "price_5days_ago": 114.68000030517578,
-    "change_percent": -10.38,
-    "market_cap": 516547149824,
-    "company_name": "Intel Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "TSLA",
+    "price": 391.0,
+    "price_5days_ago": 435.7900085449219,
+    "change_percent": -10.28,
+    "market_cap": 1468487958528,
+    "company_name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  {
+    "symbol": "HON",
+    "price": 213.97000122070312,
+    "price_5days_ago": 237.86000061035156,
+    "change_percent": -10.04,
+    "market_cap": 135582760960,
+    "company_name": "Honeywell International Inc.",
+    "sector": "Industrials",
+    "industry": "Conglomerates"
   }
 ]
