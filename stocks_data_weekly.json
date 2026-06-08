@@ -1,122 +1,162 @@
 [
   {
-    "symbol": "COIN",
-    "price": 152.39999389648438,
-    "price_5days_ago": 189.02999877929688,
-    "change_percent": -19.38,
-    "market_cap": 40151420928,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
+    "symbol": "DDOG",
+    "price": 230.93499755859375,
+    "price_5days_ago": 277.489990234375,
+    "change_percent": -16.78,
+    "market_cap": 82203664384,
+    "company_name": "Datadog, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "CRWD",
+    "price": 658.5999755859375,
+    "price_5days_ago": 782.1699829101562,
+    "change_percent": -15.8,
+    "market_cap": 167656374272,
+    "company_name": "CrowdStrike Holdings, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "OKTA",
+    "price": 117.73999786376953,
+    "price_5days_ago": 139.7899932861328,
+    "change_percent": -15.77,
+    "market_cap": 20464078848,
+    "company_name": "Okta, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   },
   {
     "symbol": "AVGO",
-    "price": 385.7300109863281,
-    "price_5days_ago": 446.7699890136719,
-    "change_percent": -13.66,
-    "market_cap": 1826303639552,
+    "price": 394.94000244140625,
+    "price_5days_ago": 459.9700012207031,
+    "change_percent": -14.14,
+    "market_cap": 1869886259200,
     "company_name": "Broadcom Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "QCOM",
-    "price": 215.94000244140625,
-    "price_5days_ago": 250.09628295898438,
-    "change_percent": -13.66,
-    "market_cap": 227600760832,
-    "company_name": "QUALCOMM Incorporated",
+    "symbol": "ORCL",
+    "price": 213.3800048828125,
+    "price_5days_ago": 248.14999389648438,
+    "change_percent": -14.01,
+    "market_cap": 613690703872,
+    "company_name": "Oracle Corporation",
     "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "INTC",
-    "price": 99.16999816894531,
-    "price_5days_ago": 114.68000030517578,
-    "change_percent": -13.52,
-    "market_cap": 498428411904,
-    "company_name": "Intel Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "SOFI",
-    "price": 16.030000686645508,
-    "price_5days_ago": 18.219999313354492,
-    "change_percent": -12.02,
-    "market_cap": 20562343936,
-    "company_name": "SoFi Technologies, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
-    "symbol": "UPST",
-    "price": 29.739999771118164,
-    "price_5days_ago": 33.790000915527344,
-    "change_percent": -11.99,
-    "market_cap": 2846461952,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
-    "symbol": "ALB",
-    "price": 155.44000244140625,
-    "price_5days_ago": 176.4199981689453,
-    "change_percent": -11.89,
-    "market_cap": 18331762688,
-    "company_name": "Albemarle Corporation",
-    "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
-  },
-  {
-    "symbol": "RBLX",
-    "price": 41.81999969482422,
-    "price_5days_ago": 47.150001525878906,
-    "change_percent": -11.3,
-    "market_cap": 29942231040,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "MU",
-    "price": 864.010009765625,
-    "price_5days_ago": 971.0,
-    "change_percent": -11.02,
-    "market_cap": 974373453824,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "industry": "Software - Infrastructure"
   },
   {
     "symbol": "INTU",
-    "price": 296.760009765625,
-    "price_5days_ago": 331.5299987792969,
-    "change_percent": -10.49,
-    "market_cap": 81174839296,
+    "price": 304.260009765625,
+    "price_5days_ago": 353.760009765625,
+    "change_percent": -13.99,
+    "market_cap": 83226370048,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "TSLA",
-    "price": 391.0,
-    "price_5days_ago": 435.7900085449219,
-    "change_percent": -10.28,
-    "market_cap": 1468487958528,
-    "company_name": "Tesla, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Manufacturers"
+    "symbol": "SNOW",
+    "price": 242.125,
+    "price_5days_ago": 280.1600036621094,
+    "change_percent": -13.58,
+    "market_cap": 83920527360,
+    "company_name": "Snowflake Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "CRM",
+    "price": 183.66000366210938,
+    "price_5days_ago": 209.60000610351562,
+    "change_percent": -12.38,
+    "market_cap": 150417539072,
+    "company_name": "Salesforce, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "IBM",
+    "price": 281.8599853515625,
+    "price_5days_ago": 320.4200134277344,
+    "change_percent": -12.03,
+    "market_cap": 264916058112,
+    "company_name": "International Business Machines Corporation",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "ALB",
+    "price": 151.57000732421875,
+    "price_5days_ago": 171.1300048828125,
+    "change_percent": -11.43,
+    "market_cap": 17875355648,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
+    "symbol": "SOFI",
+    "price": 16.575000762939453,
+    "price_5days_ago": 18.579999923706055,
+    "change_percent": -10.79,
+    "market_cap": 21261436928,
+    "company_name": "SoFi Technologies, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "COIN",
+    "price": 163.4600067138672,
+    "price_5days_ago": 182.61000061035156,
+    "change_percent": -10.49,
+    "market_cap": 43062689792,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "MSFT",
+    "price": 412.2250061035156,
+    "price_5days_ago": 460.5199890136719,
+    "change_percent": -10.49,
+    "market_cap": 3062186639360,
+    "company_name": "Microsoft Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   },
   {
     "symbol": "HON",
-    "price": 213.97000122070312,
-    "price_5days_ago": 237.86000061035156,
-    "change_percent": -10.04,
-    "market_cap": 135582760960,
+    "price": 212.1750030517578,
+    "price_5days_ago": 236.5399932861328,
+    "change_percent": -10.3,
+    "market_cap": 134445350912,
     "company_name": "Honeywell International Inc.",
     "sector": "Industrials",
     "industry": "Conglomerates"
+  },
+  {
+    "symbol": "ACN",
+    "price": 176.5449981689453,
+    "price_5days_ago": 196.58999633789062,
+    "change_percent": -10.2,
+    "market_cap": 108651995136,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "SHOP",
+    "price": 111.52999877929688,
+    "price_5days_ago": 124.12000274658203,
+    "change_percent": -10.14,
+    "market_cap": 144727425024,
+    "company_name": "Shopify Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
   }
 ]
