@@ -1,132 +1,72 @@
 [
   {
-    "symbol": "ALB",
-    "price": 148.25,
-    "price_1mo_ago": 209.99000549316406,
-    "change_percent": -29.4,
-    "market_cap": 17483810816,
-    "company_name": "Albemarle Corporation",
-    "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
-  },
-  {
-    "symbol": "COIN",
-    "price": 155.6999969482422,
-    "price_1mo_ago": 216.60000610351562,
-    "change_percent": -28.12,
-    "market_cap": 41020841984,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
-  },
-  {
     "symbol": "INTU",
-    "price": 284.8800964355469,
-    "price_1mo_ago": 393.2900085449219,
-    "change_percent": -27.56,
-    "market_cap": 77925244928,
+    "price": 276.8450012207031,
+    "price_1mo_ago": 387.739990234375,
+    "change_percent": -28.6,
+    "market_cap": 75727347712,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
+    "symbol": "COIN",
+    "price": 158.91000366210938,
+    "price_1mo_ago": 207.63999938964844,
+    "change_percent": -23.47,
+    "market_cap": 41866551296,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "ALB",
+    "price": 158.3300018310547,
+    "price_1mo_ago": 205.52000427246094,
+    "change_percent": -22.96,
+    "market_cap": 18672592896,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
     "symbol": "NEM",
-    "price": 93.92500305175781,
-    "price_1mo_ago": 120.3888931274414,
-    "change_percent": -21.98,
-    "market_cap": 100269899776,
+    "price": 96.68499755859375,
+    "price_1mo_ago": 119.41117858886719,
+    "change_percent": -19.03,
+    "market_cap": 103216332800,
     "company_name": "Newmont Corporation",
     "sector": "Basic Materials",
     "industry": "Gold"
   },
   {
-    "symbol": "QCOM",
-    "price": 192.59500122070312,
-    "price_1mo_ago": 236.65591430664062,
-    "change_percent": -18.62,
-    "market_cap": 202995138560,
-    "company_name": "QUALCOMM Incorporated",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "INTC",
-    "price": 106.11499786376953,
-    "price_1mo_ago": 129.44000244140625,
-    "change_percent": -18.02,
-    "market_cap": 533359132672,
-    "company_name": "Intel Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
     "symbol": "REGN",
-    "price": 603.760009765625,
-    "price_1mo_ago": 711.70703125,
-    "change_percent": -15.17,
-    "market_cap": 63297613824,
+    "price": 615.6799926757812,
+    "price_1mo_ago": 722.3311157226562,
+    "change_percent": -14.76,
+    "market_cap": 64547295232,
     "company_name": "Regeneron Pharmaceuticals, Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology"
   },
   {
-    "symbol": "TSLA",
-    "price": 383.7099914550781,
-    "price_1mo_ago": 445.0,
-    "change_percent": -13.77,
-    "market_cap": 1441108721664,
-    "company_name": "Tesla, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Manufacturers"
-  },
-  {
-    "symbol": "BA",
-    "price": 208.75,
-    "price_1mo_ago": 238.2100067138672,
-    "change_percent": -12.37,
-    "market_cap": 164558110720,
-    "company_name": "The Boeing Company",
-    "sector": "Industrials",
-    "industry": "Aerospace & Defense"
-  },
-  {
-    "symbol": "AVGO",
-    "price": 377.7900085449219,
-    "price_1mo_ago": 428.42999267578125,
-    "change_percent": -11.82,
-    "market_cap": 1797746851840,
-    "company_name": "Broadcom Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "ZM",
-    "price": 94.4749984741211,
-    "price_1mo_ago": 107.12000274658203,
-    "change_percent": -11.8,
-    "market_cap": 27703113728,
-    "company_name": "Zoom Communications, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "AMZN",
-    "price": 238.9499969482422,
-    "price_1mo_ago": 268.989990234375,
-    "change_percent": -11.17,
-    "market_cap": 2570034872320,
-    "company_name": "Amazon.com, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Internet Retail"
-  },
-  {
     "symbol": "DOW",
-    "price": 34.275001525878906,
-    "price_1mo_ago": 38.369834899902344,
-    "change_percent": -10.67,
-    "market_cap": 24703414272,
+    "price": 34.150001525878906,
+    "price_1mo_ago": 39.0330924987793,
+    "change_percent": -12.51,
+    "market_cap": 24613320704,
     "company_name": "Dow Inc.",
     "sector": "Basic Materials",
     "industry": "Chemicals"
+  },
+  {
+    "symbol": "ZM",
+    "price": 91.8949966430664,
+    "price_1mo_ago": 102.95999908447266,
+    "change_percent": -10.75,
+    "market_cap": 26946574336,
+    "company_name": "Zoom Communications, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
   }
 ]
