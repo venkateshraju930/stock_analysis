@@ -1,30 +1,30 @@
 [
   {
     "symbol": "ADBE",
-    "price": 201.0800018310547,
+    "price": 204.02000427246094,
     "price_5days_ago": 251.44000244140625,
-    "change_percent": -20.03,
-    "market_cap": 81276534784,
+    "change_percent": -18.86,
+    "market_cap": 82464882688,
     "company_name": "Adobe Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "ORCL",
-    "price": 181.2801055908203,
+    "price": 184.1300048828125,
     "price_5days_ago": 213.67999267578125,
-    "change_percent": -15.16,
-    "market_cap": 521369944064,
+    "change_percent": -13.83,
+    "market_cap": 529566367744,
     "company_name": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "CRM",
-    "price": 164.63999938964844,
+    "price": 165.88999938964844,
     "price_5days_ago": 185.1820526123047,
-    "change_percent": -11.09,
-    "market_cap": 134840156160,
+    "change_percent": -10.42,
+    "market_cap": 135863910400,
     "company_name": "Salesforce, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
