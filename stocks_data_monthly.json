@@ -1,82 +1,72 @@
 [
   {
     "symbol": "INTU",
-    "price": 281.7449951171875,
-    "price_1mo_ago": 378.2900085449219,
-    "change_percent": -25.52,
-    "market_cap": 77067681792,
+    "price": 279.7300109863281,
+    "price_1mo_ago": 393.0,
+    "change_percent": -28.82,
+    "market_cap": 76516507648,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
+    "symbol": "ADBE",
+    "price": 207.264892578125,
+    "price_1mo_ago": 247.60000610351562,
+    "change_percent": -16.29,
+    "market_cap": 82387795968,
+    "company_name": "Adobe Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "DOW",
+    "price": 32.790000915527344,
+    "price_1mo_ago": 38.35993576049805,
+    "change_percent": -14.52,
+    "market_cap": 23633113088,
+    "company_name": "Dow Inc.",
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  {
     "symbol": "COIN",
-    "price": 170.10499572753906,
-    "price_1mo_ago": 212.00999450683594,
-    "change_percent": -19.77,
-    "market_cap": 44815990784,
+    "price": 170.8300018310547,
+    "price_1mo_ago": 195.42999267578125,
+    "change_percent": -12.59,
+    "market_cap": 45007003648,
     "company_name": "Coinbase Global, Inc.",
     "sector": "Financial Services",
     "industry": "Financial Data & Stock Exchanges"
   },
   {
     "symbol": "REGN",
-    "price": 613.9400024414062,
-    "price_1mo_ago": 711.8068237304688,
-    "change_percent": -13.75,
-    "market_cap": 64364875776,
+    "price": 614.4949951171875,
+    "price_1mo_ago": 697.2086791992188,
+    "change_percent": -11.86,
+    "market_cap": 64423059456,
     "company_name": "Regeneron Pharmaceuticals, Inc.",
     "sector": "Healthcare",
     "industry": "Biotechnology"
   },
   {
-    "symbol": "DOW",
-    "price": 33.255001068115234,
-    "price_1mo_ago": 38.38963317871094,
-    "change_percent": -13.38,
-    "market_cap": 23968258048,
-    "company_name": "Dow Inc.",
-    "sector": "Basic Materials",
-    "industry": "Chemicals"
-  },
-  {
-    "symbol": "ADBE",
-    "price": 206.18499755859375,
-    "price_1mo_ago": 237.00999450683594,
-    "change_percent": -13.01,
-    "market_cap": 83339976704,
-    "company_name": "Adobe Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
-  },
-  {
-    "symbol": "ALB",
-    "price": 169.30999755859375,
-    "price_1mo_ago": 190.61343383789062,
-    "change_percent": -11.18,
-    "market_cap": 19967514624,
-    "company_name": "Albemarle Corporation",
-    "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
-  },
-  {
     "symbol": "AVGO",
-    "price": 393.8550109863281,
-    "price_1mo_ago": 439.7900085449219,
-    "change_percent": -10.44,
-    "market_cap": 1873796792320,
+    "price": 379.2099914550781,
+    "price_1mo_ago": 425.19000244140625,
+    "change_percent": -10.81,
+    "market_cap": 1804121931776,
     "company_name": "Broadcom Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "NVDA",
-    "price": 211.61500549316406,
-    "price_1mo_ago": 235.465576171875,
-    "change_percent": -10.13,
-    "market_cap": 5125527044096,
-    "company_name": "NVIDIA Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "XOM",
+    "price": 141.1699981689453,
+    "price_1mo_ago": 157.9199981689453,
+    "change_percent": -10.61,
+    "market_cap": 585121464320,
+    "company_name": "Exxon Mobil Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
   }
 ]
