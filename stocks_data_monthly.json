@@ -1,72 +1,122 @@
 [
   {
     "symbol": "INTU",
-    "price": 279.7300109863281,
-    "price_1mo_ago": 393.0,
-    "change_percent": -28.82,
-    "market_cap": 76516507648,
+    "price": 276.4100036621094,
+    "price_1mo_ago": 403.1600036621094,
+    "change_percent": -31.44,
+    "market_cap": 75608358912,
     "company_name": "Intuit Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
     "symbol": "ADBE",
-    "price": 207.264892578125,
-    "price_1mo_ago": 247.60000610351562,
-    "change_percent": -16.29,
-    "market_cap": 82387795968,
+    "price": 201.3300018310547,
+    "price_1mo_ago": 255.63999938964844,
+    "change_percent": -21.24,
+    "market_cap": 80028672000,
     "company_name": "Adobe Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
+    "symbol": "NFLX",
+    "price": 77.4800033569336,
+    "price_1mo_ago": 89.6500015258789,
+    "change_percent": -13.58,
+    "market_cap": 326252691456,
+    "company_name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  {
     "symbol": "DOW",
-    "price": 32.790000915527344,
-    "price_1mo_ago": 38.35993576049805,
-    "change_percent": -14.52,
-    "market_cap": 23633113088,
+    "price": 33.22200012207031,
+    "price_1mo_ago": 38.171852111816406,
+    "change_percent": -12.97,
+    "market_cap": 23944472576,
     "company_name": "Dow Inc.",
     "sector": "Basic Materials",
     "industry": "Chemicals"
   },
   {
-    "symbol": "COIN",
-    "price": 170.8300018310547,
-    "price_1mo_ago": 195.42999267578125,
-    "change_percent": -12.59,
-    "market_cap": 45007003648,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
-  },
-  {
-    "symbol": "REGN",
-    "price": 614.4949951171875,
-    "price_1mo_ago": 697.2086791992188,
-    "change_percent": -11.86,
-    "market_cap": 64423059456,
-    "company_name": "Regeneron Pharmaceuticals, Inc.",
-    "sector": "Healthcare",
-    "industry": "Biotechnology"
-  },
-  {
-    "symbol": "AVGO",
-    "price": 379.2099914550781,
-    "price_1mo_ago": 425.19000244140625,
-    "change_percent": -10.81,
-    "market_cap": 1804121931776,
-    "company_name": "Broadcom Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
     "symbol": "XOM",
-    "price": 141.1699981689453,
-    "price_1mo_ago": 157.9199981689453,
-    "change_percent": -10.61,
-    "market_cap": 585121464320,
+    "price": 140.78500366210938,
+    "price_1mo_ago": 160.49000549316406,
+    "change_percent": -12.28,
+    "market_cap": 583546437632,
     "company_name": "Exxon Mobil Corporation",
     "sector": "Energy",
     "industry": "Oil & Gas Integrated"
+  },
+  {
+    "symbol": "CRM",
+    "price": 157.35000610351562,
+    "price_1mo_ago": 179.01795959472656,
+    "change_percent": -12.1,
+    "market_cap": 128869654528,
+    "company_name": "Salesforce, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "WMT",
+    "price": 117.94989776611328,
+    "price_1mo_ago": 133.33999633789062,
+    "change_percent": -11.54,
+    "market_cap": 938654629888,
+    "company_name": "Walmart Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores"
+  },
+  {
+    "symbol": "COP",
+    "price": 110.8499984741211,
+    "price_1mo_ago": 124.54000091552734,
+    "change_percent": -10.99,
+    "market_cap": 135047888896,
+    "company_name": "ConocoPhillips",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "SLB",
+    "price": 50.80500030517578,
+    "price_1mo_ago": 56.851924896240234,
+    "change_percent": -10.64,
+    "market_cap": 75956404224,
+    "company_name": "SLB N.V.",
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  {
+    "symbol": "OXY",
+    "price": 53.23500061035156,
+    "price_1mo_ago": 59.42551803588867,
+    "change_percent": -10.42,
+    "market_cap": 52949377024,
+    "company_name": "Occidental Petroleum Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "COST",
+    "price": 964.4199829101562,
+    "price_1mo_ago": 1076.469970703125,
+    "change_percent": -10.41,
+    "market_cap": 427699830784,
+    "company_name": "Costco Wholesale Corporation",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores"
+  },
+  {
+    "symbol": "COIN",
+    "price": 170.10499572753906,
+    "price_1mo_ago": 189.44000244140625,
+    "change_percent": -10.21,
+    "market_cap": 44815990784,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
   }
 ]
