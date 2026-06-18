@@ -1,10 +1,30 @@
 [
   {
+    "symbol": "ACN",
+    "price": 127.34500122070312,
+    "price_5days_ago": 167.52000427246094,
+    "change_percent": -23.98,
+    "market_cap": 78400282624,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "SLB",
+    "price": 48.27000045776367,
+    "price_5days_ago": 56.0,
+    "change_percent": -13.8,
+    "market_cap": 72173912064,
+    "company_name": "SLB N.V.",
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  {
     "symbol": "ADBE",
-    "price": 201.41000366210938,
-    "price_5days_ago": 233.3800048828125,
-    "change_percent": -13.7,
-    "market_cap": 80060473344,
+    "price": 196.14999389648438,
+    "price_5days_ago": 218.8000030517578,
+    "change_percent": -10.35,
+    "market_cap": 77969620992,
     "company_name": "Adobe Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
