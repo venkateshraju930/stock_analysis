@@ -1,1 +1,172 @@
-[]
+[
+  {
+    "symbol": "INTU",
+    "price": 267.0,
+    "price_1mo_ago": 399.7099914550781,
+    "change_percent": -33.2,
+    "market_cap": 73034375168,
+    "company_name": "Intuit Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "ACN",
+    "price": 127.9800033569336,
+    "price_1mo_ago": 176.8000030517578,
+    "change_percent": -27.61,
+    "market_cap": 78316347392,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "ADBE",
+    "price": 195.16000366210938,
+    "price_1mo_ago": 254.99000549316406,
+    "change_percent": -23.46,
+    "market_cap": 77576101888,
+    "company_name": "Adobe Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "COIN",
+    "price": 163.25999450683594,
+    "price_1mo_ago": 193.4499969482422,
+    "change_percent": -15.61,
+    "market_cap": 43012603904,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "XOM",
+    "price": 137.80999755859375,
+    "price_1mo_ago": 162.5500030517578,
+    "change_percent": -15.22,
+    "market_cap": 571215183872,
+    "company_name": "Exxon Mobil Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  {
+    "symbol": "CRM",
+    "price": 151.77999877929688,
+    "price_1mo_ago": 178.95811462402344,
+    "change_percent": -15.19,
+    "market_cap": 124307816448,
+    "company_name": "Salesforce, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "DOW",
+    "price": 31.729999542236328,
+    "price_1mo_ago": 37.360103607177734,
+    "change_percent": -15.07,
+    "market_cap": 22869125120,
+    "company_name": "Dow Inc.",
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  {
+    "symbol": "SLB",
+    "price": 48.09000015258789,
+    "price_1mo_ago": 56.47390365600586,
+    "change_percent": -14.85,
+    "market_cap": 71897325568,
+    "company_name": "SLB N.V.",
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  {
+    "symbol": "OXY",
+    "price": 51.81999969482422,
+    "price_1mo_ago": 60.42091751098633,
+    "change_percent": -14.24,
+    "market_cap": 51541970944,
+    "company_name": "Occidental Petroleum Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "NFLX",
+    "price": 77.37999725341797,
+    "price_1mo_ago": 89.33000183105469,
+    "change_percent": -13.38,
+    "market_cap": 325831589888,
+    "company_name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment"
+  },
+  {
+    "symbol": "COST",
+    "price": 951.4500122070312,
+    "price_1mo_ago": 1094.3199462890625,
+    "change_percent": -13.06,
+    "market_cap": 421947932672,
+    "company_name": "Costco Wholesale Corporation",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores"
+  },
+  {
+    "symbol": "WMT",
+    "price": 117.18000030517578,
+    "price_1mo_ago": 134.1999969482422,
+    "change_percent": -12.68,
+    "market_cap": 932527669248,
+    "company_name": "Walmart Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores"
+  },
+  {
+    "symbol": "CVX",
+    "price": 173.6300048828125,
+    "price_1mo_ago": 197.25,
+    "change_percent": -11.97,
+    "market_cap": 345801129984,
+    "company_name": "Chevron Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  {
+    "symbol": "T",
+    "price": 22.010000228881836,
+    "price_1mo_ago": 24.979999542236328,
+    "change_percent": -11.89,
+    "market_cap": 152932941824,
+    "company_name": "AT&T Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "CHTR",
+    "price": 126.2300033569336,
+    "price_1mo_ago": 142.5,
+    "change_percent": -11.42,
+    "market_cap": 19777511424,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "ZM",
+    "price": 86.36000061035156,
+    "price_1mo_ago": 97.38999938964844,
+    "change_percent": -11.33,
+    "market_cap": 25323534336,
+    "company_name": "Zoom Communications, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "CCI",
+    "price": 82.05000305175781,
+    "price_1mo_ago": 91.2749252319336,
+    "change_percent": -10.11,
+    "market_cap": 35810885632,
+    "company_name": "Crown Castle Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty"
+  }
+]

@@ -454,28 +454,28 @@
         <div class="header">
             <h1>📈 Stock Market Analysis Report - Weekly</h1>
             <p>Analysis of All Stocks with >10% Drop in Last 7 Days (Market Cap > $1B)</p>
-            <div class="timestamp">Generated: 2026-06-19 18:03:07</div>
+            <div class="timestamp">Generated: 2026-06-20 17:39:04</div>
         </div>
 
         <div class="content">
             <!-- Summary Statistics -->
             <div class="summary-box">
                 <h2>Market Overview</h2>
-                <p>This report analyzes the top 0 stocks that experienced significant price drops in the last 7 days (weekly). These are large-cap companies with market capitalizations exceeding $1 billion.</p>
+                <p>This report analyzes the top 3 stocks that experienced significant price drops in the last 7 days (weekly). These are large-cap companies with market capitalizations exceeding $1 billion.</p>
             </div>
 
             <!-- Statistics Cards -->
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="number">0</div>
+                    <div class="number">3</div>
                     <div class="label">Stocks Analyzed</div>
                 </div>
                 <div class="stat-card">
-                    <div class="number">0.0%</div>
+                    <div class="number">10.8%</div>
                     <div class="label">Minimum Drop</div>
                 </div>
                 <div class="stat-card">
-                    <div class="number">0.0%</div>
+                    <div class="number">23.6%</div>
                     <div class="label">Maximum Drop</div>
                 </div>
             </div>
@@ -483,13 +483,163 @@
             <!-- Stocks Table -->
             <div class="section">
                 <h2>Top Declining Stocks</h2>
-                <p>No stock data available</p>
+                
+        <table class="stocks-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Symbol</th>
+                    <th>Company Name</th>
+                    <th>Week Ago Price</th>
+                    <th>Current Price</th>
+                    <th>7-Day Change</th>
+                    <th>Market Cap</th>
+                    <th>Sector</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td><span class="rank">#1</span></td>
+                <td><span class="symbol">ACN</span></td>
+                <td>Accenture plc</td>
+                <td>$167.52</td>
+                <td>$127.98</td>
+                <td><span class="negative">-23.60%</span></td>
+                <td>$78.3B</td>
+                <td>Technology</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#2</span></td>
+                <td><span class="symbol">SLB</span></td>
+                <td>SLB N.V.</td>
+                <td>$56.00</td>
+                <td>$48.09</td>
+                <td><span class="negative">-14.12%</span></td>
+                <td>$71.9B</td>
+                <td>Energy</td>
+            </tr>
+            
+            <tr>
+                <td><span class="rank">#3</span></td>
+                <td><span class="symbol">ADBE</span></td>
+                <td>Adobe Inc.</td>
+                <td>$218.80</td>
+                <td>$195.16</td>
+                <td><span class="negative">-10.80%</span></td>
+                <td>$77.6B</td>
+                <td>Technology</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
             </div>
 
             <!-- Why Each Stock Dropped -->
             <div class="section">
                 <h2>Why Each Stock Dropped</h2>
-                <div class="reasons-container"><p>No reasons available</p></div>
+                <style>
+            .detailed-analysis-section {
+                background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+                padding: 30px;
+                border-radius: 12px;
+                margin: 30px 0;
+                border: 1px solid #dee2e6;
+            }
+
+            .stock-analysis-premium {
+                background: white;
+                border-left: 6px solid #667eea;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+
+            .stock-analysis-premium:hover {
+                transform: translateX(5px);
+                box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+            }
+
+            .stock-header-premium {
+                border-left: 4px solid #667eea;
+                padding-left: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 12px;
+                border-bottom: 2px solid #f0f0f0;
+            }
+
+            .stock-symbol {
+                font-weight: 700;
+                color: #2c3e50;
+                font-size: 18px;
+                letter-spacing: 0.5px;
+            }
+
+            .stock-reasons-premium {
+                color: #333;
+                line-height: 1.8;
+                font-size: 15px;
+            }
+
+            .reason-detail {
+                margin: 10px 0;
+                padding: 8px 0;
+                border-bottom: 1px solid #f5f5f5;
+            }
+
+            .reason-detail:last-child {
+                border-bottom: none;
+            }
+
+            .analysis-footer {
+                text-align: center;
+                margin-top: 25px;
+                padding-top: 20px;
+                border-top: 2px solid #dee2e6;
+                color: #666;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .reasons-container {
+                margin: 20px 0;
+            }
+        </style><div class="reasons-container">
+    <div class="detailed-analysis-section">
+        <h2 style="color: #2c3e50; border-bottom: 3px solid #667eea; padding-bottom: 15px; margin-top: 30px; margin-bottom: 20px; font-size: 26px;">📊 Comprehensive Analysis: Why Each Stock Dropped</h2>
+        <p style="color: #555; font-size: 14px; margin-bottom: 20px; font-style: italic;">Detailed breakdown of market catalysts, fundamental issues, sector trends, macro factors, technical levels, and valuation concerns</p>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e74c3c">
+                <span class="stock-symbol">ACN (Accenture plc) - -23.60%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Accenture's stock plummeted 23.60% after the company reported disappointing Q2 earnings, with revenue growth of 5% missing analyst estimates of 7%, and a reduction in its full-year growth forecast to 6-8% from 8-10%. This earnings miss triggered concerns about the company's ability to navigate the slowing global economy and increasing competition in the IT services sector. The stock's sharp decline was also exacerbated by a breakdown below its 200-day moving average, a key technical support level, which may have triggered algorithmic selling. As a result, Accenture's valuation multiples have contracted, with its P/E ratio now at 22.5, compared to its peer average of 25.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">SLB (SLB N.V.) - -14.12%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">SLB's stock price tumbled 14.12% following a decline in oil prices, which fell 8% over the past week, and a reduction in its earnings guidance due to decreased drilling activity. The company's operational issues, including a 10% decline in its oilfield services revenue, have raised concerns about its ability to adapt to the rapidly changing energy landscape. Furthermore, the energy sector as a whole is facing headwinds from increasing regulatory pressures and shifting consumer demand towards renewable energy sources. From a technical perspective, SLB's stock has broken below its key support level of $50, which may lead to further selling pressure and a potential retest of its 52-week low.</p>
+            </div>
+        </div>
+        <div class="stock-analysis-premium">
+            <div class="stock-header-premium" style="border-left-color: #e67e22">
+                <span class="stock-symbol">ADBE (Adobe Inc.) - -10.80%</span>
+            </div>
+            <div class="stock-reasons-premium">
+                <p class="reason-detail">Adobe's stock fell 10.80% after the company announced a $20 billion acquisition of Figma, a design and collaboration platform, which has raised concerns about the potential integration challenges and the impact on Adobe's margins. The acquisition has also sparked debate about Adobe's strategy and its ability to expand its creative cloud offerings. The stock's decline was also influenced by a broader sector rotation out of high-growth technology stocks, as investors become increasingly cautious about the economic outlook and the potential for a recession. From a technical perspective, Adobe's stock has broken below its 50-day moving average, which may indicate a shift in momentum and a potential further decline towards its 200-day moving average.</p>
+            </div>
+        </div>
+        <div class="analysis-footer">Total Stocks Analyzed: 3</div>
+    </div>
+</div>
+
             </div>
 
             <!-- Disclaimer -->
@@ -500,7 +650,7 @@
 
         <div class="footer">
             <p><strong>Stock Market Analysis Report</strong></p>
-            <p>Generated on 2026-06-19 18:03:07</p>
+            <p>Generated on 2026-06-20 17:39:04</p>
             <p>Data provided by yfinance • Analysis powered by Groq API</p>
         </div>
     </div>

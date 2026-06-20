@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "ACN",
+    "price": 127.9800033569336,
+    "prev_close": 156.00999450683594,
+    "change_percent": -17.97,
+    "market_cap": 78316347392,
+    "company_name": "Accenture plc",
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  }
+]
