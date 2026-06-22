@@ -1,31 +1,51 @@
 [
   {
     "symbol": "ACN",
-    "price": 127.9800033569336,
-    "price_5days_ago": 167.52000427246094,
-    "change_percent": -23.6,
-    "market_cap": 78316347392,
+    "price": 119.54000091552734,
+    "price_5days_ago": 170.27999877929688,
+    "change_percent": -29.8,
+    "market_cap": 73151553536,
     "company_name": "Accenture plc",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "SLB",
-    "price": 48.09000015258789,
-    "price_5days_ago": 56.0,
-    "change_percent": -14.12,
-    "market_cap": 71897325568,
+    "price": 47.529998779296875,
+    "price_5days_ago": 56.18000030517578,
+    "change_percent": -15.4,
+    "market_cap": 71060086784,
     "company_name": "SLB N.V.",
     "sector": "Energy",
     "industry": "Oil & Gas Equipment & Services"
   },
   {
-    "symbol": "ADBE",
-    "price": 195.16000366210938,
-    "price_5days_ago": 218.8000030517578,
-    "change_percent": -10.8,
-    "market_cap": 77576101888,
-    "company_name": "Adobe Inc.",
+    "symbol": "CHTR",
+    "price": 126.81999969482422,
+    "price_5days_ago": 145.82000732421875,
+    "change_percent": -13.03,
+    "market_cap": 19860549632,
+    "company_name": "Charter Communications, Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "TWLO",
+    "price": 182.55999755859375,
+    "price_5days_ago": 204.0800018310547,
+    "change_percent": -10.54,
+    "market_cap": 27707834368,
+    "company_name": "Twilio Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "ZM",
+    "price": 84.05000305175781,
+    "price_5days_ago": 93.68000030517578,
+    "change_percent": -10.28,
+    "market_cap": 24646168576,
+    "company_name": "Zoom Communications, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   }
