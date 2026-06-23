@@ -1,52 +1,52 @@
 [
   {
     "symbol": "ACN",
-    "price": 119.54000091552734,
-    "price_5days_ago": 170.27999877929688,
-    "change_percent": -29.8,
-    "market_cap": 73151553536,
+    "price": 125.6449966430664,
+    "price_5days_ago": 165.36000061035156,
+    "change_percent": -24.02,
+    "market_cap": 76887457792,
     "company_name": "Accenture plc",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
+    "symbol": "ORCL",
+    "price": 166.3800048828125,
+    "price_5days_ago": 192.63999938964844,
+    "change_percent": -13.63,
+    "market_cap": 478516576256,
+    "company_name": "Oracle Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
+    "symbol": "ALB",
+    "price": 150.6699981689453,
+    "price_5days_ago": 168.89999389648438,
+    "change_percent": -10.79,
+    "market_cap": 17769213952,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  {
     "symbol": "SLB",
-    "price": 47.529998779296875,
-    "price_5days_ago": 56.18000030517578,
-    "change_percent": -15.4,
-    "market_cap": 71060086784,
+    "price": 48.02000045776367,
+    "price_5days_ago": 53.709999084472656,
+    "change_percent": -10.59,
+    "market_cap": 71792672768,
     "company_name": "SLB N.V.",
     "sector": "Energy",
     "industry": "Oil & Gas Equipment & Services"
   },
   {
-    "symbol": "CHTR",
-    "price": 126.81999969482422,
-    "price_5days_ago": 145.82000732421875,
-    "change_percent": -13.03,
-    "market_cap": 19860549632,
-    "company_name": "Charter Communications, Inc.",
+    "symbol": "NFLX",
+    "price": 73.28500366210938,
+    "price_5days_ago": 81.66999816894531,
+    "change_percent": -10.27,
+    "market_cap": 308609417216,
+    "company_name": "Netflix, Inc.",
     "sector": "Communication Services",
-    "industry": "Telecom Services"
-  },
-  {
-    "symbol": "TWLO",
-    "price": 182.55999755859375,
-    "price_5days_ago": 204.0800018310547,
-    "change_percent": -10.54,
-    "market_cap": 27707834368,
-    "company_name": "Twilio Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "ZM",
-    "price": 84.05000305175781,
-    "price_5days_ago": 93.68000030517578,
-    "change_percent": -10.28,
-    "market_cap": 24646168576,
-    "company_name": "Zoom Communications, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Entertainment"
   }
 ]

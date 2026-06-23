@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "MU",
+    "price": 1059.739990234375,
+    "prev_close": 1211.3800048828125,
+    "change_percent": -12.52,
+    "market_cap": 1195104796672,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  }
+]
