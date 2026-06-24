@@ -1,52 +1,82 @@
 [
   {
     "symbol": "ACN",
-    "price": 125.6449966430664,
-    "price_5days_ago": 165.36000061035156,
-    "change_percent": -24.02,
-    "market_cap": 76887457792,
+    "price": 130.11000061035156,
+    "price_5days_ago": 165.52000427246094,
+    "change_percent": -21.39,
+    "market_cap": 79619784704,
     "company_name": "Accenture plc",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "ORCL",
-    "price": 166.3800048828125,
-    "price_5days_ago": 192.63999938964844,
-    "change_percent": -13.63,
-    "market_cap": 478516576256,
+    "price": 155.7050018310547,
+    "price_5days_ago": 188.3300018310547,
+    "change_percent": -17.32,
+    "market_cap": 448503742464,
     "company_name": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "ALB",
-    "price": 150.6699981689453,
-    "price_5days_ago": 168.89999389648438,
-    "change_percent": -10.79,
-    "market_cap": 17769213952,
-    "company_name": "Albemarle Corporation",
+    "symbol": "NEM",
+    "price": 93.19000244140625,
+    "price_5days_ago": 108.44000244140625,
+    "change_percent": -14.06,
+    "market_cap": 99485245440,
+    "company_name": "Newmont Corporation",
     "sector": "Basic Materials",
-    "industry": "Specialty Chemicals"
+    "industry": "Gold"
   },
   {
     "symbol": "SLB",
-    "price": 48.02000045776367,
-    "price_5days_ago": 53.709999084472656,
-    "change_percent": -10.59,
-    "market_cap": 71792672768,
+    "price": 46.189998626708984,
+    "price_5days_ago": 53.06999969482422,
+    "change_percent": -12.96,
+    "market_cap": 69056708608,
     "company_name": "SLB N.V.",
     "sector": "Energy",
     "industry": "Oil & Gas Equipment & Services"
   },
   {
-    "symbol": "NFLX",
-    "price": 73.28500366210938,
-    "price_5days_ago": 81.66999816894531,
-    "change_percent": -10.27,
-    "market_cap": 308609417216,
-    "company_name": "Netflix, Inc.",
-    "sector": "Communication Services",
-    "industry": "Entertainment"
+    "symbol": "FCX",
+    "price": 61.15999984741211,
+    "price_5days_ago": 70.1500015258789,
+    "change_percent": -12.82,
+    "market_cap": 87921156096,
+    "company_name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials",
+    "industry": "Copper"
+  },
+  {
+    "symbol": "DOW",
+    "price": 28.985000610351562,
+    "price_5days_ago": 32.959999084472656,
+    "change_percent": -12.06,
+    "market_cap": 20890691584,
+    "company_name": "Dow Inc.",
+    "sector": "Basic Materials",
+    "industry": "Chemicals"
+  },
+  {
+    "symbol": "COIN",
+    "price": 148.90499877929688,
+    "price_5days_ago": 169.27000427246094,
+    "change_percent": -12.03,
+    "market_cap": 39230623744,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
+  },
+  {
+    "symbol": "ALB",
+    "price": 146.7550048828125,
+    "price_5days_ago": 166.11000061035156,
+    "change_percent": -11.65,
+    "market_cap": 17307500544,
+    "company_name": "Albemarle Corporation",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
   }
 ]
