@@ -1,42 +1,32 @@
 [
   {
-    "symbol": "ACN",
-    "price": 126.31999969482422,
-    "price_5days_ago": 156.00999450683594,
-    "change_percent": -19.03,
-    "market_cap": 77300523008,
-    "company_name": "Accenture plc",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
     "symbol": "ORCL",
-    "price": 152.5509033203125,
-    "price_5days_ago": 183.52999877929688,
-    "change_percent": -16.88,
-    "market_cap": 439418454016,
+    "price": 150.39999389648438,
+    "price_5days_ago": 184.2899932861328,
+    "change_percent": -18.39,
+    "market_cap": 433222811648,
     "company_name": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure"
   },
   {
     "symbol": "ALB",
-    "price": 141.07000732421875,
-    "price_5days_ago": 166.55999755859375,
-    "change_percent": -15.3,
-    "market_cap": 16637041664,
+    "price": 133.02000427246094,
+    "price_5days_ago": 160.35000610351562,
+    "change_percent": -17.04,
+    "market_cap": 15687667712,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
   },
   {
-    "symbol": "COIN",
-    "price": 144.25,
-    "price_5days_ago": 164.9199981689453,
-    "change_percent": -12.53,
-    "market_cap": 38004215808,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
+    "symbol": "QCOM",
+    "price": 197.83999633789062,
+    "price_5days_ago": 226.11000061035156,
+    "change_percent": -12.5,
+    "market_cap": 208607461376,
+    "company_name": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors"
   }
 ]
