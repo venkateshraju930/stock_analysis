@@ -1,52 +1,62 @@
 [
   {
-    "symbol": "ORCL",
-    "price": 148.52999877929688,
-    "price_5days_ago": 184.2899932861328,
-    "change_percent": -19.4,
-    "market_cap": 427836375040,
-    "company_name": "Oracle Corporation",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
+    "symbol": "HON",
+    "price": 236.67999267578125,
+    "price_5days_ago": 456.2200012207031,
+    "change_percent": -48.12,
+    "market_cap": 74986504192,
+    "company_name": "Honeywell International Inc.",
+    "sector": "Industrials",
+    "industry": "Conglomerates"
   },
   {
     "symbol": "ALB",
-    "price": 133.6999969482422,
-    "price_5days_ago": 160.35000610351562,
-    "change_percent": -16.62,
-    "market_cap": 15767862272,
+    "price": 129.02999877929688,
+    "price_5days_ago": 156.69000244140625,
+    "change_percent": -17.65,
+    "market_cap": 15217107968,
     "company_name": "Albemarle Corporation",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals"
   },
   {
+    "symbol": "ORCL",
+    "price": 148.33999633789062,
+    "price_5days_ago": 175.07000732421875,
+    "change_percent": -15.27,
+    "market_cap": 427156602880,
+    "company_name": "Oracle Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  {
     "symbol": "QCOM",
-    "price": 189.38999938964844,
-    "price_5days_ago": 226.11000061035156,
-    "change_percent": -16.24,
-    "market_cap": 199617052672,
+    "price": 190.60499572753906,
+    "price_5days_ago": 221.89999389648438,
+    "change_percent": -14.1,
+    "market_cap": 200897658880,
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
     "symbol": "TXN",
-    "price": 285.42999267578125,
-    "price_5days_ago": 322.8599853515625,
-    "change_percent": -11.59,
-    "market_cap": 259763224576,
+    "price": 288.7300109863281,
+    "price_5days_ago": 332.2799987792969,
+    "change_percent": -13.11,
+    "market_cap": 262771097600,
     "company_name": "Texas Instruments Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "AVGO",
-    "price": 365.0199890136719,
-    "price_5days_ago": 410.70001220703125,
-    "change_percent": -11.12,
-    "market_cap": 1736611856384,
-    "company_name": "Broadcom Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "FCX",
+    "price": 61.709999084472656,
+    "price_5days_ago": 69.20999908447266,
+    "change_percent": -10.84,
+    "market_cap": 88711815168,
+    "company_name": "Freeport-McMoRan Inc.",
+    "sector": "Basic Materials",
+    "industry": "Copper"
   }
 ]
