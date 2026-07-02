@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "symbol": "MU",
+    "price": 957.7249755859375,
+    "price_5days_ago": 1213.56005859375,
+    "change_percent": -21.08,
+    "market_cap": 1081648021504,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "QCOM",
+    "price": 173.0399932861328,
+    "price_5days_ago": 204.89999389648438,
+    "change_percent": -15.55,
+    "market_cap": 182378889216,
+    "company_name": "QUALCOMM Incorporated",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "T",
+    "price": 20.104999542236328,
+    "price_5days_ago": 22.420000076293945,
+    "change_percent": -10.33,
+    "market_cap": 139696340992,
+    "company_name": "AT&T Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services"
+  },
+  {
+    "symbol": "INTC",
+    "price": 119.16000366210938,
+    "price_5days_ago": 132.8699951171875,
+    "change_percent": -10.32,
+    "market_cap": 598898180096,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  }
+]
