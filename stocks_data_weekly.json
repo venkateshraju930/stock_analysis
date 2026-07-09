@@ -1,52 +1,12 @@
 [
   {
     "symbol": "INTC",
-    "price": 107.87999725341797,
-    "price_5days_ago": 139.6300048828125,
-    "change_percent": -22.74,
-    "market_cap": 542154620928,
+    "price": 112.7699966430664,
+    "price_5days_ago": 127.0199966430664,
+    "change_percent": -11.22,
+    "market_cap": 566782001152,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
-  },
-  {
-    "symbol": "MU",
-    "price": 940.3101196289062,
-    "price_5days_ago": 1154.112548828125,
-    "change_percent": -18.53,
-    "market_cap": 1061979815936,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "CAT",
-    "price": 941.469970703125,
-    "price_5days_ago": 1064.9000244140625,
-    "change_percent": -11.59,
-    "market_cap": 433633492992,
-    "company_name": "Caterpillar Inc.",
-    "sector": "Industrials",
-    "industry": "Farm & Heavy Construction Machinery"
-  },
-  {
-    "symbol": "AMD",
-    "price": 513.9500122070312,
-    "price_5days_ago": 580.9099731445312,
-    "change_percent": -11.53,
-    "market_cap": 838047170560,
-    "company_name": "Advanced Micro Devices, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "UPST",
-    "price": 31.610000610351562,
-    "price_5days_ago": 35.43000030517578,
-    "change_percent": -10.78,
-    "market_cap": 3025442816,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
   }
 ]
