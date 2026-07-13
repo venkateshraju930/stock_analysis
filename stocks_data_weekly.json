@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "INTC",
+    "price": 102.91999816894531,
+    "price_5days_ago": 122.19999694824219,
+    "change_percent": -15.78,
+    "market_cap": 517275910144,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  }
+]
