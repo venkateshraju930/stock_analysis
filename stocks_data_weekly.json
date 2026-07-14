@@ -1,12 +1,22 @@
 [
   {
-    "symbol": "INTC",
-    "price": 102.91999816894531,
-    "price_5days_ago": 122.19999694824219,
-    "change_percent": -15.78,
-    "market_cap": 517275910144,
-    "company_name": "Intel Corporation",
+    "symbol": "IBM",
+    "price": 218.52499389648438,
+    "price_5days_ago": 306.1300048828125,
+    "change_percent": -28.62,
+    "market_cap": 205388431360,
+    "company_name": "International Business Machines Corporation",
     "sector": "Technology",
-    "industry": "Semiconductors"
+    "industry": "Information Technology Services"
+  },
+  {
+    "symbol": "ISRG",
+    "price": 383.8659973144531,
+    "price_5days_ago": 427.29998779296875,
+    "change_percent": -10.16,
+    "market_cap": 135951073280,
+    "company_name": "Intuitive Surgical, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
   }
 ]
