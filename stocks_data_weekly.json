@@ -1,22 +1,12 @@
 [
   {
     "symbol": "IBM",
-    "price": 218.52499389648438,
-    "price_5days_ago": 306.1300048828125,
-    "change_percent": -28.62,
-    "market_cap": 205388431360,
+    "price": 213.07000732421875,
+    "price_5days_ago": 302.04998779296875,
+    "change_percent": -29.46,
+    "market_cap": 200261369856,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
-  },
-  {
-    "symbol": "ISRG",
-    "price": 383.8659973144531,
-    "price_5days_ago": 427.29998779296875,
-    "change_percent": -10.16,
-    "market_cap": 135951073280,
-    "company_name": "Intuitive Surgical, Inc.",
-    "sector": "Healthcare",
-    "industry": "Medical Instruments & Supplies"
   }
 ]
