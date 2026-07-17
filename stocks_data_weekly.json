@@ -1,51 +1,41 @@
 [
   {
     "symbol": "IBM",
-    "price": 218.0399932861328,
-    "price_5days_ago": 295.29998779296875,
-    "change_percent": -26.16,
-    "market_cap": 204932579328,
+    "price": 213.97500610351562,
+    "price_5days_ago": 287.55999755859375,
+    "change_percent": -25.59,
+    "market_cap": 201111961600,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
-    "symbol": "MU",
-    "price": 842.8400268554688,
-    "price_5days_ago": 991.6400146484375,
-    "change_percent": -15.01,
-    "market_cap": 951897751552,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "ISRG",
+    "price": 351.1449890136719,
+    "price_5days_ago": 406.7799987792969,
+    "change_percent": -13.68,
+    "market_cap": 124362506240,
+    "company_name": "Intuitive Surgical, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
   },
   {
     "symbol": "INTC",
-    "price": 96.12000274658203,
-    "price_5days_ago": 112.54000091552734,
-    "change_percent": -14.59,
-    "market_cap": 483099115520,
+    "price": 97.91999816894531,
+    "price_5days_ago": 109.83999633789062,
+    "change_percent": -10.85,
+    "market_cap": 492145901568,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "ORCL",
-    "price": 126.5199966430664,
-    "price_5days_ago": 143.72000122070312,
-    "change_percent": -11.97,
-    "market_cap": 364437176320,
-    "company_name": "Oracle Corporation",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "QCOM",
-    "price": 171.16000366210938,
-    "price_5days_ago": 191.11000061035156,
-    "change_percent": -10.44,
-    "market_cap": 180402651136,
-    "company_name": "QUALCOMM Incorporated",
+    "symbol": "AMD",
+    "price": 501.5799865722656,
+    "price_5days_ago": 557.8900146484375,
+    "change_percent": -10.09,
+    "market_cap": 817876631552,
+    "company_name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   }
