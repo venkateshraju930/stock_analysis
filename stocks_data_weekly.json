@@ -1,42 +1,42 @@
 [
   {
     "symbol": "IBM",
-    "price": 213.97500610351562,
+    "price": 212.6699981689453,
     "price_5days_ago": 287.55999755859375,
-    "change_percent": -25.59,
-    "market_cap": 201111961600,
+    "change_percent": -26.04,
+    "market_cap": 199885406208,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "ISRG",
-    "price": 351.1449890136719,
+    "price": 345.4200134277344,
     "price_5days_ago": 406.7799987792969,
-    "change_percent": -13.68,
-    "market_cap": 124362506240,
+    "change_percent": -15.08,
+    "market_cap": 122334937088,
     "company_name": "Intuitive Surgical, Inc.",
     "sector": "Healthcare",
     "industry": "Medical Instruments & Supplies"
   },
   {
     "symbol": "INTC",
-    "price": 97.91999816894531,
+    "price": 95.04000091552734,
     "price_5days_ago": 109.83999633789062,
-    "change_percent": -10.85,
-    "market_cap": 492145901568,
+    "change_percent": -13.47,
+    "market_cap": 477671030784,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "AMD",
-    "price": 501.5799865722656,
-    "price_5days_ago": 557.8900146484375,
-    "change_percent": -10.09,
-    "market_cap": 817876631552,
-    "company_name": "Advanced Micro Devices, Inc.",
+    "symbol": "ORCL",
+    "price": 126.41000366210938,
+    "price_5days_ago": 140.63999938964844,
+    "change_percent": -10.12,
+    "market_cap": 364120342528,
+    "company_name": "Oracle Corporation",
     "sector": "Technology",
-    "industry": "Semiconductors"
+    "industry": "Software - Infrastructure"
   }
 ]
