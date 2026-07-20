@@ -1,42 +1,22 @@
 [
   {
     "symbol": "IBM",
-    "price": 212.6699981689453,
-    "price_5days_ago": 287.55999755859375,
-    "change_percent": -26.04,
-    "market_cap": 199885406208,
+    "price": 215.6750030517578,
+    "price_5days_ago": 290.2300109863281,
+    "change_percent": -25.69,
+    "market_cap": 202709762048,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "ISRG",
-    "price": 345.4200134277344,
-    "price_5days_ago": 406.7799987792969,
-    "change_percent": -15.08,
-    "market_cap": 122334937088,
+    "price": 352.2099914550781,
+    "price_5days_ago": 407.1199951171875,
+    "change_percent": -13.49,
+    "market_cap": 124725534720,
     "company_name": "Intuitive Surgical, Inc.",
     "sector": "Healthcare",
     "industry": "Medical Instruments & Supplies"
-  },
-  {
-    "symbol": "INTC",
-    "price": 95.04000091552734,
-    "price_5days_ago": 109.83999633789062,
-    "change_percent": -13.47,
-    "market_cap": 477671030784,
-    "company_name": "Intel Corporation",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "ORCL",
-    "price": 126.41000366210938,
-    "price_5days_ago": 140.63999938964844,
-    "change_percent": -10.12,
-    "market_cap": 364120342528,
-    "company_name": "Oracle Corporation",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
   }
 ]
