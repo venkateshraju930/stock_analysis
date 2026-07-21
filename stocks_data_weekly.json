@@ -1,22 +1,22 @@
 [
   {
-    "symbol": "IBM",
-    "price": 215.6750030517578,
-    "price_5days_ago": 290.2300109863281,
-    "change_percent": -25.69,
-    "market_cap": 202709762048,
-    "company_name": "International Business Machines Corporation",
+    "symbol": "TWLO",
+    "price": 195.0050048828125,
+    "price_5days_ago": 217.8300018310547,
+    "change_percent": -10.48,
+    "market_cap": 29596661760,
+    "company_name": "Twilio Inc.",
     "sector": "Technology",
-    "industry": "Information Technology Services"
+    "industry": "Software - Infrastructure"
   },
   {
-    "symbol": "ISRG",
-    "price": 352.2099914550781,
-    "price_5days_ago": 407.1199951171875,
-    "change_percent": -13.49,
-    "market_cap": 124725534720,
-    "company_name": "Intuitive Surgical, Inc.",
-    "sector": "Healthcare",
-    "industry": "Medical Instruments & Supplies"
+    "symbol": "OKTA",
+    "price": 138.6999969482422,
+    "price_5days_ago": 154.6199951171875,
+    "change_percent": -10.3,
+    "market_cap": 24320550912,
+    "company_name": "Okta, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   }
 ]
