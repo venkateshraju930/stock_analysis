@@ -1,62 +1,12 @@
 [
   {
-    "symbol": "ISRG",
-    "price": 331.04998779296875,
-    "price_5days_ago": 402.3299865722656,
-    "change_percent": -17.72,
-    "market_cap": 118643769344,
-    "company_name": "Intuitive Surgical, Inc.",
-    "sector": "Healthcare",
-    "industry": "Medical Instruments & Supplies"
-  },
-  {
     "symbol": "TSLA",
-    "price": 321.9100036621094,
-    "price_5days_ago": 391.05999755859375,
-    "change_percent": -17.68,
-    "market_cap": 1209061343232,
+    "price": 308.135009765625,
+    "price_5days_ago": 380.8399963378906,
+    "change_percent": -19.09,
+    "market_cap": 1216993820672,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
-  },
-  {
-    "symbol": "TWLO",
-    "price": 181.61500549316406,
-    "price_5days_ago": 206.6999969482422,
-    "change_percent": -12.14,
-    "market_cap": 27564408832,
-    "company_name": "Twilio Inc.",
-    "sector": "Technology",
-    "industry": "Software - Infrastructure"
-  },
-  {
-    "symbol": "RBLX",
-    "price": 47.660099029541016,
-    "price_5days_ago": 54.0099983215332,
-    "change_percent": -11.76,
-    "market_cap": 34123618304,
-    "company_name": "Roblox Corporation",
-    "sector": "Communication Services",
-    "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "UPST",
-    "price": 27.4950008392334,
-    "price_5days_ago": 30.8799991607666,
-    "change_percent": -10.96,
-    "market_cap": 2631589632,
-    "company_name": "Upstart Holdings, Inc.",
-    "sector": "Financial Services",
-    "industry": "Credit Services"
-  },
-  {
-    "symbol": "ZM",
-    "price": 83.51000213623047,
-    "price_5days_ago": 92.91999816894531,
-    "change_percent": -10.13,
-    "market_cap": 24487823360,
-    "company_name": "Zoom Communications, Inc.",
-    "sector": "Technology",
-    "industry": "Software - Application"
   }
 ]
