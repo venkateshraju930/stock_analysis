@@ -1,12 +1,42 @@
 [
   {
     "symbol": "TSLA",
-    "price": 308.18499755859375,
-    "price_5days_ago": 369.57000732421875,
-    "change_percent": -16.61,
-    "market_cap": 1216855670784,
+    "price": 307.2349853515625,
+    "price_5days_ago": 378.92999267578125,
+    "change_percent": -18.92,
+    "market_cap": 1210951008256,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
+  },
+  {
+    "symbol": "INTC",
+    "price": 87.04000091552734,
+    "price_5days_ago": 105.44999694824219,
+    "change_percent": -17.46,
+    "market_cap": 439196188672,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "AMD",
+    "price": 459.0,
+    "price_5days_ago": 544.4299926757812,
+    "change_percent": -15.69,
+    "market_cap": 748771803136,
+    "company_name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "MU",
+    "price": 818.5800170898438,
+    "price_5days_ago": 970.8200073242188,
+    "change_percent": -15.68,
+    "market_cap": 924430893056,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
   }
 ]
