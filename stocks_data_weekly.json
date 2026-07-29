@@ -1,42 +1,62 @@
 [
   {
-    "symbol": "TSLA",
-    "price": 307.2349853515625,
-    "price_5days_ago": 378.92999267578125,
-    "change_percent": -18.92,
-    "market_cap": 1210951008256,
-    "company_name": "Tesla, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Manufacturers"
-  },
-  {
     "symbol": "INTC",
-    "price": 87.04000091552734,
+    "price": 84.16999816894531,
     "price_5days_ago": 105.44999694824219,
-    "change_percent": -17.46,
-    "market_cap": 439196188672,
+    "change_percent": -20.18,
+    "market_cap": 424553447424,
     "company_name": "Intel Corporation",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
+    "symbol": "MU",
+    "price": 778.39501953125,
+    "price_5days_ago": 970.8200073242188,
+    "change_percent": -19.82,
+    "market_cap": 878871183360,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "TSLA",
+    "price": 303.92498779296875,
+    "price_5days_ago": 378.92999267578125,
+    "change_percent": -19.79,
+    "market_cap": 1200366157824,
+    "company_name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  {
     "symbol": "AMD",
-    "price": 459.0,
+    "price": 437.32501220703125,
     "price_5days_ago": 544.4299926757812,
-    "change_percent": -15.69,
-    "market_cap": 748771803136,
+    "change_percent": -19.67,
+    "market_cap": 713102393344,
     "company_name": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "MU",
-    "price": 818.5800170898438,
-    "price_5days_ago": 970.8200073242188,
-    "change_percent": -15.68,
-    "market_cap": 924430893056,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "SOFI",
+    "price": 15.518699645996094,
+    "price_5days_ago": 17.639999389648438,
+    "change_percent": -12.03,
+    "market_cap": 19908016128,
+    "company_name": "SoFi Technologies, Inc.",
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  {
+    "symbol": "CAT",
+    "price": 787.3300170898438,
+    "price_5days_ago": 889.969970703125,
+    "change_percent": -11.53,
+    "market_cap": 362637885440,
+    "company_name": "Caterpillar Inc.",
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery"
   }
 ]
