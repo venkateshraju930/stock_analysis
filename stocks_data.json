@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "symbol": "FICO",
+    "price": 1148.4599609375,
+    "prev_close": 1373.0799560546875,
+    "change_percent": -16.36,
+    "market_cap": 26633826304,
+    "company_name": "Fair Isaac Corporation",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  }
+]
