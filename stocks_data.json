@@ -1,12 +1,12 @@
 [
   {
-    "symbol": "FICO",
-    "price": 1148.4599609375,
-    "prev_close": 1373.0799560546875,
-    "change_percent": -16.36,
-    "market_cap": 26633826304,
-    "company_name": "Fair Isaac Corporation",
-    "sector": "Technology",
-    "industry": "Software - Application"
+    "symbol": "RBLX",
+    "price": 34.70000076293945,
+    "prev_close": 48.66999816894531,
+    "change_percent": -28.7,
+    "market_cap": 24855201792,
+    "company_name": "Roblox Corporation",
+    "sector": "Communication Services",
+    "industry": "Electronic Gaming & Multimedia"
   }
 ]

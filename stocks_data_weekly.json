@@ -1,20 +1,20 @@
 [
   {
-    "symbol": "META",
-    "price": 533.239990234375,
-    "price_5days_ago": 606.0999755859375,
-    "change_percent": -12.02,
-    "market_cap": 1353588801536,
-    "company_name": "Meta Platforms, Inc.",
+    "symbol": "RBLX",
+    "price": 34.68989944458008,
+    "price_5days_ago": 47.54999923706055,
+    "change_percent": -27.05,
+    "market_cap": 24837230592,
+    "company_name": "Roblox Corporation",
     "sector": "Communication Services",
-    "industry": "Internet Content & Information"
+    "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "QCOM",
-    "price": 151.73500061035156,
-    "price_5days_ago": 171.11000061035156,
-    "change_percent": -11.32,
-    "market_cap": 159928696832,
+    "price": 148.41000366210938,
+    "price_5days_ago": 166.97000122070312,
+    "change_percent": -11.12,
+    "market_cap": 155830501376,
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
