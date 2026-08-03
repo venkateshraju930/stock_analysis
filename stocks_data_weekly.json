@@ -1,31 +1,21 @@
 [
   {
     "symbol": "RBLX",
-    "price": 35.599998474121094,
-    "price_5days_ago": 47.54999923706055,
-    "change_percent": -25.13,
-    "market_cap": 25431781376,
+    "price": 37.7400016784668,
+    "price_5days_ago": 48.41999816894531,
+    "change_percent": -22.06,
+    "market_cap": 26960549888,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "QCOM",
-    "price": 147.61000061035156,
-    "price_5days_ago": 166.97000122070312,
-    "change_percent": -11.59,
-    "market_cap": 154990493696,
+    "price": 150.00999450683594,
+    "price_5days_ago": 170.0399932861328,
+    "change_percent": -11.78,
+    "market_cap": 157510500352,
     "company_name": "QUALCOMM Incorporated",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "MU",
-    "price": 823.030029296875,
-    "price_5days_ago": 920.9500122070312,
-    "change_percent": -10.63,
-    "market_cap": 929524482048,
-    "company_name": "Micron Technology, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors"
   }
