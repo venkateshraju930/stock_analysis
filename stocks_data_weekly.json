@@ -1,22 +1,22 @@
 [
   {
     "symbol": "RBLX",
-    "price": 37.7400016784668,
-    "price_5days_ago": 48.41999816894531,
-    "change_percent": -22.06,
-    "market_cap": 26960549888,
+    "price": 37.875,
+    "price_5days_ago": 49.5,
+    "change_percent": -23.48,
+    "market_cap": 27060561920,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "QCOM",
-    "price": 150.00999450683594,
-    "price_5days_ago": 170.0399932861328,
-    "change_percent": -11.78,
-    "market_cap": 157510500352,
-    "company_name": "QUALCOMM Incorporated",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "COIN",
+    "price": 150.47500610351562,
+    "price_5days_ago": 167.89999389648438,
+    "change_percent": -10.38,
+    "market_cap": 39700865024,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
   }
 ]
