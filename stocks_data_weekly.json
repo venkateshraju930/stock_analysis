@@ -1,22 +1,12 @@
 [
   {
     "symbol": "RBLX",
-    "price": 37.875,
-    "price_5days_ago": 49.5,
-    "change_percent": -23.48,
-    "market_cap": 27060561920,
+    "price": 35.88999938964844,
+    "price_5days_ago": 50.130001068115234,
+    "change_percent": -28.41,
+    "market_cap": 25638950912,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
-  },
-  {
-    "symbol": "COIN",
-    "price": 150.47500610351562,
-    "price_5days_ago": 167.89999389648438,
-    "change_percent": -10.38,
-    "market_cap": 39700865024,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
   }
 ]
