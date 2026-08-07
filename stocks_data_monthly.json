@@ -1,52 +1,62 @@
 [
   {
     "symbol": "RBLX",
-    "price": 35.93000030517578,
-    "price_1mo_ago": 56.709999084472656,
-    "change_percent": -36.64,
-    "market_cap": 25667526656,
+    "price": 37.02000045776367,
+    "price_1mo_ago": 56.43000030517578,
+    "change_percent": -34.4,
+    "market_cap": 26446196736,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "IBM",
-    "price": 238.52000427246094,
-    "price_1mo_ago": 306.1300048828125,
-    "change_percent": -22.09,
-    "market_cap": 224717897728,
+    "price": 235.9329071044922,
+    "price_1mo_ago": 295.29998779296875,
+    "change_percent": -20.1,
+    "market_cap": 222280515584,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "TSLA",
-    "price": 322.92498779296875,
-    "price_1mo_ago": 402.8999938964844,
-    "change_percent": -19.85,
-    "market_cap": 1275407630336,
+    "price": 328.0799865722656,
+    "price_1mo_ago": 406.54998779296875,
+    "change_percent": -19.3,
+    "market_cap": 1295352856576,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
     "symbol": "QCOM",
-    "price": 157.81500244140625,
-    "price_1mo_ago": 182.97000122070312,
-    "change_percent": -13.75,
-    "market_cap": 165705744384,
+    "price": 166.92010498046875,
+    "price_1mo_ago": 191.11000061035156,
+    "change_percent": -12.66,
+    "market_cap": 175266103296,
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
   },
   {
-    "symbol": "ISRG",
-    "price": 374.6400146484375,
-    "price_1mo_ago": 427.29998779296875,
-    "change_percent": -12.32,
-    "market_cap": 134225289216,
-    "company_name": "Intuitive Surgical, Inc.",
-    "sector": "Healthcare",
-    "industry": "Medical Instruments & Supplies"
+    "symbol": "DDOG",
+    "price": 238.2899932861328,
+    "price_1mo_ago": 269.0,
+    "change_percent": -11.42,
+    "market_cap": 84821753856,
+    "company_name": "Datadog, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  {
+    "symbol": "INTC",
+    "price": 100.97129821777344,
+    "price_1mo_ago": 112.54000091552734,
+    "change_percent": -10.28,
+    "market_cap": 509299195904,
+    "company_name": "Intel Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors"
   }
 ]
