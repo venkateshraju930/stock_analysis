@@ -1,62 +1,82 @@
 [
   {
     "symbol": "RBLX",
-    "price": 37.02000045776367,
+    "price": 37.790000915527344,
     "price_1mo_ago": 56.43000030517578,
-    "change_percent": -34.4,
-    "market_cap": 26446196736,
+    "change_percent": -33.03,
+    "market_cap": 26996267008,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "IBM",
-    "price": 235.9329071044922,
+    "price": 237.27999877929688,
     "price_1mo_ago": 295.29998779296875,
-    "change_percent": -20.1,
-    "market_cap": 222280515584,
+    "change_percent": -19.65,
+    "market_cap": 223549652992,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
     "symbol": "TSLA",
-    "price": 328.0799865722656,
+    "price": 328.5799865722656,
     "price_1mo_ago": 406.54998779296875,
-    "change_percent": -19.3,
-    "market_cap": 1295352856576,
+    "change_percent": -19.18,
+    "market_cap": 1297742299136,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
-    "symbol": "QCOM",
-    "price": 166.92010498046875,
-    "price_1mo_ago": 191.11000061035156,
-    "change_percent": -12.66,
-    "market_cap": 175266103296,
-    "company_name": "QUALCOMM Incorporated",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
     "symbol": "DDOG",
-    "price": 238.2899932861328,
+    "price": 233.92999267578125,
     "price_1mo_ago": 269.0,
-    "change_percent": -11.42,
-    "market_cap": 84821753856,
+    "change_percent": -13.04,
+    "market_cap": 83998416896,
     "company_name": "Datadog, Inc.",
     "sector": "Technology",
     "industry": "Software - Application"
   },
   {
-    "symbol": "INTC",
-    "price": 100.97129821777344,
-    "price_1mo_ago": 112.54000091552734,
-    "change_percent": -10.28,
-    "market_cap": 509299195904,
-    "company_name": "Intel Corporation",
+    "symbol": "QCOM",
+    "price": 167.86000061035156,
+    "price_1mo_ago": 191.11000061035156,
+    "change_percent": -12.17,
+    "market_cap": 176252993536,
+    "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
+  },
+  {
+    "symbol": "AMD",
+    "price": 483.3599853515625,
+    "price_1mo_ago": 546.719970703125,
+    "change_percent": -11.59,
+    "market_cap": 789073100800,
+    "company_name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "MU",
+    "price": 877.5700073242188,
+    "price_1mo_ago": 991.6400146484375,
+    "change_percent": -11.5,
+    "market_cap": 991121571840,
+    "company_name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  {
+    "symbol": "CAT",
+    "price": 842.1900024414062,
+    "price_1mo_ago": 936.6524047851562,
+    "change_percent": -10.09,
+    "market_cap": 387133603840,
+    "company_name": "Caterpillar Inc.",
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery"
   }
 ]
