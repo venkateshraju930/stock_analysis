@@ -48,35 +48,5 @@
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
-  },
-  {
-    "symbol": "AMD",
-    "price": 483.3599853515625,
-    "price_1mo_ago": 546.719970703125,
-    "change_percent": -11.59,
-    "market_cap": 789073100800,
-    "company_name": "Advanced Micro Devices, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "MU",
-    "price": 877.5700073242188,
-    "price_1mo_ago": 991.6400146484375,
-    "change_percent": -11.5,
-    "market_cap": 991121571840,
-    "company_name": "Micron Technology, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
-  },
-  {
-    "symbol": "CAT",
-    "price": 842.1900024414062,
-    "price_1mo_ago": 936.6524047851562,
-    "change_percent": -10.09,
-    "market_cap": 387133603840,
-    "company_name": "Caterpillar Inc.",
-    "sector": "Industrials",
-    "industry": "Farm & Heavy Construction Machinery"
   }
 ]
