@@ -1,52 +1,52 @@
 [
   {
     "symbol": "RBLX",
-    "price": 37.790000915527344,
-    "price_1mo_ago": 56.43000030517578,
-    "change_percent": -33.03,
-    "market_cap": 26996267008,
+    "price": 38.27000045776367,
+    "price_1mo_ago": 55.349998474121094,
+    "change_percent": -30.86,
+    "market_cap": 27339167744,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "IBM",
-    "price": 237.27999877929688,
-    "price_1mo_ago": 295.29998779296875,
-    "change_percent": -19.65,
-    "market_cap": 223549652992,
-    "company_name": "International Business Machines Corporation",
-    "sector": "Technology",
-    "industry": "Information Technology Services"
-  },
-  {
     "symbol": "TSLA",
-    "price": 328.5799865722656,
-    "price_1mo_ago": 406.54998779296875,
-    "change_percent": -19.18,
-    "market_cap": 1297742299136,
+    "price": 329.4800109863281,
+    "price_1mo_ago": 407.760009765625,
+    "change_percent": -19.2,
+    "market_cap": 1301198143488,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
-    "symbol": "DDOG",
-    "price": 233.92999267578125,
-    "price_1mo_ago": 269.0,
-    "change_percent": -13.04,
-    "market_cap": 83998416896,
-    "company_name": "Datadog, Inc.",
+    "symbol": "IBM",
+    "price": 236.1649932861328,
+    "price_1mo_ago": 287.55999755859375,
+    "change_percent": -17.87,
+    "market_cap": 222499160064,
+    "company_name": "International Business Machines Corporation",
     "sector": "Technology",
-    "industry": "Software - Application"
+    "industry": "Information Technology Services"
   },
   {
     "symbol": "QCOM",
-    "price": 167.86000061035156,
-    "price_1mo_ago": 191.11000061035156,
-    "change_percent": -12.17,
-    "market_cap": 176252993536,
+    "price": 163.86000061035156,
+    "price_1mo_ago": 189.16000366210938,
+    "change_percent": -13.37,
+    "market_cap": 172053004288,
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
+  },
+  {
+    "symbol": "META",
+    "price": 593.9349975585938,
+    "price_1mo_ago": 669.2100219726562,
+    "change_percent": -11.25,
+    "market_cap": 1513053093888,
+    "company_name": "Meta Platforms, Inc.",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information"
   }
 ]
