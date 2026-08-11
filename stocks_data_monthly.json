@@ -1,52 +1,42 @@
 [
   {
     "symbol": "RBLX",
-    "price": 38.27000045776367,
-    "price_1mo_ago": 55.349998474121094,
-    "change_percent": -30.86,
-    "market_cap": 27339167744,
+    "price": 36.65999984741211,
+    "price_1mo_ago": 55.029998779296875,
+    "change_percent": -33.38,
+    "market_cap": 26189021184,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
-    "symbol": "TSLA",
-    "price": 329.4800109863281,
-    "price_1mo_ago": 407.760009765625,
-    "change_percent": -19.2,
-    "market_cap": 1301198143488,
-    "company_name": "Tesla, Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Auto Manufacturers"
-  },
-  {
     "symbol": "IBM",
-    "price": 236.1649932861328,
-    "price_1mo_ago": 287.55999755859375,
-    "change_percent": -17.87,
-    "market_cap": 222499160064,
+    "price": 238.64999389648438,
+    "price_1mo_ago": 288.1628723144531,
+    "change_percent": -17.18,
+    "market_cap": 224840368128,
     "company_name": "International Business Machines Corporation",
     "sector": "Technology",
     "industry": "Information Technology Services"
   },
   {
+    "symbol": "TSLA",
+    "price": 331.57000732421875,
+    "price_1mo_ago": 394.760009765625,
+    "change_percent": -16.01,
+    "market_cap": 1309235478528,
+    "company_name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers"
+  },
+  {
     "symbol": "QCOM",
-    "price": 163.86000061035156,
-    "price_1mo_ago": 189.16000366210938,
-    "change_percent": -13.37,
-    "market_cap": 172053004288,
+    "price": 161.8800048828125,
+    "price_1mo_ago": 183.97999572753906,
+    "change_percent": -12.01,
+    "market_cap": 169974005760,
     "company_name": "QUALCOMM Incorporated",
     "sector": "Technology",
     "industry": "Semiconductors"
-  },
-  {
-    "symbol": "META",
-    "price": 593.9349975585938,
-    "price_1mo_ago": 669.2100219726562,
-    "change_percent": -11.25,
-    "market_cap": 1513053093888,
-    "company_name": "Meta Platforms, Inc.",
-    "sector": "Communication Services",
-    "industry": "Internet Content & Information"
   }
 ]
