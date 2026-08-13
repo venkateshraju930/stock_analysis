@@ -1,42 +1,42 @@
 [
   {
     "symbol": "RBLX",
-    "price": 35.525001525878906,
-    "price_1mo_ago": 55.029998779296875,
-    "change_percent": -35.44,
-    "market_cap": 25378205696,
+    "price": 36.48500061035156,
+    "price_1mo_ago": 57.06999969482422,
+    "change_percent": -36.07,
+    "market_cap": 26064007168,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "TSLA",
-    "price": 326.70001220703125,
-    "price_1mo_ago": 396.17999267578125,
-    "change_percent": -17.54,
-    "market_cap": 1290317201408,
+    "price": 336.80499267578125,
+    "price_1mo_ago": 394.4599914550781,
+    "change_percent": -14.62,
+    "market_cap": 1330075664384,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
     "symbol": "META",
-    "price": 582.2750244140625,
-    "price_1mo_ago": 656.72998046875,
-    "change_percent": -11.34,
-    "market_cap": 1483349164032,
+    "price": 587.9299926757812,
+    "price_1mo_ago": 681.3099975585938,
+    "change_percent": -13.71,
+    "market_cap": 1497755287552,
     "company_name": "Meta Platforms, Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information"
   },
   {
-    "symbol": "AMD",
-    "price": 488.3699951171875,
-    "price_1mo_ago": 548.1300048828125,
-    "change_percent": -10.9,
-    "market_cap": 797251796992,
-    "company_name": "Advanced Micro Devices, Inc.",
-    "sector": "Technology",
-    "industry": "Semiconductors"
+    "symbol": "COIN",
+    "price": 147.85000610351562,
+    "price_1mo_ago": 167.2100067138672,
+    "change_percent": -11.58,
+    "market_cap": 39008292864,
+    "company_name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges"
   }
 ]
