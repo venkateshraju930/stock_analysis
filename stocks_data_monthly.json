@@ -1,42 +1,42 @@
 [
   {
     "symbol": "RBLX",
-    "price": 36.48500061035156,
-    "price_1mo_ago": 57.06999969482422,
-    "change_percent": -36.07,
-    "market_cap": 26064007168,
+    "price": 38.790000915527344,
+    "price_1mo_ago": 54.0099983215332,
+    "change_percent": -28.18,
+    "market_cap": 27710644224,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "TSLA",
-    "price": 336.80499267578125,
-    "price_1mo_ago": 394.4599914550781,
-    "change_percent": -14.62,
-    "market_cap": 1330075664384,
+    "price": 338.3800048828125,
+    "price_1mo_ago": 391.05999755859375,
+    "change_percent": -13.47,
+    "market_cap": 1336447860736,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
     "symbol": "META",
-    "price": 587.9299926757812,
-    "price_1mo_ago": 681.3099975585938,
-    "change_percent": -13.71,
-    "market_cap": 1497755287552,
+    "price": 591.5449829101562,
+    "price_1mo_ago": 664.5399780273438,
+    "change_percent": -10.98,
+    "market_cap": 1506964537344,
     "company_name": "Meta Platforms, Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information"
   },
   {
-    "symbol": "COIN",
-    "price": 147.85000610351562,
-    "price_1mo_ago": 167.2100067138672,
-    "change_percent": -11.58,
-    "market_cap": 39008292864,
-    "company_name": "Coinbase Global, Inc.",
-    "sector": "Financial Services",
-    "industry": "Financial Data & Stock Exchanges"
+    "symbol": "UPS",
+    "price": 104.7344970703125,
+    "price_1mo_ago": 117.18000030517578,
+    "change_percent": -10.62,
+    "market_cap": 89106178048,
+    "company_name": "United Parcel Service, Inc.",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics"
   }
 ]
