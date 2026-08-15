@@ -1,42 +1,52 @@
 [
   {
     "symbol": "RBLX",
-    "price": 38.790000915527344,
+    "price": 38.22999954223633,
     "price_1mo_ago": 54.0099983215332,
-    "change_percent": -28.18,
-    "market_cap": 27710644224,
+    "change_percent": -29.22,
+    "market_cap": 27310592000,
     "company_name": "Roblox Corporation",
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia"
   },
   {
     "symbol": "TSLA",
-    "price": 338.3800048828125,
+    "price": 342.2699890136719,
     "price_1mo_ago": 391.05999755859375,
-    "change_percent": -13.47,
-    "market_cap": 1336447860736,
+    "change_percent": -12.48,
+    "market_cap": 1351811596288,
     "company_name": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers"
   },
   {
     "symbol": "META",
-    "price": 591.5449829101562,
+    "price": 589.8499755859375,
     "price_1mo_ago": 664.5399780273438,
-    "change_percent": -10.98,
-    "market_cap": 1506964537344,
+    "change_percent": -11.24,
+    "market_cap": 1502646501376,
     "company_name": "Meta Platforms, Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information"
   },
   {
     "symbol": "UPS",
-    "price": 104.7344970703125,
+    "price": 104.5,
     "price_1mo_ago": 117.18000030517578,
-    "change_percent": -10.62,
-    "market_cap": 89106178048,
+    "change_percent": -10.82,
+    "market_cap": 88906670080,
     "company_name": "United Parcel Service, Inc.",
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics"
+  },
+  {
+    "symbol": "LUV",
+    "price": 44.2599983215332,
+    "price_1mo_ago": 49.43000030517578,
+    "change_percent": -10.46,
+    "market_cap": 21652353024,
+    "company_name": "Southwest Airlines Co.",
+    "sector": "Industrials",
+    "industry": "Airlines"
   }
 ]
